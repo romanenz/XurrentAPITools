@@ -9,7 +9,7 @@
 	)
 	try
 	{
-		if ([string]::IsNullOrEmpty($Environment))
+		if (-not [string]::IsNullOrEmpty($Environment))
 		{
 			Get-ChildItem -Path $env:TEMP -Filter "$($Environment)*.csv" | Remove-Item -Force
 		}
