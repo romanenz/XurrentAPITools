@@ -3,8 +3,9 @@
 ## Install
 Install in PowerShell or downlaod from the newes release.
 ```powershell
-Install-Module -Name XurentAPITools
+Install-Module -Name XurentAPITools -SkipPublisherCheck
 ```
+
 
 ## How To Use
 Use `Connect-Xurrent` to Connect to a Xurrent Environmen. You can pass the API Token as parameter `Token` or interactive.
