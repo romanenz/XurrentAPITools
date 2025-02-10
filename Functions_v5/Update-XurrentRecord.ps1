@@ -60,5 +60,5 @@
 	{
 		Write-Error -Message "update failed"
 	}
-	return
+	return $response
 }
