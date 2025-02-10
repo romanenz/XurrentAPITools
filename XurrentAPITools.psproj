@@ -7,6 +7,7 @@
   <Folders>
     <Folder>Functions_v5</Folder>
     <Folder>Functions_v7</Folder>
+    <Folder>Internationalization</Folder>
   </Folders>
   <Files>
     <File Build="2">XurrentAPITools.psd1</File>
@@ -62,6 +63,7 @@
     <File Build="2" Shared="True" ReferenceFunction="Invoke-Sync-XurrentCustomCollectionElements_ps1" ExportFunctions="False">Functions_v7\Sync-XurrentCustomCollectionElements.ps1</File>
     <File Build="2" Shared="True" ReferenceFunction="Invoke-Resolve-XurrentRelation_ps1" ExportFunctions="False">Functions_v5\Resolve-XurrentRelation.ps1</File>
     <File Build="2" Shared="True" ReferenceFunction="Invoke-Copy-XurrentCustomFields_ps1" ExportFunctions="False">Functions_v5\Copy-XurrentCustomFields.ps1</File>
+    <File Build="2">Internationalization\en.json</File>
   </Files>
   <StartupScript>Test-Module.ps1</StartupScript>
 </Project>

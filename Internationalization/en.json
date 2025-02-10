@@ -1,0 +1,7914 @@
+{
+  "account.currency": [
+    {
+      "id": "aed",
+      "txt": "AED United Arab Emirates Dirham"
+    },
+    {
+      "id": "ars",
+      "txt": "ARS Argentine Peso"
+    },
+    {
+      "id": "aud",
+      "txt": "AUD Australian Dollar"
+    },
+    {
+      "id": "bam",
+      "txt": "BAM Bosnia and Herzegovina Convertible Mark"
+    },
+    {
+      "id": "brl",
+      "txt": "BRL Brazilian Real"
+    },
+    {
+      "id": "btc",
+      "txt": "BTC Bitcoin"
+    },
+    {
+      "id": "cad",
+      "txt": "CAD Canadian Dollar"
+    },
+    {
+      "id": "chf",
+      "txt": "CHF Swiss Franc"
+    },
+    {
+      "id": "clp",
+      "txt": "CLP Chilean Peso"
+    },
+    {
+      "id": "cny",
+      "txt": "CNY Chinese Yuan"
+    },
+    {
+      "id": "cop",
+      "txt": "COP Colombian Peso"
+    },
+    {
+      "id": "czk",
+      "txt": "CZK Czech Republic Koruna"
+    },
+    {
+      "id": "dkk",
+      "txt": "DKK Danish Krone"
+    },
+    {
+      "id": "dzd",
+      "txt": "DZD Algerian Dinar"
+    },
+    {
+      "id": "eur",
+      "txt": "EUR Euro"
+    },
+    {
+      "id": "gbp",
+      "txt": "GBP British Pound"
+    },
+    {
+      "id": "ghs",
+      "txt": "GHS Ghanaian Cedi"
+    },
+    {
+      "id": "hkd",
+      "txt": "HKD Hong Kong Dollar"
+    },
+    {
+      "id": "hrk",
+      "txt": "HRK Croatian Kuna"
+    },
+    {
+      "id": "huf",
+      "txt": "HUF Hungarian Forint"
+    },
+    {
+      "id": "idr",
+      "txt": "IDR Indonesian Rupiah"
+    },
+    {
+      "id": "ils",
+      "txt": "ILS Israeli Shekel"
+    },
+    {
+      "id": "inr",
+      "txt": "INR Indian Rupee"
+    },
+    {
+      "id": "jpy",
+      "txt": "JPY Japanese Yen"
+    },
+    {
+      "id": "krw",
+      "txt": "KRW Korean Won"
+    },
+    {
+      "id": "mxn",
+      "txt": "MXN Mexican Peso"
+    },
+    {
+      "id": "ngn",
+      "txt": "NGN Nigerian Naira"
+    },
+    {
+      "id": "nok",
+      "txt": "NOK Norwegian Krone"
+    },
+    {
+      "id": "nzd",
+      "txt": "NZD New Zealand Dollar"
+    },
+    {
+      "id": "omr",
+      "txt": "OMR Omani Rial"
+    },
+    {
+      "id": "pkr",
+      "txt": "PKR Pakistani Rupee"
+    },
+    {
+      "id": "php",
+      "txt": "PHP Philippine Peso"
+    },
+    {
+      "id": "pln",
+      "txt": "PLN Polish Zloty"
+    },
+    {
+      "id": "rub",
+      "txt": "RUB Russian Rouble"
+    },
+    {
+      "id": "sek",
+      "txt": "SEK Swedish Krona"
+    },
+    {
+      "id": "sgd",
+      "txt": "SGD Singapore Dollar"
+    },
+    {
+      "id": "thb",
+      "txt": "THB Thai Baht"
+    },
+    {
+      "id": "try",
+      "txt": "TRY Turkish Lira"
+    },
+    {
+      "id": "twd",
+      "txt": "TWD Taiwan Dollar"
+    },
+    {
+      "id": "usd",
+      "txt": "USD United States Dollar"
+    },
+    {
+      "id": "zar",
+      "txt": "ZAR South African Rand"
+    }
+  ],
+  "account.plan": [
+    {
+      "id": "freemium",
+      "txt": "Freemium"
+    },
+    {
+      "id": "basic",
+      "txt": "Basic"
+    },
+    {
+      "id": "standard",
+      "txt": "Standard"
+    },
+    {
+      "id": "premium",
+      "txt": "Premium"
+    }
+  ],
+  "account.tld": [
+    {
+      "id": "tld_itrp",
+      "txt": "TLD for itrp domain"
+    },
+    {
+      "id": "tld_4me",
+      "txt": "TLD for 4me domain"
+    },
+    {
+      "id": "tld_xurrent",
+      "txt": "TLD for xurrent domain"
+    }
+  ],
+  "account.workato_plan": [
+    {
+      "id": "for_me_quality_assurance",
+      "txt": "QA"
+    },
+    {
+      "id": "for_me_production",
+      "txt": "Production"
+    },
+    {
+      "id": "for_me_quality_assurance_plus",
+      "txt": "QA Plus"
+    },
+    {
+      "id": "for_me_production_plus",
+      "txt": "Production Plus"
+    },
+    {
+      "id": "for_me_quality_assurance_ultra",
+      "txt": "QA Ultra"
+    }
+  ],
+  "account_trust_invitation.status": [
+    {
+      "id": "pending",
+      "txt": "Pending"
+    },
+    {
+      "id": "accepted",
+      "txt": "Accepted"
+    },
+    {
+      "id": "rejected",
+      "txt": "Rejected"
+    },
+    {
+      "id": "canceled",
+      "txt": "Canceled"
+    },
+    {
+      "id": "expired",
+      "txt": "Expired"
+    }
+  ],
+  "address.label": [
+    {
+      "id": "home",
+      "txt": "Home"
+    },
+    {
+      "id": "street",
+      "txt": "Street"
+    },
+    {
+      "id": "mailing",
+      "txt": "Mailing"
+    },
+    {
+      "id": "billing",
+      "txt": "Billing"
+    },
+    {
+      "id": "shipping",
+      "txt": "Shipping"
+    }
+  ],
+  "affected_sla.accountability": [
+    {
+      "id": "provider",
+      "txt": "Provider"
+    },
+    {
+      "id": "supplier",
+      "txt": "Supplier"
+    },
+    {
+      "id": "sla_not_affected",
+      "txt": "SLA Not Affected"
+    }
+  ],
+  "agile_board_column.action_type": [
+    {
+      "id": "none",
+      "txt": "None"
+    },
+    {
+      "id": "assign",
+      "txt": "Assign"
+    },
+    {
+      "id": "accept",
+      "txt": "Accept"
+    },
+    {
+      "id": "start",
+      "txt": "Start"
+    },
+    {
+      "id": "complete",
+      "txt": "Complete"
+    }
+  ],
+  "agile_board_column.column_type": [
+    {
+      "id": "waiting",
+      "txt": "Waiting"
+    },
+    {
+      "id": "in_progress",
+      "txt": "In Progress"
+    },
+    {
+      "id": "done",
+      "txt": "Done"
+    }
+  ],
+  "agile_board_column.dialog_type": [
+    {
+      "id": "none",
+      "txt": "None"
+    },
+    {
+      "id": "minimal",
+      "txt": "Minimal"
+    },
+    {
+      "id": "full",
+      "txt": "Full"
+    }
+  ],
+  "agile_board_item_event.category": [
+    {
+      "id": "column_changed",
+      "txt": "Column Changed"
+    }
+  ],
+  "agreement.status": [
+    {
+      "id": "being_prepared",
+      "txt": "Being Prepared"
+    },
+    {
+      "id": "scheduled_for_activation",
+      "txt": "Scheduled for Activation"
+    },
+    {
+      "id": "active",
+      "txt": "Active"
+    },
+    {
+      "id": "expired",
+      "txt": "Expired"
+    }
+  ],
+  "ai_feedback.deficiency": [
+    {
+      "id": "inaccurate",
+      "txt": "Inaccurate"
+    },
+    {
+      "id": "not_helpful",
+      "txt": "Not helpful"
+    },
+    {
+      "id": "harmful",
+      "txt": "Harmful"
+    }
+  ],
+  "async_query.status": [
+    {
+      "id": "queued",
+      "txt": "Queued"
+    },
+    {
+      "id": "in_progress",
+      "txt": "In Progress"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    }
+  ],
+  "broadcast.message_type": [
+    {
+      "id": "outage",
+      "txt": "Outage"
+    },
+    {
+      "id": "available",
+      "txt": "Available"
+    },
+    {
+      "id": "warning",
+      "txt": "Warning"
+    },
+    {
+      "id": "info",
+      "txt": "Information"
+    },
+    {
+      "id": "email",
+      "txt": "Email"
+    }
+  ],
+  "broadcast.visibility": [
+    {
+      "id": "all_of_account",
+      "txt": "All people registered in the account"
+    },
+    {
+      "id": "account_specialists",
+      "txt": "Account specialists"
+    },
+    {
+      "id": "members_of_teams",
+      "txt": "Members of the following team(s)"
+    },
+    {
+      "id": "covered_for_any",
+      "txt": "People covered for any of our service instances"
+    },
+    {
+      "id": "covered_for",
+      "txt": "People covered for the following service instance(s)"
+    },
+    {
+      "id": "customers",
+      "txt": "Specialists in requests from the following customers"
+    },
+    {
+      "id": "organizations_and_descendants",
+      "txt": "People of the following organization(s) and their descendants"
+    },
+    {
+      "id": "organizations",
+      "txt": "People of the following organization(s)"
+    },
+    {
+      "id": "sites",
+      "txt": "People of the following site(s)"
+    },
+    {
+      "id": "members_of_skill_pools",
+      "txt": "Members of the following skill pool(s)"
+    },
+    {
+      "id": "customer_representatives_of_slas",
+      "txt": "Customer representatives of the following service level agreement(s)"
+    }
+  ],
+  "certificate.signature_alg": [
+    {
+      "id": "rs256",
+      "txt": "RSA using SHA-256"
+    },
+    {
+      "id": "rs384",
+      "txt": "RSA using SHA-384"
+    },
+    {
+      "id": "rs512",
+      "txt": "RSA using SHA-512"
+    },
+    {
+      "id": "es256",
+      "txt": "ECDSA using P-256 and SHA-256"
+    },
+    {
+      "id": "es384",
+      "txt": "ECDSA using P-384 and SHA-384"
+    },
+    {
+      "id": "es512",
+      "txt": "ECDSA using P-521 and SHA-512"
+    }
+  ],
+  "ci.ci_type": [
+    {
+      "id": "software_version",
+      "txt": "Software Version"
+    },
+    {
+      "id": "software_license_certificate",
+      "txt": "Software License Certificate"
+    },
+    {
+      "id": "hardware",
+      "txt": "Hardware"
+    }
+  ],
+  "ci.license_type": [
+    {
+      "id": "concurrent_user_license",
+      "txt": "Concurrent User License"
+    },
+    {
+      "id": "cpu_license",
+      "txt": "CPU License"
+    },
+    {
+      "id": "installed_user_license",
+      "txt": "Installed User License"
+    },
+    {
+      "id": "named_user_license",
+      "txt": "Named User License"
+    },
+    {
+      "id": "unlimited_user_license",
+      "txt": "Unlimited User License"
+    },
+    {
+      "id": "other_type_of_license",
+      "txt": "Other Type of License"
+    }
+  ],
+  "ci.status": [
+    {
+      "id": "ordered",
+      "txt": "Ordered"
+    },
+    {
+      "id": "being_built",
+      "txt": "Being Built"
+    },
+    {
+      "id": "in_stock",
+      "txt": "In Stock"
+    },
+    {
+      "id": "reserved",
+      "txt": "Reserved"
+    },
+    {
+      "id": "in_transit",
+      "txt": "In Transit"
+    },
+    {
+      "id": "installed",
+      "txt": "Installed"
+    },
+    {
+      "id": "being_tested",
+      "txt": "Being Tested"
+    },
+    {
+      "id": "standby_for_continuity",
+      "txt": "Standby for Continuity"
+    },
+    {
+      "id": "lent_out",
+      "txt": "Lent Out"
+    },
+    {
+      "id": "in_production",
+      "txt": "In Production"
+    },
+    {
+      "id": "undergoing_maintenance",
+      "txt": "Undergoing Maintenance"
+    },
+    {
+      "id": "broken_down",
+      "txt": "Broken Down"
+    },
+    {
+      "id": "being_repaired",
+      "txt": "Being Repaired"
+    },
+    {
+      "id": "archived",
+      "txt": "Archived"
+    },
+    {
+      "id": "to_be_removed",
+      "txt": "To Be Removed"
+    },
+    {
+      "id": "lost_or_stolen",
+      "txt": "Lost or Stolen"
+    },
+    {
+      "id": "removed",
+      "txt": "Removed"
+    }
+  ],
+  "ci_relation.relation_type": [
+    {
+      "id": "parent",
+      "txt": "Parent"
+    },
+    {
+      "id": "child",
+      "txt": "Child"
+    },
+    {
+      "id": "network_connection",
+      "txt": "Network Connection"
+    },
+    {
+      "id": "redundancy",
+      "txt": "Redundancy"
+    },
+    {
+      "id": "continuity",
+      "txt": "Continuity"
+    },
+    {
+      "id": "software_dependency",
+      "txt": "Software Dependency"
+    }
+  ],
+  "contact.label": [
+    {
+      "id": "general",
+      "txt": "General"
+    },
+    {
+      "id": "service_desk",
+      "txt": "Service Desk"
+    },
+    {
+      "id": "work",
+      "txt": "Work"
+    },
+    {
+      "id": "mobile",
+      "txt": "Mobile"
+    },
+    {
+      "id": "home",
+      "txt": "Home"
+    },
+    {
+      "id": "personal",
+      "txt": "Personal"
+    },
+    {
+      "id": "emergency",
+      "txt": "Emergency"
+    },
+    {
+      "id": "fax",
+      "txt": "Fax"
+    },
+    {
+      "id": "service_desk_fax",
+      "txt": "Service Desk Fax"
+    },
+    {
+      "id": "chat_workchat",
+      "txt": "Work Chat"
+    },
+    {
+      "id": "chat_teams",
+      "txt": "Teams"
+    },
+    {
+      "id": "chat_slack",
+      "txt": "Slack"
+    },
+    {
+      "id": "chat_skype",
+      "txt": "Skype"
+    }
+  ],
+  "contact.protocol": [
+    {
+      "id": "telephone",
+      "txt": "Telephone"
+    },
+    {
+      "id": "email",
+      "txt": "Email"
+    },
+    {
+      "id": "chat",
+      "txt": "Chat"
+    },
+    {
+      "id": "website",
+      "txt": "Website"
+    }
+  ],
+  "contract.category": [
+    {
+      "id": "lease_contract",
+      "txt": "Lease Contract"
+    },
+    {
+      "id": "maintenance_contract",
+      "txt": "Maintenance Contract"
+    },
+    {
+      "id": "support_contract",
+      "txt": "Support Contract"
+    },
+    {
+      "id": "support_and_maintenance_contract",
+      "txt": "Support & Maintenance Contract"
+    },
+    {
+      "id": "other_type_of_contract",
+      "txt": "Other Type of Contract"
+    }
+  ],
+  "custom_filter.data_type": [
+    {
+      "id": "integer",
+      "txt": "Integer"
+    },
+    {
+      "id": "decimal",
+      "txt": "Decimal"
+    },
+    {
+      "id": "boolean",
+      "txt": "Boolean"
+    },
+    {
+      "id": "enum",
+      "txt": "Enumeration"
+    },
+    {
+      "id": "date",
+      "txt": "Date"
+    },
+    {
+      "id": "time",
+      "txt": "Time"
+    },
+    {
+      "id": "datetime",
+      "txt": "Date Time"
+    },
+    {
+      "id": "text",
+      "txt": "Text"
+    },
+    {
+      "id": "person",
+      "txt": "Person"
+    },
+    {
+      "id": "organization",
+      "txt": "Organization"
+    },
+    {
+      "id": "site",
+      "txt": "Site"
+    },
+    {
+      "id": "team",
+      "txt": "Team"
+    },
+    {
+      "id": "reference",
+      "txt": "Reference"
+    }
+  ],
+  "custom_view_sort_order.direction": [
+    {
+      "id": "asc",
+      "txt": "Ascending"
+    },
+    {
+      "id": "desc",
+      "txt": "Descending"
+    }
+  ],
+  "dashboard.visibility": [
+    {
+      "id": "private",
+      "txt": "Private"
+    },
+    {
+      "id": "shared",
+      "txt": "Shared Within Account"
+    },
+    {
+      "id": "members_of_teams",
+      "txt": "Shared With Members of Team(s)"
+    },
+    {
+      "id": "members_of_skill_pools",
+      "txt": "Shared With Members of Skill Pool(s)"
+    }
+  ],
+  "day_names": [
+    {
+      "id": "sunday",
+      "txt": "Sunday"
+    },
+    {
+      "id": "monday",
+      "txt": "Monday"
+    },
+    {
+      "id": "tuesday",
+      "txt": "Tuesday"
+    },
+    {
+      "id": "wednesday",
+      "txt": "Wednesday"
+    },
+    {
+      "id": "thursday",
+      "txt": "Thursday"
+    },
+    {
+      "id": "friday",
+      "txt": "Friday"
+    },
+    {
+      "id": "saturday",
+      "txt": "Saturday"
+    }
+  ],
+  "email.recipient_type": [
+    {
+      "id": "to",
+      "txt": "To"
+    },
+    {
+      "id": "cc",
+      "txt": "Cc"
+    },
+    {
+      "id": "bcc",
+      "txt": "Bcc"
+    }
+  ],
+  "email_template.trigger": [
+    {
+      "id": "user/new_user",
+      "txt": "New User"
+    },
+    {
+      "id": "user/password_changed",
+      "txt": "Password Changed"
+    },
+    {
+      "id": "user/primary_email_changed",
+      "txt": "Primary Email Changed"
+    },
+    {
+      "id": "user/access_blocked",
+      "txt": "Access Blocked"
+    },
+    {
+      "id": "user/get_access",
+      "txt": "Get Access"
+    },
+    {
+      "id": "user/email_rejected_to_create_request",
+      "txt": "Email Rejected to Create Request"
+    },
+    {
+      "id": "user/email_rejected",
+      "txt": "Email Rejected"
+    },
+    {
+      "id": "user/email_verification",
+      "txt": "Email Verification"
+    },
+    {
+      "id": "user/email_verified",
+      "txt": "Email Verified"
+    },
+    {
+      "id": "user/tfa_enable",
+      "txt": "Enable Two-Factor Authentication"
+    },
+    {
+      "id": "user/tfa_enabled",
+      "txt": "Enabled Two-Factor Authentication"
+    },
+    {
+      "id": "user/tfa_disabled",
+      "txt": "Disabled Two-Factor Authentication"
+    },
+    {
+      "id": "user/tfa_recovery_code_used",
+      "txt": "Two-Factor Authentication Recovery Code Used"
+    },
+    {
+      "id": "user/application_authorized",
+      "txt": "Application Access Authorized"
+    },
+    {
+      "id": "user/application_revoked",
+      "txt": "Application Access Revoked"
+    },
+    {
+      "id": "request/new_request_requested_by",
+      "txt": "New Request"
+    },
+    {
+      "id": "request/new_request_requested_for",
+      "txt": "New Request for Someone Else"
+    },
+    {
+      "id": "request/new_request_generated_from_non_primary_email",
+      "txt": "New Request Generated From Non-Primary Email"
+    },
+    {
+      "id": "request/waiting_for_customer",
+      "txt": "Request Set to Waiting for Customer"
+    },
+    {
+      "id": "request/wfc_reminder",
+      "txt": "Waiting for Customer Follow-Up"
+    },
+    {
+      "id": "request/wfc_completion",
+      "txt": "Waiting for Customer Auto Completion"
+    },
+    {
+      "id": "request/desired_completion",
+      "txt": "Desired Completion Set for Request"
+    },
+    {
+      "id": "request/completed",
+      "txt": "Request Set to Completed"
+    },
+    {
+      "id": "request/team_assignment",
+      "txt": "Request Assigned to Team"
+    },
+    {
+      "id": "request/member_assignment",
+      "txt": "Request Assigned to Member"
+    },
+    {
+      "id": "request/member_reassignment",
+      "txt": "Request Assignment Changed"
+    },
+    {
+      "id": "request/new_note",
+      "txt": "Note Added to Request"
+    },
+    {
+      "id": "request/new_note_reaction",
+      "txt": "Reaction Added to Request Note"
+    },
+    {
+      "id": "request/new_mention",
+      "txt": "Person Mentioned in Note of Request"
+    },
+    {
+      "id": "request/new_email_note",
+      "txt": "Send Email from Request"
+    },
+    {
+      "id": "request/requester_dissatisfied",
+      "txt": "Requester Dissatisfied"
+    },
+    {
+      "id": "request/major_incident_status_changed",
+      "txt": "Major Incident Status Changed"
+    },
+    {
+      "id": "request/upcoming_asla_response_target",
+      "txt": "Upcoming Response Target for Affected SLA of Request"
+    },
+    {
+      "id": "request/upcoming_asla_resolution_target",
+      "txt": "Upcoming Resolution Target for Affected SLA of Request"
+    },
+    {
+      "id": "request/added_to_agile_board_column",
+      "txt": "Request Added to Column of Agile Board"
+    },
+    {
+      "id": "request/added_to_product_backlog",
+      "txt": "Request Added to Product Backlog"
+    },
+    {
+      "id": "problem/manager_changed",
+      "txt": "Problem Manager Changed"
+    },
+    {
+      "id": "problem/team_assignment",
+      "txt": "Problem Assigned to Team"
+    },
+    {
+      "id": "problem/member_assignment",
+      "txt": "Problem Assigned to Member"
+    },
+    {
+      "id": "problem/member_reassignment",
+      "txt": "Problem Assignment Changed"
+    },
+    {
+      "id": "problem/solved",
+      "txt": "Problem Set to Solved"
+    },
+    {
+      "id": "problem/new_note",
+      "txt": "Note Added to Problem"
+    },
+    {
+      "id": "problem/new_note_reaction",
+      "txt": "Reaction Added to Problem Note"
+    },
+    {
+      "id": "problem/new_mention",
+      "txt": "Person Mentioned in Note of Problem"
+    },
+    {
+      "id": "problem/new_email_note",
+      "txt": "Send Email from Problem"
+    },
+    {
+      "id": "problem/added_to_product_backlog",
+      "txt": "Problem Added to Product Backlog"
+    },
+    {
+      "id": "release/workflow_added",
+      "txt": "Workflow Added to Release"
+    },
+    {
+      "id": "release/workflow_removed",
+      "txt": "Workflow Removed from Release"
+    },
+    {
+      "id": "release/progress_halted",
+      "txt": "Release Set to Progress Halted"
+    },
+    {
+      "id": "release/manager_changed",
+      "txt": "Release Manager Changed"
+    },
+    {
+      "id": "release/new_note",
+      "txt": "Note Added to Release"
+    },
+    {
+      "id": "release/new_note_reaction",
+      "txt": "Reaction Added to Release Note"
+    },
+    {
+      "id": "release/new_mention",
+      "txt": "Person Mentioned in Note of Release"
+    },
+    {
+      "id": "release/new_email_note",
+      "txt": "Send Email from Release"
+    },
+    {
+      "id": "workflow/new_workflow",
+      "txt": "New Workflow"
+    },
+    {
+      "id": "workflow/progress_halted",
+      "txt": "Workflow Set to Progress Halted"
+    },
+    {
+      "id": "workflow/manager_changed",
+      "txt": "Workflow Manager Changed"
+    },
+    {
+      "id": "workflow/new_note",
+      "txt": "Note Added to Workflow"
+    },
+    {
+      "id": "workflow/new_note_reaction",
+      "txt": "Reaction Added to Workflow Note"
+    },
+    {
+      "id": "workflow/new_mention",
+      "txt": "Person Mentioned in Note of Workflow"
+    },
+    {
+      "id": "workflow/new_email_note",
+      "txt": "Send Email from Workflow"
+    },
+    {
+      "id": "task/team_assignment",
+      "txt": "Task Assigned to Team"
+    },
+    {
+      "id": "task/member_assignment",
+      "txt": "Task Assigned to Member"
+    },
+    {
+      "id": "task/approver_assignment",
+      "txt": "Task Assigned to Approver"
+    },
+    {
+      "id": "task/member_reassignment",
+      "txt": "Task Assignment Changed"
+    },
+    {
+      "id": "task/new_note",
+      "txt": "Note Added to Task"
+    },
+    {
+      "id": "task/new_note_reaction",
+      "txt": "Reaction Added to Task Note"
+    },
+    {
+      "id": "task/new_mention",
+      "txt": "Person Mentioned in Note of Task"
+    },
+    {
+      "id": "task/new_email_note",
+      "txt": "Send Email from Task"
+    },
+    {
+      "id": "project/new_project",
+      "txt": "New Project"
+    },
+    {
+      "id": "project/progress_halted",
+      "txt": "Project Set to Progress Halted"
+    },
+    {
+      "id": "project/manager_changed",
+      "txt": "Project Manager Changed"
+    },
+    {
+      "id": "project/new_note",
+      "txt": "Note Added to Project"
+    },
+    {
+      "id": "project/new_mention",
+      "txt": "Person Mentioned in Note of Project"
+    },
+    {
+      "id": "project/new_email_note",
+      "txt": "Send Email from Project"
+    },
+    {
+      "id": "project_task/team_assignment",
+      "txt": "Project Task Assigned to Team"
+    },
+    {
+      "id": "project_task/assignment",
+      "txt": "Project Task Assignment"
+    },
+    {
+      "id": "project_task/approver_assignment",
+      "txt": "Project Task Approver Assignment"
+    },
+    {
+      "id": "project_task/reassignment",
+      "txt": "Project Task Assignment Changed"
+    },
+    {
+      "id": "project_task/new_note",
+      "txt": "Note Added to Project Task"
+    },
+    {
+      "id": "project_task/new_note_reaction",
+      "txt": "Reaction Added to Project Task Note"
+    },
+    {
+      "id": "project_task/new_mention",
+      "txt": "Person Mentioned in Note of Project Task"
+    },
+    {
+      "id": "project_task/new_email_note",
+      "txt": "Send Email from Project Task"
+    },
+    {
+      "id": "project_task/milestone_reached",
+      "txt": "Milestone Reached"
+    },
+    {
+      "id": "project_task/milestone_missed",
+      "txt": "Milestone Missed"
+    },
+    {
+      "id": "risk/new_risk",
+      "txt": "New Risk"
+    },
+    {
+      "id": "risk/manager_changed",
+      "txt": "Risk Manager Changed"
+    },
+    {
+      "id": "risk/new_note",
+      "txt": "Note Added to Risk"
+    },
+    {
+      "id": "risk/new_note_reaction",
+      "txt": "Reaction Added to Risk Note"
+    },
+    {
+      "id": "risk/new_mention",
+      "txt": "Person Mentioned in Note of Risk"
+    },
+    {
+      "id": "risk/new_email_note",
+      "txt": "Send Email from Risk"
+    },
+    {
+      "id": "agile_board/manager_changed",
+      "txt": "Agile Board Manager Changed"
+    },
+    {
+      "id": "agile_board/wip_limit_exceeded",
+      "txt": "Agile Board WIP Limit Exceeded"
+    },
+    {
+      "id": "dashboard/owner_changed",
+      "txt": "Dashboard Owner Changed"
+    },
+    {
+      "id": "sla/activated",
+      "txt": "SLA Set to Active"
+    },
+    {
+      "id": "sla/expired",
+      "txt": "SLA Set to Expired"
+    },
+    {
+      "id": "flsa/activated",
+      "txt": "First Line Support Agreement Set to Active"
+    },
+    {
+      "id": "flsa/expired",
+      "txt": "First Line Support Agreement Set to Expired"
+    },
+    {
+      "id": "contract/activated",
+      "txt": "Contract Set to Active"
+    },
+    {
+      "id": "contract/expired",
+      "txt": "Contract Set to Expired"
+    },
+    {
+      "id": "agreement/upcoming_notice",
+      "txt": "Upcoming Notice Date for Agreement"
+    },
+    {
+      "id": "agreement/upcoming_expiry",
+      "txt": "Upcoming Expiry Date for Agreement"
+    },
+    {
+      "id": "ci/upcoming_license_expiry",
+      "txt": "Upcoming Expiry Date for License Certificate"
+    },
+    {
+      "id": "personal_access_token/created",
+      "txt": "Personal Access Token Created"
+    },
+    {
+      "id": "personal_access_token/token_added",
+      "txt": "Token Added to Personal Access Token"
+    },
+    {
+      "id": "personal_access_token/token_enabled",
+      "txt": "Token Enabled for Personal Access Token"
+    },
+    {
+      "id": "personal_access_token/token_disabled",
+      "txt": "Token Disabled for Personal Access Token"
+    },
+    {
+      "id": "personal_access_token/token_deleted",
+      "txt": "Token Deleted from Personal Access Token"
+    },
+    {
+      "id": "application/created",
+      "txt": "Application Created"
+    },
+    {
+      "id": "application/token_added",
+      "txt": "Token Added to Application"
+    },
+    {
+      "id": "application/token_enabled",
+      "txt": "Token Enabled for Application"
+    },
+    {
+      "id": "application/token_disabled",
+      "txt": "Token Disabled for Application"
+    },
+    {
+      "id": "application/token_deleted",
+      "txt": "Token Deleted from Application"
+    },
+    {
+      "id": "timesheet/past_week_incomplete",
+      "txt": "Past Week Incomplete"
+    },
+    {
+      "id": "watchlist/item_updated",
+      "txt": "Watchlist Item Updated"
+    },
+    {
+      "id": "watchlist/added_to_watchlist",
+      "txt": "Added To Watchlist"
+    },
+    {
+      "id": "watchlist/removed_from_watchlist",
+      "txt": "Removed From Watchlist"
+    },
+    {
+      "id": "mass_update/finished",
+      "txt": "Mass Update Finished"
+    },
+    {
+      "id": "print/pdf_created",
+      "txt": "PDF Created"
+    },
+    {
+      "id": "export/dashboard_exported",
+      "txt": "Dashboard Exported"
+    },
+    {
+      "id": "export/export_finished",
+      "txt": "Export Finished"
+    },
+    {
+      "id": "meeting/call",
+      "txt": "Xurrent Connect call"
+    },
+    {
+      "id": "reservation/pending",
+      "txt": "Reservation Pending"
+    },
+    {
+      "id": "reservation/confirmed",
+      "txt": "Reservation Confirmed"
+    },
+    {
+      "id": "reservation/changed",
+      "txt": "Reservation Changed"
+    },
+    {
+      "id": "reservation/canceled",
+      "txt": "Reservation Canceled"
+    },
+    {
+      "id": "reservation/ended",
+      "txt": "Reservation Ended"
+    },
+    {
+      "id": "recurrent_reservation/conflict",
+      "txt": "Reservation Conflict"
+    },
+    {
+      "id": "recurrent_reservation/conflicts",
+      "txt": "Reservation Conflicts"
+    },
+    {
+      "id": "app/app_installed",
+      "txt": "App Installed"
+    },
+    {
+      "id": "app/app_disabled",
+      "txt": "App Disabled"
+    },
+    {
+      "id": "app/app_enabled",
+      "txt": "App Enabled"
+    },
+    {
+      "id": "app/app_modified",
+      "txt": "App Modified"
+    },
+    {
+      "id": "app/app_removed",
+      "txt": "App Removed"
+    },
+    {
+      "id": "product_backlog/product_owner_changed",
+      "txt": "Product Backlog Owner Changed"
+    },
+    {
+      "id": "out_of_office_period/delegate_defined",
+      "txt": "Out of Office Period Delegate Defined"
+    },
+    {
+      "id": "out_of_office_period/added_as_delegate",
+      "txt": "Added As Delegate For Out of Office Period"
+    },
+    {
+      "id": "out_of_office_period/removed_as_delegate",
+      "txt": "Removed As Delegate For Out of Office Period"
+    },
+    {
+      "id": "account/support_domain_created",
+      "txt": "Support Domain Created"
+    },
+    {
+      "id": "account/support_domain_disabled",
+      "txt": "Support Domain Disabled"
+    },
+    {
+      "id": "account_trust/invitation_created",
+      "txt": "Account Trust Invitation Created"
+    },
+    {
+      "id": "account_trust/invitation_accepted",
+      "txt": "Account Trust Invitation Accepted"
+    },
+    {
+      "id": "account_trust/invitation_rejected",
+      "txt": "Account Trust Invitation Rejected"
+    },
+    {
+      "id": "account_trust/invitation_expired",
+      "txt": "Account Trust Invitation Expired"
+    },
+    {
+      "id": "account_trust/revoked",
+      "txt": "Account Trust Revoked"
+    },
+    {
+      "id": "broadcast/email",
+      "txt": "Send Email from Broadcast"
+    }
+  ],
+  "export.export_columns": [
+    {
+      "id": "all",
+      "txt": "All fields"
+    },
+    {
+      "id": "current_view",
+      "txt": "Current view"
+    }
+  ],
+  "export.format": [
+    {
+      "id": "csv",
+      "txt": "Comma-separated values (.csv)"
+    },
+    {
+      "id": "xlsx",
+      "txt": "Microsoft Excel (.xlsx)"
+    },
+    {
+      "id": "pdf",
+      "txt": "Portable Document Format (.pdf)"
+    }
+  ],
+  "export.state": [
+    {
+      "id": "scheduled",
+      "txt": "Scheduled"
+    },
+    {
+      "id": "queued",
+      "txt": "Queued"
+    },
+    {
+      "id": "processing",
+      "txt": "Processing"
+    },
+    {
+      "id": "done",
+      "txt": "Done"
+    },
+    {
+      "id": "failed",
+      "txt": "Failed"
+    }
+  ],
+  "export.strategy": [
+    {
+      "id": "full",
+      "txt": "Full - All data since the creation of this account"
+    },
+    {
+      "id": "partial",
+      "txt": "Partial - Changes since a specific time"
+    },
+    {
+      "id": "incremental",
+      "txt": "Incremental - Changes since the last run"
+    },
+    {
+      "id": "filtered",
+      "txt": "Filtered - Filtered data"
+    },
+    {
+      "id": "dashboard",
+      "txt": "Dashboard - Export selected dashboard to PDF"
+    },
+    {
+      "id": "sync_set",
+      "txt": "Sync Set - Selected data for account synchronization"
+    }
+  ],
+  "feedback.satisfaction": [
+    {
+      "id": "dissatisfied",
+      "txt": "Dissatisfied"
+    },
+    {
+      "id": "satisfied",
+      "txt": "Satisfied"
+    }
+  ],
+  "inbound_email.dkim_verdict": [
+    {
+      "id": "pass",
+      "txt": "Pass - Message passed DKIM authentication"
+    },
+    {
+      "id": "fail",
+      "txt": "Fail - Message failed DKIM authentication"
+    },
+    {
+      "id": "gray",
+      "txt": "Gray - Message is not DKIM-signed"
+    },
+    {
+      "id": "processing_failed",
+      "txt": "Unknown - Processing failed"
+    }
+  ],
+  "inbound_email.dmarc_policy": [
+    {
+      "id": "none",
+      "txt": "None - Sending domain requests that no specific action be taken on failed DMARC authentication"
+    },
+    {
+      "id": "quarantine",
+      "txt": "Quarantine - Sending domain requests that failed DMARC authentication be treated as suspicious"
+    },
+    {
+      "id": "reject",
+      "txt": "Reject - Sending domain requests that failed DMARC authentication be rejected"
+    }
+  ],
+  "inbound_email.dmarc_verdict": [
+    {
+      "id": "pass",
+      "txt": "Pass - Message passed DMARC authentication"
+    },
+    {
+      "id": "fail",
+      "txt": "Fail - Message failed DMARC authentication"
+    },
+    {
+      "id": "gray",
+      "txt": "Gray - Sending domain does not have a DMARC policy, or uses 'p=none' policy"
+    },
+    {
+      "id": "processing_failed",
+      "txt": "Unknown - Processing failed"
+    }
+  ],
+  "inbound_email.generate_new_requests": [
+    {
+      "id": "never",
+      "txt": "Never"
+    },
+    {
+      "id": "only_from_allowed_people",
+      "txt": "Only From Allowed People"
+    },
+    {
+      "id": "always",
+      "txt": "Always"
+    }
+  ],
+  "inbound_email.spam_verdict": [
+    {
+      "id": "pass",
+      "txt": "Pass - Message unlikely to be spam"
+    },
+    {
+      "id": "fail",
+      "txt": "Fail - Message likely to be spam"
+    },
+    {
+      "id": "gray",
+      "txt": "Gray - Scan could not determine if message is spam"
+    },
+    {
+      "id": "processing_failed",
+      "txt": "Unknown - Processing failed"
+    }
+  ],
+  "inbound_email.spf_verdict": [
+    {
+      "id": "pass",
+      "txt": "Pass - Message passed SPF authentication"
+    },
+    {
+      "id": "fail",
+      "txt": "Fail - Message failed SPF authentication"
+    },
+    {
+      "id": "gray",
+      "txt": "Gray - No SPF policy under the sending domain"
+    },
+    {
+      "id": "processing_failed",
+      "txt": "Unknown - Processing failed"
+    }
+  ],
+  "invoice.invoice_type": [
+    {
+      "id": "workflow",
+      "txt": "Workflow"
+    },
+    {
+      "id": "project",
+      "txt": "Project"
+    },
+    {
+      "id": "sla",
+      "txt": "Service Level Agreement"
+    },
+    {
+      "id": "flsa",
+      "txt": "First Line Support Agreement"
+    },
+    {
+      "id": "cis",
+      "txt": "Configuration Items"
+    },
+    {
+      "id": "contract",
+      "txt": "Contract"
+    }
+  ],
+  "knowledge_article.feedback": [
+    {
+      "id": "helpful",
+      "txt": "Helpful"
+    },
+    {
+      "id": "unhelpful",
+      "txt": "Unhelpful"
+    }
+  ],
+  "knowledge_article.status": [
+    {
+      "id": "work_in_progress",
+      "txt": "Work In Progress"
+    },
+    {
+      "id": "not_validated",
+      "txt": "Not Validated"
+    },
+    {
+      "id": "validated",
+      "txt": "Validated"
+    },
+    {
+      "id": "archived",
+      "txt": "Archived"
+    }
+  ],
+  "knowledge_article_event.category": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "work_in_progress",
+      "txt": "Work In Progress"
+    },
+    {
+      "id": "not_validated",
+      "txt": "Not Validated"
+    },
+    {
+      "id": "validated",
+      "txt": "Validated"
+    },
+    {
+      "id": "archived",
+      "txt": "Archived"
+    },
+    {
+      "id": "positive_feedback",
+      "txt": "Positive Feedback"
+    },
+    {
+      "id": "negative_feedback",
+      "txt": "Negative Feedback"
+    },
+    {
+      "id": "viewed_in_self_service",
+      "txt": "Viewed In Self Service"
+    }
+  ],
+  "life_cycle.state": [
+    {
+      "id": "active",
+      "txt": "Active"
+    },
+    {
+      "id": "archived",
+      "txt": "Archived"
+    },
+    {
+      "id": "trashed",
+      "txt": "Trashed"
+    },
+    {
+      "id": "erased",
+      "txt": "Erased"
+    }
+  ],
+  "note.medium": [
+    {
+      "id": "default",
+      "txt": "Default"
+    },
+    {
+      "id": "email",
+      "txt": "Email"
+    },
+    {
+      "id": "outbound_email",
+      "txt": "Outbound Email"
+    },
+    {
+      "id": "system",
+      "txt": "System"
+    },
+    {
+      "id": "reference",
+      "txt": "Reference"
+    },
+    {
+      "id": "redacted",
+      "txt": "Redacted"
+    },
+    {
+      "id": "automation",
+      "txt": "Automation"
+    },
+    {
+      "id": "ai",
+      "txt": "AI"
+    }
+  ],
+  "note.visibility": [
+    {
+      "id": "end_user",
+      "txt": "End User"
+    },
+    {
+      "id": "specialist",
+      "txt": "Specialist"
+    },
+    {
+      "id": "audit",
+      "txt": "Audit"
+    }
+  ],
+  "notification.status": [
+    {
+      "id": "new",
+      "txt": "New"
+    },
+    {
+      "id": "delivered",
+      "txt": "Delivered"
+    },
+    {
+      "id": "read",
+      "txt": "Read"
+    }
+  ],
+  "oauth_application.grant_type": [
+    {
+      "id": "authorization_code",
+      "txt": "Authorization code grant"
+    },
+    {
+      "id": "client_credentials",
+      "txt": "Client credentials grant"
+    }
+  ],
+  "palette_color.type": [
+    {
+      "id": "basic",
+      "txt": "Basic"
+    },
+    {
+      "id": "metric",
+      "txt": "Metric"
+    },
+    {
+      "id": "target_none",
+      "txt": "None"
+    },
+    {
+      "id": "target_clock_stopped",
+      "txt": "Clock stopped"
+    },
+    {
+      "id": "target_best_effort",
+      "txt": "Best effort"
+    },
+    {
+      "id": "target_ok",
+      "txt": "OK"
+    },
+    {
+      "id": "target_about_due",
+      "txt": "About due"
+    },
+    {
+      "id": "target_due",
+      "txt": "Due"
+    },
+    {
+      "id": "target_overdue",
+      "txt": "Overdue"
+    },
+    {
+      "id": "impact_none",
+      "txt": "None"
+    },
+    {
+      "id": "impact_low",
+      "txt": "Low"
+    },
+    {
+      "id": "impact_medium",
+      "txt": "Medium"
+    },
+    {
+      "id": "impact_high",
+      "txt": "High"
+    },
+    {
+      "id": "impact_top",
+      "txt": "Top"
+    },
+    {
+      "id": "satisfaction_satisfied",
+      "txt": "Satisfied"
+    },
+    {
+      "id": "satisfaction_dissatisfied",
+      "txt": "Dissatisfied"
+    },
+    {
+      "id": "effort_percentage0",
+      "txt": "0%"
+    },
+    {
+      "id": "effort_percentage50_minus",
+      "txt": "50% or less"
+    },
+    {
+      "id": "effort_percentage5090",
+      "txt": "50%-90%"
+    },
+    {
+      "id": "effort_percentage90100",
+      "txt": "90%-100%"
+    },
+    {
+      "id": "effort_percentage100110",
+      "txt": "100%-110%"
+    },
+    {
+      "id": "effort_percentage110_plus",
+      "txt": "Over 110%"
+    },
+    {
+      "id": "target_completed_not_breached",
+      "txt": "Completed not breached"
+    },
+    {
+      "id": "target_open_not_breached",
+      "txt": "Open not breached"
+    },
+    {
+      "id": "target_completed_breached",
+      "txt": "Completed breached"
+    },
+    {
+      "id": "target_open_breached",
+      "txt": "Open breached"
+    },
+    {
+      "id": "breached",
+      "txt": "Breached"
+    },
+    {
+      "id": "not_breached",
+      "txt": "Not breached"
+    },
+    {
+      "id": "heatmap_heat",
+      "txt": "Heat"
+    },
+    {
+      "id": "heatmap_daily_total",
+      "txt": "Daily total"
+    },
+    {
+      "id": "heatmap_hourly_total",
+      "txt": "Hourly total"
+    },
+    {
+      "id": "heatmap_grand_total",
+      "txt": "Grand total"
+    }
+  ],
+  "parent_service_instance.impact_relation": [
+    {
+      "id": "down",
+      "txt": "Down if Service Instance of SLA is Down"
+    },
+    {
+      "id": "degraded",
+      "txt": "Degraded if Service Instance of SLA is Down or Degraded"
+    }
+  ],
+  "pdf_design.category": [
+    {
+      "id": "workflow_summary",
+      "txt": "Workflow Summary"
+    },
+    {
+      "id": "project_summary",
+      "txt": "Project Summary"
+    },
+    {
+      "id": "dashboard",
+      "txt": "Dashboard"
+    }
+  ],
+  "permission.role": [
+    {
+      "id": "account_owner",
+      "txt": "Account owner"
+    },
+    {
+      "id": "key_contact",
+      "txt": "Key contact"
+    },
+    {
+      "id": "auditor",
+      "txt": "Auditor"
+    },
+    {
+      "id": "financial_manager",
+      "txt": "Financial manager"
+    },
+    {
+      "id": "specialist",
+      "txt": "Specialist"
+    },
+    {
+      "id": "service_desk_analyst",
+      "txt": "Service desk analyst"
+    },
+    {
+      "id": "service_desk_manager",
+      "txt": "Service desk manager"
+    },
+    {
+      "id": "knowledge_manager",
+      "txt": "Knowledge manager"
+    },
+    {
+      "id": "problem_manager",
+      "txt": "Problem manager"
+    },
+    {
+      "id": "workflow_manager",
+      "txt": "Workflow manager"
+    },
+    {
+      "id": "release_manager",
+      "txt": "Release manager"
+    },
+    {
+      "id": "project_manager",
+      "txt": "Project manager"
+    },
+    {
+      "id": "service_level_manager",
+      "txt": "Service level manager"
+    },
+    {
+      "id": "configuration_manager",
+      "txt": "Configuration manager"
+    },
+    {
+      "id": "account_designer",
+      "txt": "Account designer"
+    },
+    {
+      "id": "account_administrator",
+      "txt": "Account administrator"
+    },
+    {
+      "id": "directory_auditor",
+      "txt": "Directory auditor"
+    },
+    {
+      "id": "directory_designer",
+      "txt": "Directory designer"
+    },
+    {
+      "id": "directory_administrator",
+      "txt": "Directory administrator"
+    },
+    {
+      "id": "workflow_automator_auditor",
+      "txt": "Workflow automator auditor"
+    },
+    {
+      "id": "workflow_automator_specialist",
+      "txt": "Workflow automator specialist"
+    }
+  ],
+  "permission_event.event_type": [
+    {
+      "id": "added",
+      "txt": "Added"
+    },
+    {
+      "id": "removed",
+      "txt": "Removed"
+    }
+  ],
+  "person.color_mode": [
+    {
+      "id": "system",
+      "txt": "System"
+    },
+    {
+      "id": "light",
+      "txt": "Light"
+    },
+    {
+      "id": "dark",
+      "txt": "Dark"
+    }
+  ],
+  "person.play_private_chat_sound": [
+    {
+      "id": "always",
+      "txt": "For new chat messages"
+    },
+    {
+      "id": "never",
+      "txt": "Do not play sounds"
+    }
+  ],
+  "person.play_support_chat_sound": [
+    {
+      "id": "always",
+      "txt": "For new chat requests and for new chat messages"
+    },
+    {
+      "id": "request_created",
+      "txt": "Only for new chat requests"
+    },
+    {
+      "id": "never",
+      "txt": "Do not play sounds"
+    }
+  ],
+  "person.send_email_notifications": [
+    {
+      "id": "always",
+      "txt": "Always"
+    },
+    {
+      "id": "when_offline",
+      "txt": "Only when I am offline"
+    },
+    {
+      "id": "never",
+      "txt": "Never"
+    }
+  ],
+  "person.show_notification_popup": [
+    {
+      "id": "always",
+      "txt": "Always"
+    },
+    {
+      "id": "important_only",
+      "txt": "Only for important notifications"
+    },
+    {
+      "id": "never",
+      "txt": "Never"
+    }
+  ],
+  "person.show_private_chat_popup": [
+    {
+      "id": "always",
+      "txt": "For new chat messages"
+    },
+    {
+      "id": "never",
+      "txt": "Do not show notifications"
+    }
+  ],
+  "person.show_support_chat_popup": [
+    {
+      "id": "always",
+      "txt": "For new chat requests and for new chat messages"
+    },
+    {
+      "id": "request_created",
+      "txt": "Only for new chat requests"
+    },
+    {
+      "id": "never",
+      "txt": "Do not show notifications"
+    }
+  ],
+  "problem.category": [
+    {
+      "id": "reactive",
+      "txt": "Reactive - Existing Problem"
+    },
+    {
+      "id": "proactive",
+      "txt": "Proactive - Anticipated Problem"
+    }
+  ],
+  "problem.impact": [
+    {
+      "id": "none",
+      "txt": "None - Does Not Degrade Service"
+    },
+    {
+      "id": "low",
+      "txt": "Low - Degrades Service for One User"
+    },
+    {
+      "id": "medium",
+      "txt": "Medium - Brings Service Down for One User"
+    },
+    {
+      "id": "high",
+      "txt": "High - Degrades Service for Several Users"
+    },
+    {
+      "id": "top",
+      "txt": "Top - Brings Service Down for Several Users"
+    }
+  ],
+  "problem.status": [
+    {
+      "id": "declined",
+      "txt": "Declined"
+    },
+    {
+      "id": "on_backlog",
+      "txt": "On Backlog"
+    },
+    {
+      "id": "assigned",
+      "txt": "Assigned"
+    },
+    {
+      "id": "accepted",
+      "txt": "Accepted"
+    },
+    {
+      "id": "in_progress",
+      "txt": "In Progress"
+    },
+    {
+      "id": "waiting_for",
+      "txt": "Waiting for..."
+    },
+    {
+      "id": "analyzed",
+      "txt": "Analyzed"
+    },
+    {
+      "id": "change_requested",
+      "txt": "Change Requested"
+    },
+    {
+      "id": "workflow_pending",
+      "txt": "Workflow Pending"
+    },
+    {
+      "id": "project_pending",
+      "txt": "Project Pending"
+    },
+    {
+      "id": "progress_halted",
+      "txt": "Progress Halted"
+    },
+    {
+      "id": "solved",
+      "txt": "Solved"
+    }
+  ],
+  "problem_event.category": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "halted",
+      "txt": "Halted"
+    },
+    {
+      "id": "solved",
+      "txt": "Solved"
+    },
+    {
+      "id": "reopened",
+      "txt": "Reopened"
+    },
+    {
+      "id": "restarted",
+      "txt": "Restarted"
+    },
+    {
+      "id": "known_error_set",
+      "txt": "Known Error Set"
+    },
+    {
+      "id": "known_error_cleared",
+      "txt": "Known Error Cleared"
+    }
+  ],
+  "product.depreciation_method": [
+    {
+      "id": "na_cost_is_zero",
+      "txt": "DEPRECATED: N/A - Cost is Zero/Included in Other CI or Service"
+    },
+    {
+      "id": "na_not_capitalized",
+      "txt": "DEPRECATED: N/A - Not Capitalized"
+    },
+    {
+      "id": "na_leased",
+      "txt": "DEPRECATED: N/A - Leased"
+    },
+    {
+      "id": "not_depreciated",
+      "txt": "Not Depreciated"
+    },
+    {
+      "id": "double_declining_balance",
+      "txt": "Double Declining Balance"
+    },
+    {
+      "id": "reducing_balance",
+      "txt": "Reducing Balance (or Diminishing Value)"
+    },
+    {
+      "id": "straight_line",
+      "txt": "Straight Line (or Prime Cost)"
+    },
+    {
+      "id": "sum_of_the_years_digits",
+      "txt": "Sum of the Year’s Digits"
+    }
+  ],
+  "product_category.rule_set": [
+    {
+      "id": "physical_asset",
+      "txt": "Physical Asset"
+    },
+    {
+      "id": "logical_asset_with_financial_data",
+      "txt": "Logical Asset with Financial Data"
+    },
+    {
+      "id": "logical_asset_without_financial_data",
+      "txt": "Logical Asset without Financial Data"
+    },
+    {
+      "id": "server",
+      "txt": "Server"
+    },
+    {
+      "id": "software",
+      "txt": "Software"
+    },
+    {
+      "id": "software_distribution_package",
+      "txt": "Software Distribution Package"
+    },
+    {
+      "id": "license_certificate",
+      "txt": "License Certificate"
+    }
+  ],
+  "project.completion_reason": [
+    {
+      "id": "withdrawn",
+      "txt": "Withdrawn - Withdrawn by Requester"
+    },
+    {
+      "id": "rejected",
+      "txt": "Rejected - Rejected by Approver"
+    },
+    {
+      "id": "abandoned",
+      "txt": "Abandoned - Not Implemented"
+    },
+    {
+      "id": "partial",
+      "txt": "Partial - Not Entirely Implemented"
+    },
+    {
+      "id": "complete",
+      "txt": "Complete - Fully Implemented"
+    }
+  ],
+  "project.justification": [
+    {
+      "id": "compliance",
+      "txt": "Compliance"
+    },
+    {
+      "id": "correction",
+      "txt": "Correction"
+    },
+    {
+      "id": "expansion",
+      "txt": "Expansion"
+    },
+    {
+      "id": "improvement",
+      "txt": "Improvement"
+    },
+    {
+      "id": "maintenance",
+      "txt": "Maintenance"
+    },
+    {
+      "id": "move",
+      "txt": "Move"
+    },
+    {
+      "id": "removal",
+      "txt": "Removal"
+    },
+    {
+      "id": "replacement",
+      "txt": "Replacement"
+    }
+  ],
+  "project.status": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "in_progress",
+      "txt": "In Progress"
+    },
+    {
+      "id": "progress_halted",
+      "txt": "Progress Halted"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    }
+  ],
+  "project_event.category": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    },
+    {
+      "id": "reopened",
+      "txt": "Reopened"
+    }
+  ],
+  "project_phase.status": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "in_progress",
+      "txt": "In Progress"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    }
+  ],
+  "project_task.category": [
+    {
+      "id": "activity",
+      "txt": "Activity"
+    },
+    {
+      "id": "approval",
+      "txt": "Approval"
+    },
+    {
+      "id": "milestone",
+      "txt": "Milestone"
+    }
+  ],
+  "project_task.note_behavior": [
+    {
+      "id": "hidden",
+      "txt": "Hidden"
+    },
+    {
+      "id": "optional_on_completion",
+      "txt": "Optional on Completion"
+    },
+    {
+      "id": "optional_on_approval",
+      "txt": "Optional on Approval"
+    },
+    {
+      "id": "required_on_completion",
+      "txt": "Required on Completion"
+    },
+    {
+      "id": "required_on_approval",
+      "txt": "Required on Approval"
+    }
+  ],
+  "project_task.status": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "assigned",
+      "txt": "Assigned"
+    },
+    {
+      "id": "accepted",
+      "txt": "Accepted"
+    },
+    {
+      "id": "in_progress",
+      "txt": "In Progress"
+    },
+    {
+      "id": "waiting_for",
+      "txt": "Waiting for..."
+    },
+    {
+      "id": "failed",
+      "txt": "Failed"
+    },
+    {
+      "id": "rejected",
+      "txt": "Rejected"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    },
+    {
+      "id": "approved",
+      "txt": "Approved"
+    },
+    {
+      "id": "canceled",
+      "txt": "Canceled"
+    }
+  ],
+  "recurrence.day_of_week_index": [
+    {
+      "id": "first",
+      "txt": "First"
+    },
+    {
+      "id": "second",
+      "txt": "Second"
+    },
+    {
+      "id": "third",
+      "txt": "Third"
+    },
+    {
+      "id": "fourth",
+      "txt": "Fourth"
+    },
+    {
+      "id": "last",
+      "txt": "Last"
+    }
+  ],
+  "recurrence.frequency": [
+    {
+      "id": "no_repeat",
+      "txt": "No Repeat"
+    },
+    {
+      "id": "daily",
+      "txt": "Daily"
+    },
+    {
+      "id": "weekly",
+      "txt": "Weekly"
+    },
+    {
+      "id": "monthly",
+      "txt": "Monthly"
+    },
+    {
+      "id": "yearly",
+      "txt": "Yearly"
+    }
+  ],
+  "report.chart_type": [
+    {
+      "id": "bar",
+      "txt": "Bar"
+    },
+    {
+      "id": "column",
+      "txt": "Column"
+    },
+    {
+      "id": "pie",
+      "txt": "Pie"
+    },
+    {
+      "id": "combination",
+      "txt": "Combination"
+    },
+    {
+      "id": "metric",
+      "txt": "Metric"
+    },
+    {
+      "id": "line",
+      "txt": "Line"
+    },
+    {
+      "id": "area",
+      "txt": "Area"
+    },
+    {
+      "id": "donut",
+      "txt": "Donut"
+    },
+    {
+      "id": "heatmap",
+      "txt": "Heatmap"
+    },
+    {
+      "id": "table",
+      "txt": "Table"
+    }
+  ],
+  "report.standard": [
+    {
+      "id": "configuration_items_by_status",
+      "txt": "Configuration Items by Status"
+    },
+    {
+      "id": "active_problems_aging_since_last_updated",
+      "txt": "Active Problems Aging since Last Updated"
+    },
+    {
+      "id": "active_problems_aging_since_registered",
+      "txt": "Active Problems Aging since Registered"
+    },
+    {
+      "id": "active_problems_by_impact",
+      "txt": "Active Problems by Impact"
+    },
+    {
+      "id": "active_problems_by_service",
+      "txt": "Active Problems by Service"
+    },
+    {
+      "id": "active_problems_by_status",
+      "txt": "Active Problems by Status"
+    },
+    {
+      "id": "active_problems_by_target_indication",
+      "txt": "Active Problems by Target Indication"
+    },
+    {
+      "id": "requests_by_knowledge_article",
+      "txt": "Requests by Knowledge Article"
+    },
+    {
+      "id": "requests_by_template",
+      "txt": "Requests by Template"
+    },
+    {
+      "id": "completed_workflows_by_service",
+      "txt": "Completed Workflows by Service"
+    },
+    {
+      "id": "completed_requests_by_impact",
+      "txt": "Completed Requests by Impact"
+    },
+    {
+      "id": "completed_requests_by_organization",
+      "txt": "Completed Requests by Organization"
+    },
+    {
+      "id": "completed_requests_by_service_instance",
+      "txt": "Completed Requests by Service Instance"
+    },
+    {
+      "id": "completed_requests_by_service",
+      "txt": "Completed Requests by Service"
+    },
+    {
+      "id": "completed_requests_by_site",
+      "txt": "Completed Requests by Site"
+    },
+    {
+      "id": "finished_tasks_completion_targets_met_and_breached",
+      "txt": "Finished Tasks Completion Targets Met and Breached"
+    },
+    {
+      "id": "halted_problems_aging_since_last_updated",
+      "txt": "Halted Problems Aging since Last Updated"
+    },
+    {
+      "id": "halted_problems_aging_since_registered",
+      "txt": "Halted Problems Aging since Registered"
+    },
+    {
+      "id": "halted_problems_by_impact",
+      "txt": "Halted Problems by Impact"
+    },
+    {
+      "id": "halted_problems_by_service",
+      "txt": "Halted Problems by Service"
+    },
+    {
+      "id": "knowledge_article_create_vs_reuse",
+      "txt": "Knowledge Article Create vs Reuse"
+    },
+    {
+      "id": "knowledge_article_link_rate",
+      "txt": "Knowledge Article Link Rate"
+    },
+    {
+      "id": "knowledge_article_self_service_usage_by_knowledge_article",
+      "txt": "Knowledge Article Self Service Usage by Knowledge Article"
+    },
+    {
+      "id": "knowledge_article_self_service_usage",
+      "txt": "Knowledge Article Self Service Usage"
+    },
+    {
+      "id": "open_workflows_by_service",
+      "txt": "Open Workflows by Service"
+    },
+    {
+      "id": "open_workflows_by_status",
+      "txt": "Open Workflows by Status"
+    },
+    {
+      "id": "open_requests_aging_since_last_updated",
+      "txt": "Open Requests Aging since Last Updated"
+    },
+    {
+      "id": "open_requests_aging_since_registered",
+      "txt": "Open Requests Aging since Registered"
+    },
+    {
+      "id": "open_requests_by_impact",
+      "txt": "Open Requests by Impact"
+    },
+    {
+      "id": "open_requests_by_organization",
+      "txt": "Open Requests by Organization"
+    },
+    {
+      "id": "open_requests_by_service_instance",
+      "txt": "Open Requests by Service Instance"
+    },
+    {
+      "id": "open_requests_by_service",
+      "txt": "Open Requests by Service"
+    },
+    {
+      "id": "open_requests_by_site",
+      "txt": "Open Requests by Site"
+    },
+    {
+      "id": "open_requests_by_status",
+      "txt": "Open Requests by Status"
+    },
+    {
+      "id": "open_requests_by_target_indication",
+      "txt": "Open Requests by Target Indication"
+    },
+    {
+      "id": "registered_and_completed_requests",
+      "txt": "Registered and Completed Requests"
+    },
+    {
+      "id": "registered_requests_by_category",
+      "txt": "Registered Requests by Category"
+    },
+    {
+      "id": "registered_requests_by_impact",
+      "txt": "Registered Requests by Impact"
+    },
+    {
+      "id": "registered_requests_by_source",
+      "txt": "Registered Requests by Source"
+    },
+    {
+      "id": "requests_with_dissatisfied_requester",
+      "txt": "Requests with Dissatisfied Requester"
+    },
+    {
+      "id": "sla_resolution_targets_met_and_breached",
+      "txt": "SLA Resolution Targets Met and Breached"
+    },
+    {
+      "id": "sla_resolution_targets_met_by_impact",
+      "txt": "SLA Resolution Targets Met by Impact"
+    },
+    {
+      "id": "sla_resolution_targets_breached_by_impact",
+      "txt": "SLA Resolution Targets Breached by Impact"
+    },
+    {
+      "id": "sla_response_targets_met_and_breached",
+      "txt": "SLA Response Targets Met and Breached"
+    },
+    {
+      "id": "sla_response_targets_met_by_impact",
+      "txt": "SLA Response Targets Met by Impact"
+    },
+    {
+      "id": "sla_response_targets_breached_by_impact",
+      "txt": "SLA Response Targets Breached by Impact"
+    },
+    {
+      "id": "solved_problems_by_impact",
+      "txt": "Solved Problems by Impact"
+    },
+    {
+      "id": "solved_problems_by_service",
+      "txt": "Solved Problems by Service"
+    },
+    {
+      "id": "sla_resolutions",
+      "txt": "SLA Resolutions"
+    },
+    {
+      "id": "open_workflows_by_category",
+      "txt": "Open Workflows by Category"
+    },
+    {
+      "id": "completed_workflows_by_category",
+      "txt": "Completed Workflows by Category"
+    },
+    {
+      "id": "open_workflows_by_justification",
+      "txt": "Open Workflows by Justification"
+    },
+    {
+      "id": "completed_workflows_by_justification",
+      "txt": "Completed Workflows by Justification"
+    },
+    {
+      "id": "requests_registered_by_service_desk",
+      "txt": "Requests Registered by Service Desk"
+    },
+    {
+      "id": "completed_requests_by_completion_reason",
+      "txt": "Completed Requests by Completion Reason"
+    },
+    {
+      "id": "open_requests_by_team",
+      "txt": "Open Requests by Team"
+    },
+    {
+      "id": "open_requests_by_member",
+      "txt": "Open Requests by Member"
+    },
+    {
+      "id": "open_tasks_by_team",
+      "txt": "Open Tasks by Team"
+    },
+    {
+      "id": "open_tasks_by_assignee",
+      "txt": "Open Tasks by Assignee"
+    },
+    {
+      "id": "finished_tasks_by_team",
+      "txt": "Finished Tasks by Team"
+    },
+    {
+      "id": "finished_tasks_by_assignee",
+      "txt": "Finished Tasks by Assignee"
+    },
+    {
+      "id": "open_requests_by_business_unit",
+      "txt": "Open Requests by Business Unit"
+    },
+    {
+      "id": "open_tasks_by_category",
+      "txt": "Open Tasks by Category"
+    },
+    {
+      "id": "finished_tasks_by_category",
+      "txt": "Finished Tasks by Category"
+    },
+    {
+      "id": "open_tasks_by_status",
+      "txt": "Open Tasks by Status"
+    },
+    {
+      "id": "completed_requests_by_category",
+      "txt": "Completed Requests by Category"
+    },
+    {
+      "id": "completed_requests_by_source",
+      "txt": "Completed Requests by Source"
+    },
+    {
+      "id": "registered_and_solved_problems",
+      "txt": "Registered and Solved Problems"
+    },
+    {
+      "id": "registered_problems_by_category",
+      "txt": "Registered Problems by Category"
+    },
+    {
+      "id": "registered_problems_by_impact",
+      "txt": "Registered Problems by Impact"
+    },
+    {
+      "id": "active_problems_by_category",
+      "txt": "Active Problems by Category"
+    },
+    {
+      "id": "halted_problems_by_category",
+      "txt": "Halted Problems by Category"
+    },
+    {
+      "id": "solved_problems_by_category",
+      "txt": "Solved Problems by Category"
+    },
+    {
+      "id": "registered_and_completed_workflows",
+      "txt": "Registered and Completed Workflows"
+    },
+    {
+      "id": "registered_workflows_by_category",
+      "txt": "Registered Workflows by Category"
+    },
+    {
+      "id": "registered_workflows_by_impact",
+      "txt": "Registered Workflows by Impact"
+    },
+    {
+      "id": "open_workflows_by_impact",
+      "txt": "Open Workflows by Impact"
+    },
+    {
+      "id": "completed_workflows_by_impact",
+      "txt": "Completed Workflows by Impact"
+    },
+    {
+      "id": "registered_workflows_by_justification",
+      "txt": "Registered Workflows by Justification"
+    },
+    {
+      "id": "registered_and_completed_projects",
+      "txt": "Registered and Completed Projects"
+    },
+    {
+      "id": "registered_projects_by_category",
+      "txt": "Registered Projects by Category"
+    },
+    {
+      "id": "open_projects_by_category",
+      "txt": "Open Projects by Category"
+    },
+    {
+      "id": "completed_projects_by_category",
+      "txt": "Completed Projects by Category"
+    },
+    {
+      "id": "registered_projects_by_justification",
+      "txt": "Registered Projects by Justification"
+    },
+    {
+      "id": "open_projects_by_justification",
+      "txt": "Open Projects by Justification"
+    },
+    {
+      "id": "completed_projects_by_justification",
+      "txt": "Completed Projects by Justification"
+    },
+    {
+      "id": "registered_projects_by_risk_level",
+      "txt": "Registered Projects by Risk Level"
+    },
+    {
+      "id": "open_projects_by_risk_level",
+      "txt": "Open Projects by Risk Level"
+    },
+    {
+      "id": "completed_projects_by_risk_level",
+      "txt": "Completed Projects by Risk Level"
+    },
+    {
+      "id": "open_projects_by_service",
+      "txt": "Open Projects by Service"
+    },
+    {
+      "id": "completed_projects_by_service",
+      "txt": "Completed Projects by Service"
+    },
+    {
+      "id": "open_projects_by_status",
+      "txt": "Open Projects by Status"
+    },
+    {
+      "id": "open_requests_by_source",
+      "txt": "Open Requests by Source"
+    },
+    {
+      "id": "completed_requests_by_ci",
+      "txt": "Completed Requests by Configuration Item"
+    },
+    {
+      "id": "open_requests_by_ci",
+      "txt": "Open Requests by Configuration Item"
+    },
+    {
+      "id": "outage_duration_by_ci",
+      "txt": "Outage Duration by Configuration Item"
+    },
+    {
+      "id": "completed_requests_by_member",
+      "txt": "Completed Requests by Member"
+    },
+    {
+      "id": "completed_requests_by_team",
+      "txt": "Completed Requests by Team"
+    },
+    {
+      "id": "completed_workflows_by_manager",
+      "txt": "Completed Workflows by Manager"
+    },
+    {
+      "id": "open_workflows_by_manager",
+      "txt": "Open Workflows by Manager"
+    },
+    {
+      "id": "completed_requests_by_business_unit",
+      "txt": "Completed Requests by Business Unit"
+    },
+    {
+      "id": "configuration_items_by_financial_owner",
+      "txt": "Configuration Items by Financial Owner"
+    },
+    {
+      "id": "customer_satisfaction",
+      "txt": "Customer Satisfaction"
+    },
+    {
+      "id": "number_of_sla_resolution_targets_met_and_breached_by_service",
+      "txt": "Number of SLA Resolution Targets Met and Breached by Service"
+    },
+    {
+      "id": "requests_with_satisfied_requester",
+      "txt": "Requests with Satisfied Requester"
+    },
+    {
+      "id": "service_desk_customer_satisfaction",
+      "txt": "Service Desk Customer Satisfaction"
+    },
+    {
+      "id": "number_of_sla_resolution_targets_met_and_breached_by_service_instance",
+      "txt": "Number of SLA Resolution Targets Met and Breached by Service Instance"
+    },
+    {
+      "id": "number_of_sla_response_targets_met_and_breached_by_service",
+      "txt": "Number of SLA Response Targets Met and Breached by Service"
+    },
+    {
+      "id": "number_of_sla_response_targets_met_and_breached_by_service_instance",
+      "txt": "Number of SLA Response Targets Met and Breached by Service Instance"
+    },
+    {
+      "id": "percentage_of_sla_resolution_targets_met_and_breached_by_service",
+      "txt": "Percentage of SLA Resolution Targets Met and Breached by Service"
+    },
+    {
+      "id": "percentage_of_sla_resolution_targets_met_and_breached_by_service_instance",
+      "txt": "Percentage of SLA Resolution Targets Met and Breached by Service Instance"
+    },
+    {
+      "id": "percentage_of_sla_response_targets_met_and_breached_by_service",
+      "txt": "Percentage of SLA Response Targets Met and Breached by Service"
+    },
+    {
+      "id": "percentage_of_sla_response_targets_met_and_breached_by_service_instance",
+      "txt": "Percentage of SLA Response Targets Met and Breached by Service Instance"
+    },
+    {
+      "id": "average_time_to_sla_resolution_by_service",
+      "txt": "Average Time to SLA Resolution by Service"
+    },
+    {
+      "id": "average_time_to_sla_resolution_by_request_category",
+      "txt": "Average Time to SLA Resolution by Request Category"
+    },
+    {
+      "id": "average_time_to_sla_resolution",
+      "txt": "Average Time to SLA Resolution"
+    },
+    {
+      "id": "completed_workflows_by_completion_reason",
+      "txt": "Completed Workflows by Completion Reason"
+    },
+    {
+      "id": "best_effort_sla_resolutions",
+      "txt": "Best Effort SLA Resolutions"
+    },
+    {
+      "id": "requests_registered_in_self_service",
+      "txt": "Requests Registered in Self Service"
+    },
+    {
+      "id": "open_requests_by_account",
+      "txt": "Open Requests by Account"
+    },
+    {
+      "id": "completed_requests_by_account",
+      "txt": "Completed Requests by Account"
+    },
+    {
+      "id": "open_requests",
+      "txt": "Open Requests"
+    },
+    {
+      "id": "completed_requests",
+      "txt": "Completed Requests"
+    },
+    {
+      "id": "open_workflows",
+      "txt": "Open Workflows"
+    },
+    {
+      "id": "completed_workflows",
+      "txt": "Completed Workflows"
+    },
+    {
+      "id": "active_problems",
+      "txt": "Active Problems"
+    },
+    {
+      "id": "halted_problems",
+      "txt": "Halted Problems"
+    },
+    {
+      "id": "solved_problems",
+      "txt": "Solved Problems"
+    },
+    {
+      "id": "open_requests_by_category",
+      "txt": "Open Requests by Category"
+    },
+    {
+      "id": "all_requests",
+      "txt": "All Requests"
+    },
+    {
+      "id": "all_workflows",
+      "txt": "All Workflows"
+    },
+    {
+      "id": "all_tasks",
+      "txt": "All Tasks"
+    },
+    {
+      "id": "open_tasks",
+      "txt": "Open Tasks"
+    },
+    {
+      "id": "finished_tasks",
+      "txt": "Finished Tasks"
+    },
+    {
+      "id": "all_problems",
+      "txt": "All Problems"
+    },
+    {
+      "id": "all_project_tasks",
+      "txt": "All Project Tasks"
+    },
+    {
+      "id": "open_project_tasks",
+      "txt": "Open Project Tasks"
+    },
+    {
+      "id": "finished_project_tasks",
+      "txt": "Finished Project Tasks"
+    },
+    {
+      "id": "all_projects",
+      "txt": "All Projects"
+    },
+    {
+      "id": "open_projects",
+      "txt": "Open Projects"
+    },
+    {
+      "id": "completed_projects",
+      "txt": "Completed Projects"
+    },
+    {
+      "id": "all_releases",
+      "txt": "All Releases"
+    },
+    {
+      "id": "open_releases",
+      "txt": "Open Releases"
+    },
+    {
+      "id": "completed_releases",
+      "txt": "Completed Releases"
+    },
+    {
+      "id": "configuration_items",
+      "txt": "Configuration Items"
+    },
+    {
+      "id": "all_contracts",
+      "txt": "All Contracts"
+    },
+    {
+      "id": "active_contracts",
+      "txt": "Active Contracts"
+    },
+    {
+      "id": "products",
+      "txt": "Products"
+    },
+    {
+      "id": "registered_tasks",
+      "txt": "Registered Tasks"
+    },
+    {
+      "id": "registered_project_tasks",
+      "txt": "Registered Project Tasks"
+    },
+    {
+      "id": "open_releases_aging_since_registered",
+      "txt": "Open Releases Aging since Registered"
+    },
+    {
+      "id": "open_releases_aging_since_last_updated",
+      "txt": "Open Releases Aging since Last Updated"
+    },
+    {
+      "id": "open_workflows_aging_since_registered",
+      "txt": "Open Workflows Aging since Registered"
+    },
+    {
+      "id": "open_workflows_aging_since_last_updated",
+      "txt": "Open Workflows Aging since Last Updated"
+    },
+    {
+      "id": "open_tasks_aging_since_registered",
+      "txt": "Open Tasks Aging since Registered"
+    },
+    {
+      "id": "open_tasks_aging_since_last_updated",
+      "txt": "Open Tasks Aging since Last Updated"
+    },
+    {
+      "id": "open_projects_aging_since_registered",
+      "txt": "Open Projects Aging since Registered"
+    },
+    {
+      "id": "open_projects_aging_since_last_updated",
+      "txt": "Open Projects Aging since Last Updated"
+    },
+    {
+      "id": "open_project_tasks_aging_since_registered",
+      "txt": "Open Project Tasks Aging since Registered"
+    },
+    {
+      "id": "open_project_tasks_aging_since_last_updated",
+      "txt": "Open Project Tasks Aging since Last Updated"
+    },
+    {
+      "id": "upcoming_sla_notice_dates",
+      "txt": "Upcoming SLA Notice Dates"
+    },
+    {
+      "id": "upcoming_sla_expiry_dates",
+      "txt": "Upcoming SLA Expiry Dates"
+    },
+    {
+      "id": "upcoming_flsa_notice_dates",
+      "txt": "Upcoming FLSA Notice Dates"
+    },
+    {
+      "id": "upcoming_flsa_expiry_dates",
+      "txt": "Upcoming FLSA Expiry Dates"
+    },
+    {
+      "id": "upcoming_contract_notice_dates",
+      "txt": "Upcoming Contract Notice Dates"
+    },
+    {
+      "id": "upcoming_contract_expiry_dates",
+      "txt": "Upcoming Contract Expiry Dates"
+    },
+    {
+      "id": "products_by_brand",
+      "txt": "Products by Brand"
+    },
+    {
+      "id": "products_by_category",
+      "txt": "Products by Category"
+    },
+    {
+      "id": "products_by_service",
+      "txt": "Products by Service"
+    },
+    {
+      "id": "products_by_support_team",
+      "txt": "Products by Support Team"
+    },
+    {
+      "id": "products_by_supplier",
+      "txt": "Products by Supplier"
+    },
+    {
+      "id": "products_by_financial_owner",
+      "txt": "Products by Financial Owner"
+    },
+    {
+      "id": "time_spent_by_time_allocation_group",
+      "txt": "Time Spent by Time Allocation Group"
+    },
+    {
+      "id": "time_spent_by_time_allocation",
+      "txt": "Time Spent by Time Allocation"
+    },
+    {
+      "id": "registered_and_finished_tasks",
+      "txt": "Registered and Finished Tasks"
+    },
+    {
+      "id": "registered_and_finished_project_tasks",
+      "txt": "Registered and Finished Project Tasks"
+    },
+    {
+      "id": "open_projects_by_customer",
+      "txt": "Open Projects by Customer"
+    },
+    {
+      "id": "open_projects_by_manager",
+      "txt": "Open Projects by Manager"
+    },
+    {
+      "id": "open_projects_by_program",
+      "txt": "Open Projects by Program"
+    },
+    {
+      "id": "completed_projects_by_customer",
+      "txt": "Completed Projects by Customer"
+    },
+    {
+      "id": "completed_projects_by_manager",
+      "txt": "Completed Projects by Manager"
+    },
+    {
+      "id": "completed_projects_by_program",
+      "txt": "Completed Projects by Program"
+    },
+    {
+      "id": "time_entries_by_team",
+      "txt": "Time Entries by Team"
+    },
+    {
+      "id": "time_entries_by_person",
+      "txt": "Time Entries by Person"
+    },
+    {
+      "id": "time_spent_by_team",
+      "txt": "Time Spent by Team"
+    },
+    {
+      "id": "time_spent_by_person",
+      "txt": "Time Spent by Person"
+    },
+    {
+      "id": "cost_of_time_spent_by_team",
+      "txt": "Cost of Time Spent by Team"
+    },
+    {
+      "id": "cost_of_time_spent_by_person",
+      "txt": "Cost of Time Spent by Person"
+    },
+    {
+      "id": "time_spent",
+      "txt": "Time Spent"
+    },
+    {
+      "id": "time_entries",
+      "txt": "Time Entries"
+    },
+    {
+      "id": "cost_of_time_spent",
+      "txt": "Cost of Time Spent"
+    },
+    {
+      "id": "requests_by_service_instance",
+      "txt": "Requests by Service Instance"
+    },
+    {
+      "id": "requests_by_service",
+      "txt": "Requests by Service"
+    },
+    {
+      "id": "time_spent_on_open_requests",
+      "txt": "Time Spent on Open Requests"
+    },
+    {
+      "id": "time_spent_on_open_requests_and_related_workflows",
+      "txt": "Time Spent on Open Requests and Related Workflows"
+    },
+    {
+      "id": "time_spent_on_completed_requests",
+      "txt": "Time Spent on Completed Requests"
+    },
+    {
+      "id": "time_spent_on_completed_requests_and_related_workflows",
+      "txt": "Time Spent on Completed Requests and Related Workflows"
+    },
+    {
+      "id": "upcoming_license_expiry_dates",
+      "txt": "Upcoming License Expiry Dates"
+    },
+    {
+      "id": "upcoming_warranty_expiry_dates",
+      "txt": "Upcoming Warranty Expiry Dates"
+    },
+    {
+      "id": "knowledge_articles_by_created_by",
+      "txt": "Knowledge Articles by Created By"
+    },
+    {
+      "id": "open_workflows_by_actual_vs_planned",
+      "txt": "Actual Versus Planned Effort for Open Workflows and Related Requests and Problems"
+    },
+    {
+      "id": "completed_workflows_by_actual_vs_planned",
+      "txt": "Actual Versus Planned Effort for Completed Workflows and Related Requests and Problems"
+    },
+    {
+      "id": "open_requests_by_service_provider",
+      "txt": "Open Requests by Service Provider"
+    },
+    {
+      "id": "completed_requests_by_service_provider",
+      "txt": "Completed Requests by Service Provider"
+    },
+    {
+      "id": "requests_by_service_provider",
+      "txt": "Requests by Service Provider"
+    },
+    {
+      "id": "requests_by_organization",
+      "txt": "Requests by Organization"
+    },
+    {
+      "id": "open_requests_by_requester",
+      "txt": "Open Requests by Requester"
+    },
+    {
+      "id": "completed_requests_by_requester",
+      "txt": "Completed Requests by Requester"
+    },
+    {
+      "id": "registered_requests_by_requester",
+      "txt": "Registered Requests by Requester"
+    },
+    {
+      "id": "finished_tasks_completion_targets_met_and_breached_over_time",
+      "txt": "Finished Tasks Completion Targets Met and Breached"
+    },
+    {
+      "id": "sla_resolution_targets_met_and_breached_over_time",
+      "txt": "SLA Resolution Targets Met and Breached"
+    },
+    {
+      "id": "sla_resolution_targets_met_by_impact_over_time",
+      "txt": "SLA Resolution Targets Met by Impact"
+    },
+    {
+      "id": "sla_resolution_targets_breached_by_impact_over_time",
+      "txt": "SLA Resolution Targets Breached by Impact"
+    },
+    {
+      "id": "sla_response_targets_met_and_breached_over_time",
+      "txt": "SLA Response Targets Met and Breached"
+    },
+    {
+      "id": "sla_response_targets_met_by_impact_over_time",
+      "txt": "SLA Response Targets Met by Impact"
+    },
+    {
+      "id": "sla_response_targets_breached_by_impact_over_time",
+      "txt": "SLA Response Targets Breached by Impact"
+    },
+    {
+      "id": "first_call_resolutions_by_member",
+      "txt": "First Call Resolutions by Member"
+    },
+    {
+      "id": "service_desk_only_resolutions_by_member",
+      "txt": "Service Desk Only Resolutions by Member"
+    },
+    {
+      "id": "configuration_items_by_supplier",
+      "txt": "Configuration Items by Supplier"
+    },
+    {
+      "id": "configuration_items_by_service",
+      "txt": "Configuration Items by Service"
+    },
+    {
+      "id": "configuration_items_by_support_team",
+      "txt": "Configuration Items by Support Team"
+    },
+    {
+      "id": "risks",
+      "txt": "Risks"
+    },
+    {
+      "id": "risks_by_manager",
+      "txt": "Risks by Manager"
+    },
+    {
+      "id": "risks_by_severity",
+      "txt": "Risks by Severity"
+    },
+    {
+      "id": "risks_by_status",
+      "txt": "Risks by Status"
+    },
+    {
+      "id": "risks_by_project",
+      "txt": "Risks by Project"
+    },
+    {
+      "id": "risks_by_service",
+      "txt": "Risks by Service"
+    },
+    {
+      "id": "risks_by_organization",
+      "txt": "Risks by Organization"
+    },
+    {
+      "id": "registered_and_closed_risks",
+      "txt": "Registered and Closed Risks"
+    },
+    {
+      "id": "registered_risks_by_severity",
+      "txt": "Registered Risks by Severity"
+    },
+    {
+      "id": "open_risks_aging_since_registered",
+      "txt": "Open Risks Aging since Registered"
+    },
+    {
+      "id": "open_risks_aging_since_last_updated",
+      "txt": "Open Risks Aging since Last Updated"
+    },
+    {
+      "id": "first_call_resolutions",
+      "txt": "First Call Resolutions"
+    },
+    {
+      "id": "service_desk_only_resolutions",
+      "txt": "Service Desk Only Resolutions"
+    },
+    {
+      "id": "registered_workflows_by_type",
+      "txt": "Registered Workflows by Type"
+    },
+    {
+      "id": "open_workflows_by_type",
+      "txt": "Open Workflows by Type"
+    },
+    {
+      "id": "completed_workflows_by_type",
+      "txt": "Completed Workflows by Type"
+    },
+    {
+      "id": "average_time_to_sla_response_by_service",
+      "txt": "Average Time to SLA Response by Service"
+    },
+    {
+      "id": "average_time_to_sla_response_by_request_category",
+      "txt": "Average Time to SLA Response by Request Category"
+    },
+    {
+      "id": "average_time_to_sla_response",
+      "txt": "Average Time to SLA Response"
+    },
+    {
+      "id": "knowledge_articles",
+      "txt": "Knowledge Articles"
+    },
+    {
+      "id": "knowledge_articles_by_status",
+      "txt": "Knowledge Articles by Status"
+    },
+    {
+      "id": "knowledge_articles_by_service",
+      "txt": "Knowledge Articles by Service"
+    },
+    {
+      "id": "registered_knowledge_articles",
+      "txt": "Registered Knowledge Articles"
+    },
+    {
+      "id": "registered_knowledge_articles_by_status",
+      "txt": "Registered Knowledge Articles by Status"
+    },
+    {
+      "id": "requests_for_problem_identification_by_problem_manager",
+      "txt": "Requests for Problem Identification by Problem Manager"
+    },
+    {
+      "id": "requests_for_problem_identification_by_service",
+      "txt": "Requests for Problem Identification by Service"
+    },
+    {
+      "id": "requests_for_problem_identification_by_team",
+      "txt": "Requests for Problem Identification by Team"
+    },
+    {
+      "id": "time_spent_by_request_category_over_time",
+      "txt": "Time Spent by Request Category"
+    },
+    {
+      "id": "time_spent_by_project",
+      "txt": "Time Spent by Project"
+    },
+    {
+      "id": "time_entries_by_project",
+      "txt": "Time Entries by Project"
+    },
+    {
+      "id": "cost_of_time_spent_by_project",
+      "txt": "Cost of Time Spent by Project"
+    },
+    {
+      "id": "request_completion_duration",
+      "txt": "Request Completion Duration"
+    },
+    {
+      "id": "contracts_by_category",
+      "txt": "Contracts by Category"
+    },
+    {
+      "id": "contracts_by_customer",
+      "txt": "Contracts by Customer"
+    },
+    {
+      "id": "contracts_by_customer_representative",
+      "txt": "Contracts by Customer Representative"
+    },
+    {
+      "id": "contracts_by_supplier",
+      "txt": "Contracts by Supplier"
+    },
+    {
+      "id": "configuration_items_by_site",
+      "txt": "Configuration Items by Site"
+    },
+    {
+      "id": "configuration_items_by_location",
+      "txt": "Configuration Items by Location"
+    },
+    {
+      "id": "configuration_items_by_service_instance",
+      "txt": "Configuration Items by Service Instance"
+    },
+    {
+      "id": "active_problems_by_manager",
+      "txt": "Active Problems by Manager"
+    },
+    {
+      "id": "active_problems_by_team",
+      "txt": "Active Problems by Team"
+    },
+    {
+      "id": "halted_problems_by_manager",
+      "txt": "Halted Problems by Manager"
+    },
+    {
+      "id": "halted_problems_by_team",
+      "txt": "Halted Problems by Team"
+    },
+    {
+      "id": "solved_problems_by_manager",
+      "txt": "Solved Problems by Manager"
+    },
+    {
+      "id": "solved_problems_by_team",
+      "txt": "Solved Problems by Team"
+    },
+    {
+      "id": "workflows_by_template",
+      "txt": "Workflows by Template"
+    },
+    {
+      "id": "tasks_by_template",
+      "txt": "Tasks by Template"
+    },
+    {
+      "id": "configuration_items_by_user_organization",
+      "txt": "Configuration Items by User Organization"
+    },
+    {
+      "id": "reservations_by_ci",
+      "txt": "Reservations by Configuration Item"
+    },
+    {
+      "id": "reservations_by_service",
+      "txt": "Reservations by Service"
+    },
+    {
+      "id": "reservations_by_service_instance",
+      "txt": "Reservations by Service Instance"
+    },
+    {
+      "id": "reservations_by_person",
+      "txt": "Reservations by Person"
+    },
+    {
+      "id": "reservations_by_reservation_offering",
+      "txt": "Reservations by Reservation Offering"
+    },
+    {
+      "id": "registered_requests_line",
+      "txt": "Registered Requests"
+    },
+    {
+      "id": "completed_requests_line",
+      "txt": "Completed Requests"
+    },
+    {
+      "id": "registered_knowledge_articles_line",
+      "txt": "Registered Knowledge Articles"
+    },
+    {
+      "id": "registered_problems_line",
+      "txt": "Registered Problems"
+    },
+    {
+      "id": "solved_problems_line",
+      "txt": "Solved Problems"
+    },
+    {
+      "id": "registered_workflows_line",
+      "txt": "Registered Workflows"
+    },
+    {
+      "id": "completed_workflows_line",
+      "txt": "Completed Workflows"
+    },
+    {
+      "id": "registered_projects_line",
+      "txt": "Registered Projects"
+    },
+    {
+      "id": "completed_projects_line",
+      "txt": "Completed Projects"
+    },
+    {
+      "id": "registered_risks_line",
+      "txt": "Registered Risks"
+    },
+    {
+      "id": "closed_risks_line",
+      "txt": "Closed Risks"
+    },
+    {
+      "id": "problem_resolution_duration",
+      "txt": "Problem Resolution Duration"
+    },
+    {
+      "id": "workflow_completion_duration",
+      "txt": "Workflow Completion Duration"
+    },
+    {
+      "id": "project_completion_duration",
+      "txt": "Project Completion Duration"
+    },
+    {
+      "id": "risk_closure_duration",
+      "txt": "Risk Closure Duration"
+    },
+    {
+      "id": "average_request_completion_duration",
+      "txt": "Average Request Completion Duration"
+    },
+    {
+      "id": "average_problem_resolution_duration",
+      "txt": "Average Problem Resolution Duration"
+    },
+    {
+      "id": "average_workflow_completion_duration",
+      "txt": "Average Workflow Completion Duration"
+    },
+    {
+      "id": "average_project_completion_duration",
+      "txt": "Average Project Completion Duration"
+    },
+    {
+      "id": "average_risk_closure_duration",
+      "txt": "Average Risk Closure Duration"
+    },
+    {
+      "id": "service_desk_resolutions",
+      "txt": "Service Desk Resolutions"
+    },
+    {
+      "id": "service_desk_resolutions_by_member",
+      "txt": "Service Desk Resolutions by Member"
+    },
+    {
+      "id": "successful_workflows",
+      "txt": "Successful Workflows"
+    },
+    {
+      "id": "successful_projects",
+      "txt": "Successful Projects"
+    },
+    {
+      "id": "outage_duration_by_sla",
+      "txt": "Outage Duration by SLA"
+    },
+    {
+      "id": "current_sla_targets",
+      "txt": "Current SLA Targets"
+    },
+    {
+      "id": "upcoming_sla_targets",
+      "txt": "Upcoming SLA Targets"
+    },
+    {
+      "id": "affected_slas_no_longer_affected",
+      "txt": "Affected SLAs No Longer Affected"
+    },
+    {
+      "id": "sla_responses",
+      "txt": "SLA Responses"
+    },
+    {
+      "id": "responses_within_target_over_time",
+      "txt": "Responses within Target"
+    },
+    {
+      "id": "resolutions_within_target_over_time",
+      "txt": "Resolutions within Target"
+    },
+    {
+      "id": "responses_and_resolutions_within_target_over_time",
+      "txt": "Responses and Resolutions within Target"
+    },
+    {
+      "id": "problem_backlog",
+      "txt": "Problem Backlog"
+    },
+    {
+      "id": "problem_backlog_growth",
+      "txt": "Problem Backlog Growth"
+    },
+    {
+      "id": "active_problems_line",
+      "txt": "Active Problems"
+    },
+    {
+      "id": "known_errors",
+      "txt": "Known Errors"
+    },
+    {
+      "id": "reopened_problems",
+      "txt": "Reopened Problems"
+    },
+    {
+      "id": "risk_backlog",
+      "txt": "Risk Backlog"
+    },
+    {
+      "id": "risk_backlog_growth",
+      "txt": "Risk Backlog Growth"
+    },
+    {
+      "id": "reopened_risks",
+      "txt": "Reopened Risks"
+    },
+    {
+      "id": "project_backlog",
+      "txt": "Project Backlog"
+    },
+    {
+      "id": "project_backlog_growth",
+      "txt": "Project Backlog Growth"
+    },
+    {
+      "id": "reopened_projects",
+      "txt": "Reopened Projects"
+    },
+    {
+      "id": "workflow_backlog",
+      "txt": "Workflow Backlog"
+    },
+    {
+      "id": "workflow_backlog_growth",
+      "txt": "Workflow Backlog Growth"
+    },
+    {
+      "id": "reopened_workflows",
+      "txt": "Reopened Workflows"
+    },
+    {
+      "id": "knowledge_article_life_cycle",
+      "txt": "Knowledge Article Life Cycle"
+    },
+    {
+      "id": "request_backlog",
+      "txt": "Request Backlog"
+    },
+    {
+      "id": "request_backlog_growth",
+      "txt": "Request Backlog Growth"
+    },
+    {
+      "id": "reopened_requests",
+      "txt": "Reopened Requests"
+    },
+    {
+      "id": "requests_declined_by_us",
+      "txt": "Requests Declined by Us"
+    },
+    {
+      "id": "requests_declined_to_us",
+      "txt": "Requests Declined to Us"
+    },
+    {
+      "id": "time_spent_by_service",
+      "txt": "Time Spent by Service"
+    },
+    {
+      "id": "time_entries_by_service",
+      "txt": "Time Entries by Service"
+    },
+    {
+      "id": "open_tasks_by_target_indication",
+      "txt": "Open Tasks by Target Indication"
+    },
+    {
+      "id": "open_project_tasks_by_target_indication",
+      "txt": "Open Project Tasks by Target Indication"
+    },
+    {
+      "id": "open_workflows_by_target_indication",
+      "txt": "Open Workflows by Target Indication"
+    },
+    {
+      "id": "open_projects_by_target_indication",
+      "txt": "Open Projects by Target Indication"
+    },
+    {
+      "id": "open_releases_by_target_indication",
+      "txt": "Open Releases by Target Indication"
+    },
+    {
+      "id": "average_time_to_sla_response_by_requester_site",
+      "txt": "Average Time to SLA Response by Site"
+    },
+    {
+      "id": "average_time_to_sla_resolution_by_requester_site",
+      "txt": "Average Time to SLA Resolution by Site"
+    },
+    {
+      "id": "positive_feedback_on_knowledge_articles",
+      "txt": "Knowledge Articles with Positive Feedback"
+    },
+    {
+      "id": "negative_feedback_on_knowledge_articles",
+      "txt": "Knowledge Articles with Negative Feedback"
+    },
+    {
+      "id": "consumed_user_months",
+      "txt": "Active Users"
+    },
+    {
+      "id": "open_project_tasks_by_assignee",
+      "txt": "Open Project Tasks by Assignee"
+    },
+    {
+      "id": "finished_project_tasks_by_assignee",
+      "txt": "Finished Project Tasks by Assignee"
+    },
+    {
+      "id": "completed_requests_by_category_over_time",
+      "txt": "Completed Requests by Category"
+    },
+    {
+      "id": "completed_requests_by_impact_over_time",
+      "txt": "Completed Requests by Impact"
+    },
+    {
+      "id": "completed_workflows_by_category_over_time",
+      "txt": "Completed Workflows by Category"
+    },
+    {
+      "id": "completed_workflows_by_type_over_time",
+      "txt": "Completed Workflows by Type"
+    },
+    {
+      "id": "completed_workflows_by_impact_over_time",
+      "txt": "Completed Workflows by Impact"
+    },
+    {
+      "id": "completed_workflows_by_justification_over_time",
+      "txt": "Completed Workflows by Justification"
+    },
+    {
+      "id": "solved_problems_by_category_over_time",
+      "txt": "Solved Problems by Category"
+    },
+    {
+      "id": "solved_problems_by_impact_over_time",
+      "txt": "Solved Problems by Impact"
+    },
+    {
+      "id": "completed_projects_by_category_over_time",
+      "txt": "Completed Projects by Category"
+    },
+    {
+      "id": "completed_projects_by_justification_over_time",
+      "txt": "Completed Projects by Justification"
+    },
+    {
+      "id": "completed_projects_by_risk_level_over_time",
+      "txt": "Completed Projects by Risk Level"
+    },
+    {
+      "id": "closed_risks_by_severity_over_time",
+      "txt": "Closed Risks by Severity"
+    },
+    {
+      "id": "finished_tasks_by_category_over_time",
+      "txt": "Finished Tasks by Category"
+    },
+    {
+      "id": "cost_of_time_spent_by_service",
+      "txt": "Cost of Time Spent by Service"
+    },
+    {
+      "id": "configuration_items_by_product",
+      "txt": "Configuration Items by Product"
+    },
+    {
+      "id": "configuration_items_by_product_category",
+      "txt": "Configuration Items by Product Category"
+    },
+    {
+      "id": "configuration_items_by_product_brand",
+      "txt": "Configuration Items by Product Brand"
+    },
+    {
+      "id": "task_rejection_count",
+      "txt": "Task Rejection Count"
+    },
+    {
+      "id": "request_reopen_count",
+      "txt": "Request Reopen Count"
+    },
+    {
+      "id": "request_reassignment_count",
+      "txt": "Request Reassignment Count"
+    },
+    {
+      "id": "sla_availability",
+      "txt": "SLA Availability"
+    },
+    {
+      "id": "task_completion_duration",
+      "txt": "Task Completion Duration"
+    },
+    {
+      "id": "average_task_completion_duration",
+      "txt": "Average Task Completion Duration"
+    },
+    {
+      "id": "average_customer_rating",
+      "txt": "Average Customer Rating"
+    },
+    {
+      "id": "average_customer_rating_by_service",
+      "txt": "Average Customer Rating by Service"
+    },
+    {
+      "id": "registered_requests_by_hour",
+      "txt": "Registered Requests by Hour"
+    },
+    {
+      "id": "registered_requests_by_day_and_hour",
+      "txt": "Registered Requests by Day and Hour"
+    },
+    {
+      "id": "time_spent_by_customer",
+      "txt": "Time Spent by Customer"
+    },
+    {
+      "id": "cost_of_time_spent_by_customer",
+      "txt": "Cost of Time Spent by Customer"
+    },
+    {
+      "id": "time_spent_by_service_instance",
+      "txt": "Time Spent by Service Instance"
+    },
+    {
+      "id": "cost_of_time_spent_by_service_instance",
+      "txt": "Cost of Time Spent by Service Instance"
+    },
+    {
+      "id": "request_response_targets_met_and_breached",
+      "txt": "Request Response Targets Met and Breached"
+    },
+    {
+      "id": "request_resolution_targets_met_and_breached",
+      "txt": "Request Resolution Targets Met and Breached"
+    },
+    {
+      "id": "service_cost",
+      "txt": "Service Cost"
+    },
+    {
+      "id": "service_cost_by_service",
+      "txt": "Service Cost by Service"
+    },
+    {
+      "id": "services",
+      "txt": "Services"
+    },
+    {
+      "id": "service_instances",
+      "txt": "Service instances"
+    },
+    {
+      "id": "coverage_of_2fa",
+      "txt": "Coverage of 2FA"
+    },
+    {
+      "id": "logins_aging",
+      "txt": "Logins aging"
+    },
+    {
+      "id": "passwords_aging",
+      "txt": "Passwords aging"
+    },
+    {
+      "id": "completed_requests_by_hour",
+      "txt": "Completed Requests by Hour"
+    },
+    {
+      "id": "completed_requests_by_day_and_hour",
+      "txt": "Completed Requests by Day and Hour"
+    },
+    {
+      "id": "open_requests_by_actual_vs_planned",
+      "txt": "Actual Versus Planned Effort for Open Requests"
+    },
+    {
+      "id": "completed_requests_by_actual_vs_planned",
+      "txt": "Actual Versus Planned Effort for Completed Requests"
+    },
+    {
+      "id": "people",
+      "txt": "People"
+    },
+    {
+      "id": "people_by_site",
+      "txt": "People by Site"
+    },
+    {
+      "id": "people_by_location",
+      "txt": "People by Location"
+    },
+    {
+      "id": "people_by_organization",
+      "txt": "People by Organization"
+    },
+    {
+      "id": "people_by_team",
+      "txt": "People by Team"
+    },
+    {
+      "id": "people_by_skill_pool",
+      "txt": "People by Skill Pool"
+    },
+    {
+      "id": "organizations",
+      "txt": "All Organizations"
+    },
+    {
+      "id": "organizations_by_type",
+      "txt": "Organizations by Type"
+    },
+    {
+      "id": "organizations_by_business_unit",
+      "txt": "Organizations by Business Unit"
+    },
+    {
+      "id": "organizations_by_region",
+      "txt": "Organizations by Region"
+    },
+    {
+      "id": "number_of_request_customer_response_target_breaches_by_creation_date",
+      "txt": "Number of Request Customer Response Target Breaches By Creation Date"
+    },
+    {
+      "id": "number_of_request_customer_resolution_target_breaches_by_creation_date",
+      "txt": "Number of Request Customer Resolution Target Breaches By Creation Date"
+    },
+    {
+      "id": "percentage_of_request_customer_response_target_breaches_by_creation_date",
+      "txt": "Percentage of Request Customer Response Target Breaches By Creation Date"
+    },
+    {
+      "id": "percentage_of_request_customer_resolution_target_breaches_by_creation_date",
+      "txt": "Percentage of Request Customer Resolution Target Breaches By Creation Date"
+    },
+    {
+      "id": "request_customer_response_targets_met_and_breached",
+      "txt": "Request Customer Response Targets Met and Breached"
+    },
+    {
+      "id": "request_customer_resolution_targets_met_and_breached",
+      "txt": "Request Customer Resolution Targets Met and Breached"
+    },
+    {
+      "id": "registered_requests_by_site",
+      "txt": "Registered Requests by Site"
+    },
+    {
+      "id": "knowledge_articles_by_template",
+      "txt": "Knowledge Articles by Template"
+    },
+    {
+      "id": "open_workflows_by_phase",
+      "txt": "Open Workflows by Phase"
+    },
+    {
+      "id": "open_projects_by_phase",
+      "txt": "Open Projects by Phase"
+    },
+    {
+      "id": "recent_activity",
+      "txt": "Recent Activity"
+    },
+    {
+      "id": "procurement_customers",
+      "txt": "Xurrent Customers"
+    },
+    {
+      "id": "procurement_customers_by_country",
+      "txt": "Xurrent Customers by Country"
+    },
+    {
+      "id": "procurement_customers_by_live_date",
+      "txt": "Xurrent Customers by Live Date"
+    },
+    {
+      "id": "procurement_customers_by_cs_owner",
+      "txt": "Xurrent Customers by Customer Success Owner"
+    },
+    {
+      "id": "procurement_customers_aging_since_last_updated",
+      "txt": "Xurrent Customers Aging since Last Updated"
+    },
+    {
+      "id": "procurement_customers_by_industry",
+      "txt": "Xurrent Customers by Industry"
+    },
+    {
+      "id": "procurement_customers_by_purchase_department",
+      "txt": "Xurrent Customers by Purchase Department"
+    },
+    {
+      "id": "procurement_customers_by_domain",
+      "txt": "Xurrent Customers by Domain"
+    },
+    {
+      "id": "procurement_customers_by_integration",
+      "txt": "Xurrent Customers by Integration"
+    },
+    {
+      "id": "procurement_customers_by_capability",
+      "txt": "Xurrent Customers by Capability"
+    },
+    {
+      "id": "feedback_requests_by_knowledge_article",
+      "txt": "Feedback Requests by Knowledge Article"
+    },
+    {
+      "id": "my_inbox",
+      "txt": "My Inbox"
+    },
+    {
+      "id": "my_inbox_by_target_indication",
+      "txt": "My Inbox by Target Indication"
+    },
+    {
+      "id": "my_teams_inbox",
+      "txt": "My Team's Inbox"
+    },
+    {
+      "id": "my_teams_inbox_by_target_indication",
+      "txt": "My Team's Inbox by Target Indication"
+    },
+    {
+      "id": "my_teams_inbox_by_member",
+      "txt": "My Team's Inbox by Member"
+    }
+  ],
+  "request.category": [
+    {
+      "id": "incident",
+      "txt": "Incident - Request for Incident Resolution"
+    },
+    {
+      "id": "rfc",
+      "txt": "RFC - Request for Change"
+    },
+    {
+      "id": "rfi",
+      "txt": "RFI - Request for Information"
+    },
+    {
+      "id": "reservation",
+      "txt": "Reservation - Request for Reservation"
+    },
+    {
+      "id": "order",
+      "txt": "Order - Request for Purchase"
+    },
+    {
+      "id": "fulfillment",
+      "txt": "Fulfillment - Request for Order Fulfillment"
+    },
+    {
+      "id": "complaint",
+      "txt": "Complaint - Request for Support Improvement"
+    },
+    {
+      "id": "compliment",
+      "txt": "Compliment - Request for Bestowal of Praise"
+    },
+    {
+      "id": "other",
+      "txt": "Other - Request is Out of Scope"
+    },
+    {
+      "id": "case",
+      "txt": "Case"
+    }
+  ],
+  "request.completion_reason": [
+    {
+      "id": "solved",
+      "txt": "Solved - Review Not Required"
+    },
+    {
+      "id": "workaround",
+      "txt": "Workaround - Review Required"
+    },
+    {
+      "id": "gone",
+      "txt": "Gone - Issue Can No Longer Be Found"
+    },
+    {
+      "id": "duplicate",
+      "txt": "Duplicate - Same as Another Request of Customer"
+    },
+    {
+      "id": "withdrawn",
+      "txt": "Withdrawn - Withdrawn by Requester"
+    },
+    {
+      "id": "no_reply",
+      "txt": "No Reply - No Reply Received from Customer"
+    },
+    {
+      "id": "rejected",
+      "txt": "Rejected - Rejected by Approver"
+    },
+    {
+      "id": "conflict",
+      "txt": "Conflict - In Conflict with Internal Standard or Policy"
+    },
+    {
+      "id": "declined",
+      "txt": "Declined - Declined by Service Provider"
+    },
+    {
+      "id": "unsolvable",
+      "txt": "Unsolvable - Unable to Solve"
+    }
+  ],
+  "request.grouping": [
+    {
+      "id": "none",
+      "txt": "None"
+    },
+    {
+      "id": "group",
+      "txt": "Group"
+    },
+    {
+      "id": "grouped",
+      "txt": "Grouped"
+    }
+  ],
+  "request.impact": [
+    {
+      "id": "low",
+      "txt": "Low - Service Degraded for One User"
+    },
+    {
+      "id": "medium",
+      "txt": "Medium - Service Down for One User"
+    },
+    {
+      "id": "high",
+      "txt": "High - Service Degraded for Several Users"
+    },
+    {
+      "id": "top",
+      "txt": "Top - Service Down for Several Users"
+    }
+  ],
+  "request.major_incident_status": [
+    {
+      "id": "proposed",
+      "txt": "Proposed"
+    },
+    {
+      "id": "rejected",
+      "txt": "Rejected"
+    },
+    {
+      "id": "accepted",
+      "txt": "Accepted"
+    },
+    {
+      "id": "resolved",
+      "txt": "Resolved"
+    },
+    {
+      "id": "canceled",
+      "txt": "Canceled"
+    }
+  ],
+  "request.sentiment": [
+    {
+      "id": "positive",
+      "txt": "Positive"
+    },
+    {
+      "id": "negative",
+      "txt": "Negative"
+    },
+    {
+      "id": "neutral",
+      "txt": "Neutral"
+    }
+  ],
+  "request.sentiment_trend": [
+    {
+      "id": "up",
+      "txt": "Up"
+    },
+    {
+      "id": "down",
+      "txt": "Down"
+    },
+    {
+      "id": "flat",
+      "txt": "Flat"
+    }
+  ],
+  "request.status": [
+    {
+      "id": "declined",
+      "txt": "Declined"
+    },
+    {
+      "id": "on_backlog",
+      "txt": "On Backlog"
+    },
+    {
+      "id": "assigned",
+      "txt": "Assigned"
+    },
+    {
+      "id": "accepted",
+      "txt": "Accepted"
+    },
+    {
+      "id": "in_progress",
+      "txt": "In Progress"
+    },
+    {
+      "id": "waiting_for",
+      "txt": "Waiting for..."
+    },
+    {
+      "id": "waiting_for_customer",
+      "txt": "Waiting for Customer"
+    },
+    {
+      "id": "reservation_pending",
+      "txt": "Reservation Pending"
+    },
+    {
+      "id": "workflow_pending",
+      "txt": "Workflow Pending"
+    },
+    {
+      "id": "project_pending",
+      "txt": "Project Pending"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    }
+  ],
+  "request_account.completion_status": [
+    {
+      "id": "open",
+      "txt": "Open"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    }
+  ],
+  "request_classification.status": [
+    {
+      "id": "suggested",
+      "txt": "Suggested"
+    },
+    {
+      "id": "suggestion_accepted",
+      "txt": "Suggestion Accepted"
+    },
+    {
+      "id": "auto_classified",
+      "txt": "Auto Classified"
+    },
+    {
+      "id": "suggestion_rejected",
+      "txt": "Suggestion Rejected"
+    }
+  ],
+  "request_classification.verdict": [
+    {
+      "id": "accepted",
+      "txt": "Accepted"
+    },
+    {
+      "id": "rejected",
+      "txt": "Rejected"
+    },
+    {
+      "id": "pending",
+      "txt": "Pending"
+    }
+  ],
+  "request_event.category": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    },
+    {
+      "id": "reopened",
+      "txt": "Reopened"
+    },
+    {
+      "id": "declined_by_us",
+      "txt": "Declined By Us"
+    },
+    {
+      "id": "declined_to_us",
+      "txt": "Declined To Us"
+    },
+    {
+      "id": "knowledge_article_linked",
+      "txt": "Knowledge Article Linked"
+    },
+    {
+      "id": "knowledge_article_unlinked",
+      "txt": "Knowledge Article Unlinked"
+    }
+  ],
+  "reservation.status": [
+    {
+      "id": "prototype",
+      "txt": "Prototype"
+    },
+    {
+      "id": "provisional",
+      "txt": "Provisional"
+    },
+    {
+      "id": "pending",
+      "txt": "Pending"
+    },
+    {
+      "id": "conflicting",
+      "txt": "Conflicting"
+    },
+    {
+      "id": "confirmed",
+      "txt": "Confirmed"
+    },
+    {
+      "id": "being_prepared",
+      "txt": "Being Prepared"
+    },
+    {
+      "id": "active",
+      "txt": "Active"
+    },
+    {
+      "id": "canceled",
+      "txt": "Canceled"
+    },
+    {
+      "id": "ended",
+      "txt": "Ended"
+    }
+  ],
+  "risk.closure_reason": [
+    {
+      "id": "eliminated",
+      "txt": "Eliminated - Risk Completely Eliminated"
+    },
+    {
+      "id": "accepted",
+      "txt": "Accepted - Risk Level Accepted"
+    },
+    {
+      "id": "mitigated",
+      "txt": "Mitigated - Risk Reduced to Acceptable Level"
+    },
+    {
+      "id": "transferred",
+      "txt": "Transferred - Risk Transferred to Another Organization"
+    },
+    {
+      "id": "no_risk",
+      "txt": "No Risk - Assessment Found No Risk"
+    }
+  ],
+  "risk.status": [
+    {
+      "id": "anticipated",
+      "txt": "Anticipated"
+    },
+    {
+      "id": "materialized",
+      "txt": "Materialized"
+    },
+    {
+      "id": "closed",
+      "txt": "Closed"
+    }
+  ],
+  "risk_event.category": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "closed",
+      "txt": "Closed"
+    },
+    {
+      "id": "reopened",
+      "txt": "Reopened"
+    }
+  ],
+  "scim_group.classification": [
+    {
+      "id": "unclassified",
+      "txt": "Unclassified"
+    },
+    {
+      "id": "organization",
+      "txt": "Organization"
+    },
+    {
+      "id": "site",
+      "txt": "Site"
+    }
+  ],
+  "scope.effect": [
+    {
+      "id": "allow",
+      "txt": "Allow"
+    },
+    {
+      "id": "deny",
+      "txt": "Deny"
+    }
+  ],
+  "search.sort": [
+    {
+      "id": "relevance",
+      "txt": "Relevance"
+    },
+    {
+      "id": "updated_at",
+      "txt": "Last Updated"
+    },
+    {
+      "id": "created_at",
+      "txt": "Created"
+    }
+  ],
+  "search_phrase.search_type": [
+    {
+      "id": "self_service",
+      "txt": "Self Service"
+    },
+    {
+      "id": "service_desk",
+      "txt": "Service Desk"
+    },
+    {
+      "id": "global",
+      "txt": "Global"
+    }
+  ],
+  "self_service_design_version.status": [
+    {
+      "id": "being_prepared",
+      "txt": "Being Prepared"
+    },
+    {
+      "id": "active",
+      "txt": "Active"
+    },
+    {
+      "id": "archived",
+      "txt": "Archived"
+    }
+  ],
+  "service_instance.status": [
+    {
+      "id": "being_prepared",
+      "txt": "Being Prepared"
+    },
+    {
+      "id": "in_production",
+      "txt": "In Production"
+    },
+    {
+      "id": "discontinued",
+      "txt": "Discontinued"
+    }
+  ],
+  "service_offering.charge_type": [
+    {
+      "id": "fixed_price",
+      "txt": "Fixed Price"
+    },
+    {
+      "id": "time_material",
+      "txt": "Time & Material"
+    }
+  ],
+  "service_offering.report_frequency": [
+    {
+      "id": "daily",
+      "txt": "Daily"
+    },
+    {
+      "id": "weekly",
+      "txt": "Weekly"
+    },
+    {
+      "id": "once_every_2_weeks",
+      "txt": "Once Every 2 Weeks"
+    },
+    {
+      "id": "monthly",
+      "txt": "Monthly"
+    },
+    {
+      "id": "once_every_2_months",
+      "txt": "Once Every 2 Months"
+    },
+    {
+      "id": "quarterly",
+      "txt": "Quarterly"
+    },
+    {
+      "id": "once_every_6_months",
+      "txt": "Once Every 6 Months"
+    },
+    {
+      "id": "yearly",
+      "txt": "Yearly"
+    },
+    {
+      "id": "once_every_2_years",
+      "txt": "Once Every 2 Years"
+    },
+    {
+      "id": "no_commitment",
+      "txt": "No Commitment"
+    }
+  ],
+  "service_offering.review_frequency": [
+    {
+      "id": "daily",
+      "txt": "Daily"
+    },
+    {
+      "id": "weekly",
+      "txt": "Weekly"
+    },
+    {
+      "id": "once_every_2_weeks",
+      "txt": "Once Every 2 Weeks"
+    },
+    {
+      "id": "monthly",
+      "txt": "Monthly"
+    },
+    {
+      "id": "once_every_2_months",
+      "txt": "Once Every 2 Months"
+    },
+    {
+      "id": "quarterly",
+      "txt": "Quarterly"
+    },
+    {
+      "id": "once_every_6_months",
+      "txt": "Once Every 6 Months"
+    },
+    {
+      "id": "yearly",
+      "txt": "Yearly"
+    },
+    {
+      "id": "once_every_2_years",
+      "txt": "Once Every 2 Years"
+    },
+    {
+      "id": "no_commitment",
+      "txt": "No Commitment"
+    }
+  ],
+  "service_offering.status": [
+    {
+      "id": "planned",
+      "txt": "Planned"
+    },
+    {
+      "id": "unpublished",
+      "txt": "Unpublished"
+    },
+    {
+      "id": "available",
+      "txt": "Available"
+    },
+    {
+      "id": "temporarily_unavailable",
+      "txt": "Temporarily Unavailable"
+    },
+    {
+      "id": "discontinued",
+      "txt": "Discontinued"
+    }
+  ],
+  "shop_article.recurring_period": [
+    {
+      "id": "monthly",
+      "txt": "Monthly"
+    },
+    {
+      "id": "yearly",
+      "txt": "Yearly"
+    }
+  ],
+  "shop_order_line.status": [
+    {
+      "id": "in_cart",
+      "txt": "In Cart"
+    },
+    {
+      "id": "workflow_pending",
+      "txt": "Workflow Pending"
+    },
+    {
+      "id": "fulfillment_pending",
+      "txt": "Fulfillment Pending"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    },
+    {
+      "id": "canceled",
+      "txt": "Canceled"
+    }
+  ],
+  "short_url.data_type": [
+    {
+      "id": "ci",
+      "txt": "Configuration Item in Self Service"
+    },
+    {
+      "id": "service_survey",
+      "txt": "Service Survey in Self Service"
+    },
+    {
+      "id": "request_template",
+      "txt": "Request Template in Self Service"
+    },
+    {
+      "id": "knowledge_article",
+      "txt": "Knowledge Article in Self Service"
+    },
+    {
+      "id": "media_file",
+      "txt": "Media File in Media Library"
+    },
+    {
+      "id": "dashboard",
+      "txt": "Dashboard"
+    },
+    {
+      "id": "change_calendar_personal_view",
+      "txt": "Change Calendar"
+    },
+    {
+      "id": "url",
+      "txt": "Website Address"
+    },
+    {
+      "id": "mailto",
+      "txt": "Email"
+    },
+    {
+      "id": "tel",
+      "txt": "Telephone Number"
+    },
+    {
+      "id": "sms",
+      "txt": "SMS Message"
+    },
+    {
+      "id": "skype",
+      "txt": "Skype"
+    },
+    {
+      "id": "twitter",
+      "txt": "Twitter"
+    },
+    {
+      "id": "tweet",
+      "txt": "Tweet"
+    },
+    {
+      "id": "map",
+      "txt": "Map"
+    },
+    {
+      "id": "text",
+      "txt": "Plain Text"
+    },
+    {
+      "id": "uri",
+      "txt": "URI"
+    }
+  ],
+  "sla.coverage": [
+    {
+      "id": "customer_account",
+      "txt": "All People of Customer Account"
+    },
+    {
+      "id": "organizations_and_descendants",
+      "txt": "People of the Following Organization(s) and Their Descendants"
+    },
+    {
+      "id": "organizations",
+      "txt": "People of the Following Organization(s)"
+    },
+    {
+      "id": "sites",
+      "txt": "People of the Following Site(s)"
+    },
+    {
+      "id": "organizations_and_sites",
+      "txt": "People of an Organization and Site from the Following"
+    },
+    {
+      "id": "people",
+      "txt": "People Selected Below"
+    },
+    {
+      "id": "cis_of_service_instance",
+      "txt": "People Using CIs of the Service Instance"
+    },
+    {
+      "id": "coverage_groups",
+      "txt": "People of the Following Coverage Group(s)"
+    },
+    {
+      "id": "skill_pools",
+      "txt": "Members of the Following Skill Pool(s)"
+    },
+    {
+      "id": "service_instances",
+      "txt": "Members of Support Teams of the Following Service Instances"
+    }
+  ],
+  "sprint.status": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "active",
+      "txt": "Active"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    }
+  ],
+  "sprint_event.category": [
+    {
+      "id": "added",
+      "txt": "Added"
+    },
+    {
+      "id": "estimate_update",
+      "txt": "Estimate Update"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    },
+    {
+      "id": "removed",
+      "txt": "Removed"
+    },
+    {
+      "id": "sprint_end",
+      "txt": "Sprint End"
+    }
+  ],
+  "survey_question.type": [
+    {
+      "id": "star_rating",
+      "txt": "Star rating"
+    },
+    {
+      "id": "text",
+      "txt": "Free text"
+    }
+  ],
+  "sync_link.source": [
+    {
+      "id": "production_eu",
+      "txt": "Production - Europe"
+    },
+    {
+      "id": "production_au",
+      "txt": "Production - Australia"
+    },
+    {
+      "id": "production_uk",
+      "txt": "Production - United Kingdom"
+    },
+    {
+      "id": "production_us",
+      "txt": "Production - United States"
+    },
+    {
+      "id": "production_ch",
+      "txt": "Production - Switzerland"
+    },
+    {
+      "id": "qa_eu",
+      "txt": "QA - Europe"
+    },
+    {
+      "id": "qa_au",
+      "txt": "QA - Australia"
+    },
+    {
+      "id": "qa_uk",
+      "txt": "QA - United Kingdom"
+    },
+    {
+      "id": "qa_us",
+      "txt": "QA - United States"
+    },
+    {
+      "id": "qa_ch",
+      "txt": "QA - Switzerland"
+    },
+    {
+      "id": "demo",
+      "txt": "Demo"
+    }
+  ],
+  "sync_set_import.status": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "being_created",
+      "txt": "Being Created"
+    },
+    {
+      "id": "being_prepared",
+      "txt": "Being Prepared"
+    },
+    {
+      "id": "prepared",
+      "txt": "Prepared"
+    },
+    {
+      "id": "in_progress",
+      "txt": "In Progress"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    },
+    {
+      "id": "failed",
+      "txt": "Failed"
+    },
+    {
+      "id": "canceled",
+      "txt": "Canceled"
+    }
+  ],
+  "sync_set_resolved_item.status": [
+    {
+      "id": "reference",
+      "txt": "Reference"
+    },
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "being_exported",
+      "txt": "Being Exported"
+    },
+    {
+      "id": "exported",
+      "txt": "Exported"
+    }
+  ],
+  "system_log.level": [
+    {
+      "id": "unknown",
+      "txt": "Unknown"
+    },
+    {
+      "id": "fatal",
+      "txt": "Fatal"
+    },
+    {
+      "id": "error",
+      "txt": "Error"
+    },
+    {
+      "id": "warning",
+      "txt": "Warning"
+    },
+    {
+      "id": "information",
+      "txt": "Information"
+    },
+    {
+      "id": "debug",
+      "txt": "Debug"
+    }
+  ],
+  "system_log.log_type": [
+    {
+      "id": "authentication",
+      "txt": "Authentication"
+    },
+    {
+      "id": "import",
+      "txt": "Import"
+    },
+    {
+      "id": "export",
+      "txt": "Export"
+    },
+    {
+      "id": "job",
+      "txt": "Job"
+    },
+    {
+      "id": "account_trust",
+      "txt": "Account Trust"
+    }
+  ],
+  "task.category": [
+    {
+      "id": "risk_and_impact",
+      "txt": "Risk & Impact"
+    },
+    {
+      "id": "approval",
+      "txt": "Approval"
+    },
+    {
+      "id": "implementation",
+      "txt": "Implementation"
+    },
+    {
+      "id": "fulfillment_placeholder",
+      "txt": "Fulfillment Placeholder"
+    },
+    {
+      "id": "automation",
+      "txt": "Automation"
+    }
+  ],
+  "task.impact": [
+    {
+      "id": "none",
+      "txt": "None - Service Not Degraded"
+    },
+    {
+      "id": "low",
+      "txt": "Low - Service Degraded for One User"
+    },
+    {
+      "id": "medium",
+      "txt": "Medium - Service Down for One User"
+    },
+    {
+      "id": "high",
+      "txt": "High - Service Degraded for Several Users"
+    },
+    {
+      "id": "top",
+      "txt": "Top - Service Down for Several Users"
+    }
+  ],
+  "task.note_behavior": [
+    {
+      "id": "hidden",
+      "txt": "Hidden"
+    },
+    {
+      "id": "optional_on_completion",
+      "txt": "Optional on Completion"
+    },
+    {
+      "id": "optional_on_approval",
+      "txt": "Optional on Approval"
+    },
+    {
+      "id": "required_on_completion",
+      "txt": "Required on Completion"
+    },
+    {
+      "id": "required_on_approval",
+      "txt": "Required on Approval"
+    }
+  ],
+  "task.status": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "declined",
+      "txt": "Declined"
+    },
+    {
+      "id": "assigned",
+      "txt": "Assigned"
+    },
+    {
+      "id": "accepted",
+      "txt": "Accepted"
+    },
+    {
+      "id": "in_progress",
+      "txt": "In Progress"
+    },
+    {
+      "id": "waiting_for",
+      "txt": "Waiting for..."
+    },
+    {
+      "id": "waiting_for_customer",
+      "txt": "Waiting for Customer"
+    },
+    {
+      "id": "request_pending",
+      "txt": "Request Pending"
+    },
+    {
+      "id": "failed",
+      "txt": "Failed"
+    },
+    {
+      "id": "rejected",
+      "txt": "Rejected"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    },
+    {
+      "id": "approved",
+      "txt": "Approved"
+    },
+    {
+      "id": "canceled",
+      "txt": "Canceled"
+    }
+  ],
+  "time_allocation.customer_category": [
+    {
+      "id": "none",
+      "txt": "None"
+    },
+    {
+      "id": "selected",
+      "txt": "One of the Following"
+    },
+    {
+      "id": "any",
+      "txt": "Any"
+    }
+  ],
+  "time_allocation.description_category": [
+    {
+      "id": "hidden",
+      "txt": "Hidden"
+    },
+    {
+      "id": "optional",
+      "txt": "Optional"
+    },
+    {
+      "id": "required",
+      "txt": "Required"
+    }
+  ],
+  "time_allocation.service_category": [
+    {
+      "id": "none",
+      "txt": "None"
+    },
+    {
+      "id": "selected",
+      "txt": "One of the Following"
+    },
+    {
+      "id": "any",
+      "txt": "Any"
+    }
+  ],
+  "time_entry.activity": [
+    {
+      "id": "fcr",
+      "txt": "Registration of new requests completed on first call"
+    },
+    {
+      "id": "registered",
+      "txt": "Registration of new requests not completed on first call"
+    },
+    {
+      "id": "updated",
+      "txt": "Updates of existing requests"
+    },
+    {
+      "id": "completed",
+      "txt": "Completion of existing requests"
+    }
+  ],
+  "time_zone": [
+    {
+      "id": "International Date Line West",
+      "txt": "(GMT-12:00) International Date Line West"
+    },
+    {
+      "id": "American Samoa",
+      "txt": "(GMT-11:00) American Samoa"
+    },
+    {
+      "id": "Midway Island",
+      "txt": "(GMT-11:00) Midway Island"
+    },
+    {
+      "id": "Hawaii",
+      "txt": "(GMT-10:00) Hawaii"
+    },
+    {
+      "id": "Alaska",
+      "txt": "(GMT-09:00) Alaska"
+    },
+    {
+      "id": "Pacific Time (US & Canada)",
+      "txt": "(GMT-08:00) Pacific Time (US & Canada)"
+    },
+    {
+      "id": "Tijuana",
+      "txt": "(GMT-08:00) Tijuana"
+    },
+    {
+      "id": "Arizona",
+      "txt": "(GMT-07:00) Arizona"
+    },
+    {
+      "id": "Mazatlan",
+      "txt": "(GMT-07:00) Mazatlan"
+    },
+    {
+      "id": "Mountain Time (US & Canada)",
+      "txt": "(GMT-07:00) Mountain Time (US & Canada)"
+    },
+    {
+      "id": "Central America",
+      "txt": "(GMT-06:00) Central America"
+    },
+    {
+      "id": "Central Time (US & Canada)",
+      "txt": "(GMT-06:00) Central Time (US & Canada)"
+    },
+    {
+      "id": "Chihuahua",
+      "txt": "(GMT-06:00) Chihuahua"
+    },
+    {
+      "id": "Guadalajara",
+      "txt": "(GMT-06:00) Guadalajara"
+    },
+    {
+      "id": "Mexico City",
+      "txt": "(GMT-06:00) Mexico City"
+    },
+    {
+      "id": "Monterrey",
+      "txt": "(GMT-06:00) Monterrey"
+    },
+    {
+      "id": "Saskatchewan",
+      "txt": "(GMT-06:00) Saskatchewan"
+    },
+    {
+      "id": "Bogota",
+      "txt": "(GMT-05:00) Bogota"
+    },
+    {
+      "id": "Eastern Time (US & Canada)",
+      "txt": "(GMT-05:00) Eastern Time (US & Canada)"
+    },
+    {
+      "id": "Indiana (East)",
+      "txt": "(GMT-05:00) Indiana (East)"
+    },
+    {
+      "id": "Lima",
+      "txt": "(GMT-05:00) Lima"
+    },
+    {
+      "id": "Quito",
+      "txt": "(GMT-05:00) Quito"
+    },
+    {
+      "id": "Atlantic Time (Canada)",
+      "txt": "(GMT-04:00) Atlantic Time (Canada)"
+    },
+    {
+      "id": "Caracas",
+      "txt": "(GMT-04:00) Caracas"
+    },
+    {
+      "id": "Georgetown",
+      "txt": "(GMT-04:00) Georgetown"
+    },
+    {
+      "id": "La Paz",
+      "txt": "(GMT-04:00) La Paz"
+    },
+    {
+      "id": "Puerto Rico",
+      "txt": "(GMT-04:00) Puerto Rico"
+    },
+    {
+      "id": "Santiago",
+      "txt": "(GMT-04:00) Santiago"
+    },
+    {
+      "id": "Newfoundland",
+      "txt": "(GMT-03:30) Newfoundland"
+    },
+    {
+      "id": "Brasilia",
+      "txt": "(GMT-03:00) Brasilia"
+    },
+    {
+      "id": "Buenos Aires",
+      "txt": "(GMT-03:00) Buenos Aires"
+    },
+    {
+      "id": "Montevideo",
+      "txt": "(GMT-03:00) Montevideo"
+    },
+    {
+      "id": "Greenland",
+      "txt": "(GMT-02:00) Greenland"
+    },
+    {
+      "id": "Mid-Atlantic",
+      "txt": "(GMT-02:00) Mid-Atlantic"
+    },
+    {
+      "id": "Azores",
+      "txt": "(GMT-01:00) Azores"
+    },
+    {
+      "id": "Cape Verde Is.",
+      "txt": "(GMT-01:00) Cape Verde Is."
+    },
+    {
+      "id": "Edinburgh",
+      "txt": "(GMT+00:00) Edinburgh"
+    },
+    {
+      "id": "Lisbon",
+      "txt": "(GMT+00:00) Lisbon"
+    },
+    {
+      "id": "London",
+      "txt": "(GMT+00:00) London"
+    },
+    {
+      "id": "Monrovia",
+      "txt": "(GMT+00:00) Monrovia"
+    },
+    {
+      "id": "UTC",
+      "txt": "(GMT+00:00) UTC"
+    },
+    {
+      "id": "Amsterdam",
+      "txt": "(GMT+01:00) Amsterdam"
+    },
+    {
+      "id": "Belgrade",
+      "txt": "(GMT+01:00) Belgrade"
+    },
+    {
+      "id": "Berlin",
+      "txt": "(GMT+01:00) Berlin"
+    },
+    {
+      "id": "Bern",
+      "txt": "(GMT+01:00) Bern"
+    },
+    {
+      "id": "Bratislava",
+      "txt": "(GMT+01:00) Bratislava"
+    },
+    {
+      "id": "Brussels",
+      "txt": "(GMT+01:00) Brussels"
+    },
+    {
+      "id": "Budapest",
+      "txt": "(GMT+01:00) Budapest"
+    },
+    {
+      "id": "Casablanca",
+      "txt": "(GMT+01:00) Casablanca"
+    },
+    {
+      "id": "Copenhagen",
+      "txt": "(GMT+01:00) Copenhagen"
+    },
+    {
+      "id": "Dublin",
+      "txt": "(GMT+01:00) Dublin"
+    },
+    {
+      "id": "Ljubljana",
+      "txt": "(GMT+01:00) Ljubljana"
+    },
+    {
+      "id": "Madrid",
+      "txt": "(GMT+01:00) Madrid"
+    },
+    {
+      "id": "Paris",
+      "txt": "(GMT+01:00) Paris"
+    },
+    {
+      "id": "Prague",
+      "txt": "(GMT+01:00) Prague"
+    },
+    {
+      "id": "Rome",
+      "txt": "(GMT+01:00) Rome"
+    },
+    {
+      "id": "Sarajevo",
+      "txt": "(GMT+01:00) Sarajevo"
+    },
+    {
+      "id": "Skopje",
+      "txt": "(GMT+01:00) Skopje"
+    },
+    {
+      "id": "Stockholm",
+      "txt": "(GMT+01:00) Stockholm"
+    },
+    {
+      "id": "Vienna",
+      "txt": "(GMT+01:00) Vienna"
+    },
+    {
+      "id": "Warsaw",
+      "txt": "(GMT+01:00) Warsaw"
+    },
+    {
+      "id": "West Central Africa",
+      "txt": "(GMT+01:00) West Central Africa"
+    },
+    {
+      "id": "Zagreb",
+      "txt": "(GMT+01:00) Zagreb"
+    },
+    {
+      "id": "Zurich",
+      "txt": "(GMT+01:00) Zurich"
+    },
+    {
+      "id": "Athens",
+      "txt": "(GMT+02:00) Athens"
+    },
+    {
+      "id": "Bucharest",
+      "txt": "(GMT+02:00) Bucharest"
+    },
+    {
+      "id": "Cairo",
+      "txt": "(GMT+02:00) Cairo"
+    },
+    {
+      "id": "Harare",
+      "txt": "(GMT+02:00) Harare"
+    },
+    {
+      "id": "Helsinki",
+      "txt": "(GMT+02:00) Helsinki"
+    },
+    {
+      "id": "Jerusalem",
+      "txt": "(GMT+02:00) Jerusalem"
+    },
+    {
+      "id": "Kaliningrad",
+      "txt": "(GMT+02:00) Kaliningrad"
+    },
+    {
+      "id": "Kyiv",
+      "txt": "(GMT+02:00) Kyiv"
+    },
+    {
+      "id": "Pretoria",
+      "txt": "(GMT+02:00) Pretoria"
+    },
+    {
+      "id": "Riga",
+      "txt": "(GMT+02:00) Riga"
+    },
+    {
+      "id": "Sofia",
+      "txt": "(GMT+02:00) Sofia"
+    },
+    {
+      "id": "Tallinn",
+      "txt": "(GMT+02:00) Tallinn"
+    },
+    {
+      "id": "Vilnius",
+      "txt": "(GMT+02:00) Vilnius"
+    },
+    {
+      "id": "Baghdad",
+      "txt": "(GMT+03:00) Baghdad"
+    },
+    {
+      "id": "Istanbul",
+      "txt": "(GMT+03:00) Istanbul"
+    },
+    {
+      "id": "Kuwait",
+      "txt": "(GMT+03:00) Kuwait"
+    },
+    {
+      "id": "Minsk",
+      "txt": "(GMT+03:00) Minsk"
+    },
+    {
+      "id": "Moscow",
+      "txt": "(GMT+03:00) Moscow"
+    },
+    {
+      "id": "Nairobi",
+      "txt": "(GMT+03:00) Nairobi"
+    },
+    {
+      "id": "Riyadh",
+      "txt": "(GMT+03:00) Riyadh"
+    },
+    {
+      "id": "St. Petersburg",
+      "txt": "(GMT+03:00) St. Petersburg"
+    },
+    {
+      "id": "Volgograd",
+      "txt": "(GMT+03:00) Volgograd"
+    },
+    {
+      "id": "Tehran",
+      "txt": "(GMT+03:30) Tehran"
+    },
+    {
+      "id": "Abu Dhabi",
+      "txt": "(GMT+04:00) Abu Dhabi"
+    },
+    {
+      "id": "Baku",
+      "txt": "(GMT+04:00) Baku"
+    },
+    {
+      "id": "Muscat",
+      "txt": "(GMT+04:00) Muscat"
+    },
+    {
+      "id": "Samara",
+      "txt": "(GMT+04:00) Samara"
+    },
+    {
+      "id": "Tbilisi",
+      "txt": "(GMT+04:00) Tbilisi"
+    },
+    {
+      "id": "Yerevan",
+      "txt": "(GMT+04:00) Yerevan"
+    },
+    {
+      "id": "Kabul",
+      "txt": "(GMT+04:30) Kabul"
+    },
+    {
+      "id": "Almaty",
+      "txt": "(GMT+05:00) Almaty"
+    },
+    {
+      "id": "Ekaterinburg",
+      "txt": "(GMT+05:00) Ekaterinburg"
+    },
+    {
+      "id": "Islamabad",
+      "txt": "(GMT+05:00) Islamabad"
+    },
+    {
+      "id": "Karachi",
+      "txt": "(GMT+05:00) Karachi"
+    },
+    {
+      "id": "Tashkent",
+      "txt": "(GMT+05:00) Tashkent"
+    },
+    {
+      "id": "Chennai",
+      "txt": "(GMT+05:30) Chennai"
+    },
+    {
+      "id": "Kolkata",
+      "txt": "(GMT+05:30) Kolkata"
+    },
+    {
+      "id": "Mumbai",
+      "txt": "(GMT+05:30) Mumbai"
+    },
+    {
+      "id": "New Delhi",
+      "txt": "(GMT+05:30) New Delhi"
+    },
+    {
+      "id": "Sri Jayawardenepura",
+      "txt": "(GMT+05:30) Sri Jayawardenepura"
+    },
+    {
+      "id": "Kathmandu",
+      "txt": "(GMT+05:45) Kathmandu"
+    },
+    {
+      "id": "Astana",
+      "txt": "(GMT+06:00) Astana"
+    },
+    {
+      "id": "Dhaka",
+      "txt": "(GMT+06:00) Dhaka"
+    },
+    {
+      "id": "Urumqi",
+      "txt": "(GMT+06:00) Urumqi"
+    },
+    {
+      "id": "Rangoon",
+      "txt": "(GMT+06:30) Rangoon"
+    },
+    {
+      "id": "Bangkok",
+      "txt": "(GMT+07:00) Bangkok"
+    },
+    {
+      "id": "Hanoi",
+      "txt": "(GMT+07:00) Hanoi"
+    },
+    {
+      "id": "Jakarta",
+      "txt": "(GMT+07:00) Jakarta"
+    },
+    {
+      "id": "Krasnoyarsk",
+      "txt": "(GMT+07:00) Krasnoyarsk"
+    },
+    {
+      "id": "Novosibirsk",
+      "txt": "(GMT+07:00) Novosibirsk"
+    },
+    {
+      "id": "Beijing",
+      "txt": "(GMT+08:00) Beijing"
+    },
+    {
+      "id": "Chongqing",
+      "txt": "(GMT+08:00) Chongqing"
+    },
+    {
+      "id": "Hong Kong",
+      "txt": "(GMT+08:00) Hong Kong"
+    },
+    {
+      "id": "Irkutsk",
+      "txt": "(GMT+08:00) Irkutsk"
+    },
+    {
+      "id": "Kuala Lumpur",
+      "txt": "(GMT+08:00) Kuala Lumpur"
+    },
+    {
+      "id": "Manila",
+      "txt": "(GMT+08:00) Manila"
+    },
+    {
+      "id": "Perth",
+      "txt": "(GMT+08:00) Perth"
+    },
+    {
+      "id": "Singapore",
+      "txt": "(GMT+08:00) Singapore"
+    },
+    {
+      "id": "Taipei",
+      "txt": "(GMT+08:00) Taipei"
+    },
+    {
+      "id": "Ulaanbaatar",
+      "txt": "(GMT+08:00) Ulaanbaatar"
+    },
+    {
+      "id": "Osaka",
+      "txt": "(GMT+09:00) Osaka"
+    },
+    {
+      "id": "Sapporo",
+      "txt": "(GMT+09:00) Sapporo"
+    },
+    {
+      "id": "Seoul",
+      "txt": "(GMT+09:00) Seoul"
+    },
+    {
+      "id": "Tokyo",
+      "txt": "(GMT+09:00) Tokyo"
+    },
+    {
+      "id": "Yakutsk",
+      "txt": "(GMT+09:00) Yakutsk"
+    },
+    {
+      "id": "Adelaide",
+      "txt": "(GMT+09:30) Adelaide"
+    },
+    {
+      "id": "Darwin",
+      "txt": "(GMT+09:30) Darwin"
+    },
+    {
+      "id": "Brisbane",
+      "txt": "(GMT+10:00) Brisbane"
+    },
+    {
+      "id": "Canberra",
+      "txt": "(GMT+10:00) Canberra"
+    },
+    {
+      "id": "Guam",
+      "txt": "(GMT+10:00) Guam"
+    },
+    {
+      "id": "Hobart",
+      "txt": "(GMT+10:00) Hobart"
+    },
+    {
+      "id": "Melbourne",
+      "txt": "(GMT+10:00) Melbourne"
+    },
+    {
+      "id": "Port Moresby",
+      "txt": "(GMT+10:00) Port Moresby"
+    },
+    {
+      "id": "Sydney",
+      "txt": "(GMT+10:00) Sydney"
+    },
+    {
+      "id": "Vladivostok",
+      "txt": "(GMT+10:00) Vladivostok"
+    },
+    {
+      "id": "Magadan",
+      "txt": "(GMT+11:00) Magadan"
+    },
+    {
+      "id": "New Caledonia",
+      "txt": "(GMT+11:00) New Caledonia"
+    },
+    {
+      "id": "Solomon Is.",
+      "txt": "(GMT+11:00) Solomon Is."
+    },
+    {
+      "id": "Srednekolymsk",
+      "txt": "(GMT+11:00) Srednekolymsk"
+    },
+    {
+      "id": "Auckland",
+      "txt": "(GMT+12:00) Auckland"
+    },
+    {
+      "id": "Fiji",
+      "txt": "(GMT+12:00) Fiji"
+    },
+    {
+      "id": "Kamchatka",
+      "txt": "(GMT+12:00) Kamchatka"
+    },
+    {
+      "id": "Marshall Is.",
+      "txt": "(GMT+12:00) Marshall Is."
+    },
+    {
+      "id": "Wellington",
+      "txt": "(GMT+12:00) Wellington"
+    },
+    {
+      "id": "Chatham Is.",
+      "txt": "(GMT+12:45) Chatham Is."
+    },
+    {
+      "id": "Nuku'alofa",
+      "txt": "(GMT+13:00) Nuku'alofa"
+    },
+    {
+      "id": "Samoa",
+      "txt": "(GMT+13:00) Samoa"
+    },
+    {
+      "id": "Tokelau Is.",
+      "txt": "(GMT+13:00) Tokelau Is."
+    }
+  ],
+  "timesheet_setting.unit": [
+    {
+      "id": "hours_and_minutes",
+      "txt": "Hours & Minutes"
+    },
+    {
+      "id": "percentage_of_workday",
+      "txt": "Percentage of Workday"
+    }
+  ],
+  "to_do.impact": [
+    {
+      "id": "none",
+      "txt": "None"
+    },
+    {
+      "id": "low",
+      "txt": "Low"
+    },
+    {
+      "id": "medium",
+      "txt": "Medium"
+    },
+    {
+      "id": "high",
+      "txt": "High"
+    },
+    {
+      "id": "top",
+      "txt": "Top"
+    }
+  ],
+  "to_do.status": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "declined",
+      "txt": "Declined"
+    },
+    {
+      "id": "assigned",
+      "txt": "Assigned"
+    },
+    {
+      "id": "accepted",
+      "txt": "Accepted"
+    },
+    {
+      "id": "in_progress",
+      "txt": "In Progress"
+    },
+    {
+      "id": "waiting_for",
+      "txt": "Waiting for..."
+    },
+    {
+      "id": "waiting_for_customer",
+      "txt": "Waiting for Customer"
+    },
+    {
+      "id": "analyzed",
+      "txt": "Analyzed"
+    },
+    {
+      "id": "change_requested",
+      "txt": "Change Requested"
+    }
+  ],
+  "ui_extension.category": [
+    {
+      "id": "request_template",
+      "txt": "Request Template"
+    },
+    {
+      "id": "knowledge_article_template",
+      "txt": "Knowledge Article Template"
+    },
+    {
+      "id": "problem",
+      "txt": "Problem"
+    },
+    {
+      "id": "release",
+      "txt": "Release"
+    },
+    {
+      "id": "workflow_template",
+      "txt": "Workflow Template"
+    },
+    {
+      "id": "task_template",
+      "txt": "Task Template"
+    },
+    {
+      "id": "project",
+      "txt": "Project"
+    },
+    {
+      "id": "project_task_template",
+      "txt": "Project Task Template"
+    },
+    {
+      "id": "service",
+      "txt": "Service"
+    },
+    {
+      "id": "service_instance",
+      "txt": "Service Instance"
+    },
+    {
+      "id": "product",
+      "txt": "Product"
+    },
+    {
+      "id": "product_category",
+      "txt": "Product Category"
+    },
+    {
+      "id": "contract",
+      "txt": "Contract"
+    },
+    {
+      "id": "organization",
+      "txt": "Organization"
+    },
+    {
+      "id": "team",
+      "txt": "Team"
+    },
+    {
+      "id": "person",
+      "txt": "Person"
+    },
+    {
+      "id": "site",
+      "txt": "Site"
+    },
+    {
+      "id": "risk",
+      "txt": "Risk"
+    },
+    {
+      "id": "custom_collection",
+      "txt": "Custom Collection"
+    },
+    {
+      "id": "scim_user",
+      "txt": "SCIM User"
+    },
+    {
+      "id": "app_offering",
+      "txt": "App Offering"
+    },
+    {
+      "id": "shop_article",
+      "txt": "Shop Article"
+    }
+  ],
+  "ui_extension_version.status": [
+    {
+      "id": "being_prepared",
+      "txt": "Being Prepared"
+    },
+    {
+      "id": "active",
+      "txt": "Active"
+    },
+    {
+      "id": "archived",
+      "txt": "Archived"
+    }
+  ],
+  "virus_verdict": [
+    {
+      "id": "pass",
+      "txt": "Pass - Message does not contain virus"
+    },
+    {
+      "id": "fail",
+      "txt": "Fail - Message contains virus"
+    },
+    {
+      "id": "gray",
+      "txt": "Gray - Scan could not determine if message contains virus"
+    },
+    {
+      "id": "processing_failed",
+      "txt": "Unknown - Processing failed"
+    }
+  ],
+  "webhook.event": [
+    {
+      "id": "request.create",
+      "txt": "Request.Create"
+    },
+    {
+      "id": "request.update",
+      "txt": "Request.Update"
+    },
+    {
+      "id": "request.note-added",
+      "txt": "Request.Note Added"
+    },
+    {
+      "id": "request.status-changed",
+      "txt": "Request.Status Changed"
+    },
+    {
+      "id": "request.major-incident-status-changed",
+      "txt": "Request.Major Incident Status Changed"
+    },
+    {
+      "id": "request.agile-board-column-changed",
+      "txt": "Request.Agile Board Column Changed"
+    },
+    {
+      "id": "request.team-changed",
+      "txt": "Request.Team Changed"
+    },
+    {
+      "id": "request.member-changed",
+      "txt": "Request.Member Changed"
+    },
+    {
+      "id": "problem.create",
+      "txt": "Problem.Create"
+    },
+    {
+      "id": "problem.update",
+      "txt": "Problem.Update"
+    },
+    {
+      "id": "problem.note-added",
+      "txt": "Problem.Note Added"
+    },
+    {
+      "id": "problem.status-changed",
+      "txt": "Problem.Status Changed"
+    },
+    {
+      "id": "problem.manager-changed",
+      "txt": "Problem.Manager Changed"
+    },
+    {
+      "id": "problem.team-changed",
+      "txt": "Problem.Team Changed"
+    },
+    {
+      "id": "problem.member-changed",
+      "txt": "Problem.Member Changed"
+    },
+    {
+      "id": "release.create",
+      "txt": "Release.Create"
+    },
+    {
+      "id": "release.update",
+      "txt": "Release.Update"
+    },
+    {
+      "id": "release.note-added",
+      "txt": "Release.Note Added"
+    },
+    {
+      "id": "release.manager-changed",
+      "txt": "Release.Manager Changed"
+    },
+    {
+      "id": "workflow.create",
+      "txt": "Workflow.Create"
+    },
+    {
+      "id": "workflow.update",
+      "txt": "Workflow.Update"
+    },
+    {
+      "id": "workflow.note-added",
+      "txt": "Workflow.Note Added"
+    },
+    {
+      "id": "workflow.status-changed",
+      "txt": "Workflow.Status Changed"
+    },
+    {
+      "id": "workflow.manager-changed",
+      "txt": "Workflow.Manager Changed"
+    },
+    {
+      "id": "task.create",
+      "txt": "Task.Create"
+    },
+    {
+      "id": "task.update",
+      "txt": "Task.Update"
+    },
+    {
+      "id": "task.note-added",
+      "txt": "Task.Note Added"
+    },
+    {
+      "id": "task.status-changed",
+      "txt": "Task.Status Changed"
+    },
+    {
+      "id": "task.team-changed",
+      "txt": "Task.Team Changed"
+    },
+    {
+      "id": "task.member-changed",
+      "txt": "Task.Member Changed"
+    },
+    {
+      "id": "service.create",
+      "txt": "Service.Create"
+    },
+    {
+      "id": "service.update",
+      "txt": "Service.Update"
+    },
+    {
+      "id": "service_instance.create",
+      "txt": "Service Instance.Create"
+    },
+    {
+      "id": "service_instance.update",
+      "txt": "Service Instance.Update"
+    },
+    {
+      "id": "service_offering.create",
+      "txt": "Service Offering.Create"
+    },
+    {
+      "id": "service_offering.update",
+      "txt": "Service Offering.Update"
+    },
+    {
+      "id": "sla.create",
+      "txt": "Sla.Create"
+    },
+    {
+      "id": "sla.update",
+      "txt": "Sla.Update"
+    },
+    {
+      "id": "flsa.create",
+      "txt": "Flsa.Create"
+    },
+    {
+      "id": "flsa.update",
+      "txt": "Flsa.Update"
+    },
+    {
+      "id": "product.create",
+      "txt": "Product.Create"
+    },
+    {
+      "id": "product.update",
+      "txt": "Product.Update"
+    },
+    {
+      "id": "ci.create",
+      "txt": "Ci.Create"
+    },
+    {
+      "id": "ci.update",
+      "txt": "Ci.Update"
+    },
+    {
+      "id": "organization.create",
+      "txt": "Organization.Create"
+    },
+    {
+      "id": "organization.update",
+      "txt": "Organization.Update"
+    },
+    {
+      "id": "team.create",
+      "txt": "Team.Create"
+    },
+    {
+      "id": "team.update",
+      "txt": "Team.Update"
+    },
+    {
+      "id": "person.create",
+      "txt": "Person.Create"
+    },
+    {
+      "id": "person.update",
+      "txt": "Person.Update"
+    },
+    {
+      "id": "project.create",
+      "txt": "Project.Create"
+    },
+    {
+      "id": "project.update",
+      "txt": "Project.Update"
+    },
+    {
+      "id": "project.note-added",
+      "txt": "Project.Note Added"
+    },
+    {
+      "id": "project.status-changed",
+      "txt": "Project.Status Changed"
+    },
+    {
+      "id": "project.manager-changed",
+      "txt": "Project.Manager Changed"
+    },
+    {
+      "id": "project_task.create",
+      "txt": "Project Task.Create"
+    },
+    {
+      "id": "project_task.update",
+      "txt": "Project Task.Update"
+    },
+    {
+      "id": "project_task.delete",
+      "txt": "Project Task.Delete"
+    },
+    {
+      "id": "project_task.note-added",
+      "txt": "Project Task.Note Added"
+    },
+    {
+      "id": "project_task.status-changed",
+      "txt": "Project Task.Status Changed"
+    },
+    {
+      "id": "knowledge_article.create",
+      "txt": "Knowledge Article.Create"
+    },
+    {
+      "id": "knowledge_article.update",
+      "txt": "Knowledge Article.Update"
+    },
+    {
+      "id": "contract.create",
+      "txt": "Contract.Create"
+    },
+    {
+      "id": "contract.update",
+      "txt": "Contract.Update"
+    },
+    {
+      "id": "broadcast.create",
+      "txt": "Broadcast.Create"
+    },
+    {
+      "id": "broadcast.update",
+      "txt": "Broadcast.Update"
+    },
+    {
+      "id": "time_entry.create",
+      "txt": "Time Entry.Create"
+    },
+    {
+      "id": "time_entry.update",
+      "txt": "Time Entry.Update"
+    },
+    {
+      "id": "time_entry.delete",
+      "txt": "Time Entry.Delete"
+    },
+    {
+      "id": "out_of_office_period.create",
+      "txt": "Out Of Office Period.Create"
+    },
+    {
+      "id": "out_of_office_period.update",
+      "txt": "Out Of Office Period.Update"
+    },
+    {
+      "id": "out_of_office_period.delete",
+      "txt": "Out Of Office Period.Delete"
+    },
+    {
+      "id": "risk.create",
+      "txt": "Risk.Create"
+    },
+    {
+      "id": "risk.update",
+      "txt": "Risk.Update"
+    },
+    {
+      "id": "risk.note-added",
+      "txt": "Risk.Note Added"
+    },
+    {
+      "id": "risk.status-changed",
+      "txt": "Risk.Status Changed"
+    },
+    {
+      "id": "risk.manager-changed",
+      "txt": "Risk.Manager Changed"
+    },
+    {
+      "id": "automation_rule",
+      "txt": "automation_rule"
+    },
+    {
+      "id": "webhook.verify",
+      "txt": "Webhook.Verify"
+    },
+    {
+      "id": "app_instance.create",
+      "txt": "App Instance.Create"
+    },
+    {
+      "id": "app_instance.update",
+      "txt": "App Instance.Update"
+    },
+    {
+      "id": "app_instance.delete",
+      "txt": "App Instance.Delete"
+    },
+    {
+      "id": "app_instance.secrets-update",
+      "txt": "App Instance.Secrets Update"
+    }
+  ],
+  "webhook_policy.jwt_alg": [
+    {
+      "id": "none",
+      "txt": "No digital signature or MAC performed"
+    },
+    {
+      "id": "hs256",
+      "txt": "HMAC using SHA-256"
+    },
+    {
+      "id": "hs384",
+      "txt": "HMAC using SHA-384"
+    },
+    {
+      "id": "hs512",
+      "txt": "HMAC using SHA-512"
+    },
+    {
+      "id": "rs256",
+      "txt": "RSA using SHA-256"
+    },
+    {
+      "id": "rs384",
+      "txt": "RSA using SHA-384"
+    },
+    {
+      "id": "rs512",
+      "txt": "RSA using SHA-512"
+    },
+    {
+      "id": "es256",
+      "txt": "ECDSA using P-256 and SHA-256"
+    },
+    {
+      "id": "es384",
+      "txt": "ECDSA using P-384 and SHA-384"
+    },
+    {
+      "id": "es512",
+      "txt": "ECDSA using P-521 and SHA-512"
+    }
+  ],
+  "weekday": [
+    {
+      "id": "mon",
+      "txt": "Mondays"
+    },
+    {
+      "id": "tue",
+      "txt": "Tuesdays"
+    },
+    {
+      "id": "wed",
+      "txt": "Wednesdays"
+    },
+    {
+      "id": "thu",
+      "txt": "Thursdays"
+    },
+    {
+      "id": "fri",
+      "txt": "Fridays"
+    },
+    {
+      "id": "sat",
+      "txt": "Saturdays"
+    },
+    {
+      "id": "sun",
+      "txt": "Sundays"
+    }
+  ],
+  "workflow.category": [
+    {
+      "id": "standard",
+      "txt": "Standard - Approved Workflow Template Was Used"
+    },
+    {
+      "id": "non_standard",
+      "txt": "Non-Standard - Approved Workflow Template Not Available"
+    },
+    {
+      "id": "emergency",
+      "txt": "Emergency - Required for Incident Resolution"
+    },
+    {
+      "id": "order",
+      "txt": "Order - Organization Order Workflow"
+    }
+  ],
+  "workflow.completion_reason": [
+    {
+      "id": "withdrawn",
+      "txt": "Withdrawn - Withdrawn by Requester"
+    },
+    {
+      "id": "rejected",
+      "txt": "Rejected - Rejected by Approver"
+    },
+    {
+      "id": "rolled_back",
+      "txt": "Rolled Back - Original Environment Restored"
+    },
+    {
+      "id": "failed",
+      "txt": "Failed - No Requirements Met"
+    },
+    {
+      "id": "partial",
+      "txt": "Partial - Not All Requirements Met"
+    },
+    {
+      "id": "disruptive",
+      "txt": "Disruptive - Caused Service Disruption"
+    },
+    {
+      "id": "complete",
+      "txt": "Complete - All Requirements Met"
+    }
+  ],
+  "workflow.justification": [
+    {
+      "id": "compliance",
+      "txt": "Compliance"
+    },
+    {
+      "id": "correction",
+      "txt": "Correction"
+    },
+    {
+      "id": "expansion",
+      "txt": "Expansion"
+    },
+    {
+      "id": "improvement",
+      "txt": "Improvement"
+    },
+    {
+      "id": "maintenance",
+      "txt": "Maintenance"
+    },
+    {
+      "id": "move",
+      "txt": "Move"
+    },
+    {
+      "id": "removal",
+      "txt": "Removal"
+    },
+    {
+      "id": "replacement",
+      "txt": "Replacement"
+    },
+    {
+      "id": "purchase",
+      "txt": "Purchase"
+    }
+  ],
+  "workflow.status": [
+    {
+      "id": "being_created",
+      "txt": "Being Created"
+    },
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "risk_and_impact",
+      "txt": "DEPRECATED: Risk & Impact - use In Progress instead"
+    },
+    {
+      "id": "approval",
+      "txt": "DEPRECATED: Approval - use In Progress instead"
+    },
+    {
+      "id": "implementation",
+      "txt": "DEPRECATED: Implementation - use In Progress instead"
+    },
+    {
+      "id": "in_progress",
+      "txt": "In Progress"
+    },
+    {
+      "id": "progress_halted",
+      "txt": "Progress Halted"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    }
+  ],
+  "workflow_event.category": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    },
+    {
+      "id": "reopened",
+      "txt": "Reopened"
+    }
+  ],
+  "workflow_phase.status": [
+    {
+      "id": "registered",
+      "txt": "Registered"
+    },
+    {
+      "id": "in_progress",
+      "txt": "In Progress"
+    },
+    {
+      "id": "completed",
+      "txt": "Completed"
+    }
+  ],
+  "language": [
+    {
+      "id": "en-US",
+      "txt": "English (United States)"
+    },
+    {
+      "id": "en-GB",
+      "txt": "English (United Kingdom)"
+    },
+    {
+      "id": "nl",
+      "txt": "Nederlands"
+    },
+    {
+      "id": "de",
+      "txt": "Deutsch"
+    },
+    {
+      "id": "fr",
+      "txt": "Français"
+    },
+    {
+      "id": "es",
+      "txt": "Español"
+    },
+    {
+      "id": "es-AR",
+      "txt": "Español (Argentina)"
+    },
+    {
+      "id": "es-ES",
+      "txt": "Español (España)"
+    },
+    {
+      "id": "eu",
+      "txt": "Euskara"
+    },
+    {
+      "id": "pt-PT",
+      "txt": "Português (Portugal)"
+    },
+    {
+      "id": "pt-BR",
+      "txt": "Português (Brasil)"
+    },
+    {
+      "id": "it",
+      "txt": "Italiano"
+    },
+    {
+      "id": "da",
+      "txt": "Dansk"
+    },
+    {
+      "id": "ga",
+      "txt": "Gaeilge"
+    },
+    {
+      "id": "cy",
+      "txt": "Cymraeg"
+    },
+    {
+      "id": "fi",
+      "txt": "Suomi"
+    },
+    {
+      "id": "nb",
+      "txt": "Norsk"
+    },
+    {
+      "id": "sv",
+      "txt": "Svenska"
+    },
+    {
+      "id": "is",
+      "txt": "Íslenska"
+    },
+    {
+      "id": "pl",
+      "txt": "Polski"
+    },
+    {
+      "id": "cs",
+      "txt": "Čeština"
+    },
+    {
+      "id": "el",
+      "txt": "Ελληνικά"
+    },
+    {
+      "id": "ro",
+      "txt": "Română"
+    },
+    {
+      "id": "hu",
+      "txt": "Magyar"
+    },
+    {
+      "id": "bg",
+      "txt": "Български"
+    },
+    {
+      "id": "sk",
+      "txt": "Slovenčina"
+    },
+    {
+      "id": "tr",
+      "txt": "Türkçe"
+    },
+    {
+      "id": "ru",
+      "txt": "Русский"
+    },
+    {
+      "id": "uk",
+      "txt": "Українська"
+    },
+    {
+      "id": "et",
+      "txt": "Eesti"
+    },
+    {
+      "id": "ar",
+      "txt": "العربية"
+    },
+    {
+      "id": "zh-CN",
+      "txt": "中文（简体）"
+    },
+    {
+      "id": "zh-TW",
+      "txt": "中文（繁體）"
+    },
+    {
+      "id": "ja",
+      "txt": "日本語"
+    },
+    {
+      "id": "ko",
+      "txt": "한국어"
+    },
+    {
+      "id": "id",
+      "txt": "Bahasa Indonesia"
+    },
+    {
+      "id": "th",
+      "txt": "ไทย"
+    },
+    {
+      "id": "vi",
+      "txt": "Tiếng Việt"
+    },
+    {
+      "id": "ms",
+      "txt": "Bahasa Melayu"
+    },
+    {
+      "id": "fa",
+      "txt": "فارسی"
+    },
+    {
+      "id": "he",
+      "txt": "עברית"
+    },
+    {
+      "id": "hi",
+      "txt": "हिंदी"
+    },
+    {
+      "id": "af",
+      "txt": "Afrikaans"
+    },
+    {
+      "id": "am",
+      "txt": "አማርኛ"
+    },
+    {
+      "id": "az",
+      "txt": "Azerbaijani"
+    },
+    {
+      "id": "bs",
+      "txt": "Bosanski"
+    },
+    {
+      "id": "hr",
+      "txt": "Hrvatski"
+    },
+    {
+      "id": "fa-AF",
+      "txt": "فارسی (افغانستان)"
+    },
+    {
+      "id": "fr-CA",
+      "txt": "Français (Canada)"
+    },
+    {
+      "id": "ka",
+      "txt": "Ქართული"
+    },
+    {
+      "id": "lv",
+      "txt": "Latviešu"
+    },
+    {
+      "id": "lt",
+      "txt": "Lietuvių"
+    },
+    {
+      "id": "sr",
+      "txt": "Српски (ћирилица)"
+    },
+    {
+      "id": "sr@latin",
+      "txt": "Srpski (latinski)"
+    },
+    {
+      "id": "sl",
+      "txt": "Slovenščina"
+    },
+    {
+      "id": "ta",
+      "txt": "தமிழ்"
+    },
+    {
+      "id": "mk",
+      "txt": "Македонски"
+    }
+  ],
+  "countries": [
+    {
+      "id": "AF",
+      "txt": "Afghanistan"
+    },
+    {
+      "id": "AX",
+      "txt": "Åland Islands"
+    },
+    {
+      "id": "AL",
+      "txt": "Albania"
+    },
+    {
+      "id": "DZ",
+      "txt": "Algeria"
+    },
+    {
+      "id": "AS",
+      "txt": "American Samoa"
+    },
+    {
+      "id": "AD",
+      "txt": "Andorra"
+    },
+    {
+      "id": "AO",
+      "txt": "Angola"
+    },
+    {
+      "id": "AI",
+      "txt": "Anguilla"
+    },
+    {
+      "id": "AQ",
+      "txt": "Antarctica"
+    },
+    {
+      "id": "AG",
+      "txt": "Antigua and Barbuda"
+    },
+    {
+      "id": "AR",
+      "txt": "Argentina"
+    },
+    {
+      "id": "AM",
+      "txt": "Armenia"
+    },
+    {
+      "id": "AW",
+      "txt": "Aruba"
+    },
+    {
+      "id": "AU",
+      "txt": "Australia"
+    },
+    {
+      "id": "AT",
+      "txt": "Austria"
+    },
+    {
+      "id": "AZ",
+      "txt": "Azerbaijan"
+    },
+    {
+      "id": "BS",
+      "txt": "Bahamas"
+    },
+    {
+      "id": "BH",
+      "txt": "Bahrain"
+    },
+    {
+      "id": "BD",
+      "txt": "Bangladesh"
+    },
+    {
+      "id": "BB",
+      "txt": "Barbados"
+    },
+    {
+      "id": "BY",
+      "txt": "Belarus"
+    },
+    {
+      "id": "BE",
+      "txt": "Belgium"
+    },
+    {
+      "id": "BZ",
+      "txt": "Belize"
+    },
+    {
+      "id": "BJ",
+      "txt": "Benin"
+    },
+    {
+      "id": "BM",
+      "txt": "Bermuda"
+    },
+    {
+      "id": "BT",
+      "txt": "Bhutan"
+    },
+    {
+      "id": "BO",
+      "txt": "Bolivia"
+    },
+    {
+      "id": "BQ",
+      "txt": "Bonaire, Sint Eustatius and Saba"
+    },
+    {
+      "id": "BA",
+      "txt": "Bosnia and Herzegovina"
+    },
+    {
+      "id": "BW",
+      "txt": "Botswana"
+    },
+    {
+      "id": "BV",
+      "txt": "Bouvet Island"
+    },
+    {
+      "id": "BR",
+      "txt": "Brazil"
+    },
+    {
+      "id": "IO",
+      "txt": "British Indian Ocean Territory"
+    },
+    {
+      "id": "BN",
+      "txt": "Brunei Darussalam"
+    },
+    {
+      "id": "BG",
+      "txt": "Bulgaria"
+    },
+    {
+      "id": "BF",
+      "txt": "Burkina Faso"
+    },
+    {
+      "id": "BI",
+      "txt": "Burundi"
+    },
+    {
+      "id": "CV",
+      "txt": "Cabo Verde"
+    },
+    {
+      "id": "KH",
+      "txt": "Cambodia"
+    },
+    {
+      "id": "CM",
+      "txt": "Cameroon"
+    },
+    {
+      "id": "CA",
+      "txt": "Canada"
+    },
+    {
+      "id": "KY",
+      "txt": "Cayman Islands"
+    },
+    {
+      "id": "CF",
+      "txt": "Central African Republic"
+    },
+    {
+      "id": "TD",
+      "txt": "Chad"
+    },
+    {
+      "id": "CL",
+      "txt": "Chile"
+    },
+    {
+      "id": "CN",
+      "txt": "China"
+    },
+    {
+      "id": "CX",
+      "txt": "Christmas Island"
+    },
+    {
+      "id": "CC",
+      "txt": "Cocos (Keeling) Islands"
+    },
+    {
+      "id": "CO",
+      "txt": "Colombia"
+    },
+    {
+      "id": "KM",
+      "txt": "Comoros"
+    },
+    {
+      "id": "CG",
+      "txt": "Congo"
+    },
+    {
+      "id": "CD",
+      "txt": "Congo, The Democratic Republic of the"
+    },
+    {
+      "id": "CK",
+      "txt": "Cook Islands"
+    },
+    {
+      "id": "CR",
+      "txt": "Costa Rica"
+    },
+    {
+      "id": "CI",
+      "txt": "Côte d'Ivoire"
+    },
+    {
+      "id": "HR",
+      "txt": "Croatia"
+    },
+    {
+      "id": "CU",
+      "txt": "Cuba"
+    },
+    {
+      "id": "CW",
+      "txt": "Curaçao"
+    },
+    {
+      "id": "CY",
+      "txt": "Cyprus"
+    },
+    {
+      "id": "CZ",
+      "txt": "Czechia"
+    },
+    {
+      "id": "DK",
+      "txt": "Denmark"
+    },
+    {
+      "id": "DJ",
+      "txt": "Djibouti"
+    },
+    {
+      "id": "DM",
+      "txt": "Dominica"
+    },
+    {
+      "id": "DO",
+      "txt": "Dominican Republic"
+    },
+    {
+      "id": "EC",
+      "txt": "Ecuador"
+    },
+    {
+      "id": "EG",
+      "txt": "Egypt"
+    },
+    {
+      "id": "SV",
+      "txt": "El Salvador"
+    },
+    {
+      "id": "GQ",
+      "txt": "Equatorial Guinea"
+    },
+    {
+      "id": "ER",
+      "txt": "Eritrea"
+    },
+    {
+      "id": "EE",
+      "txt": "Estonia"
+    },
+    {
+      "id": "SZ",
+      "txt": "Eswatini"
+    },
+    {
+      "id": "ET",
+      "txt": "Ethiopia"
+    },
+    {
+      "id": "FK",
+      "txt": "Falkland Islands (Malvinas)"
+    },
+    {
+      "id": "FO",
+      "txt": "Faroe Islands"
+    },
+    {
+      "id": "FJ",
+      "txt": "Fiji"
+    },
+    {
+      "id": "FI",
+      "txt": "Finland"
+    },
+    {
+      "id": "FR",
+      "txt": "France"
+    },
+    {
+      "id": "GF",
+      "txt": "French Guiana"
+    },
+    {
+      "id": "PF",
+      "txt": "French Polynesia"
+    },
+    {
+      "id": "TF",
+      "txt": "French Southern Territories"
+    },
+    {
+      "id": "GA",
+      "txt": "Gabon"
+    },
+    {
+      "id": "GM",
+      "txt": "Gambia"
+    },
+    {
+      "id": "GE",
+      "txt": "Georgia"
+    },
+    {
+      "id": "DE",
+      "txt": "Germany"
+    },
+    {
+      "id": "GH",
+      "txt": "Ghana"
+    },
+    {
+      "id": "GI",
+      "txt": "Gibraltar"
+    },
+    {
+      "id": "GR",
+      "txt": "Greece"
+    },
+    {
+      "id": "GL",
+      "txt": "Greenland"
+    },
+    {
+      "id": "GD",
+      "txt": "Grenada"
+    },
+    {
+      "id": "GP",
+      "txt": "Guadeloupe"
+    },
+    {
+      "id": "GU",
+      "txt": "Guam"
+    },
+    {
+      "id": "GT",
+      "txt": "Guatemala"
+    },
+    {
+      "id": "GG",
+      "txt": "Guernsey"
+    },
+    {
+      "id": "GN",
+      "txt": "Guinea"
+    },
+    {
+      "id": "GW",
+      "txt": "Guinea-Bissau"
+    },
+    {
+      "id": "GY",
+      "txt": "Guyana"
+    },
+    {
+      "id": "HT",
+      "txt": "Haiti"
+    },
+    {
+      "id": "HM",
+      "txt": "Heard Island and McDonald Islands"
+    },
+    {
+      "id": "VA",
+      "txt": "Holy See (Vatican City State)"
+    },
+    {
+      "id": "HN",
+      "txt": "Honduras"
+    },
+    {
+      "id": "HK",
+      "txt": "Hong Kong"
+    },
+    {
+      "id": "HU",
+      "txt": "Hungary"
+    },
+    {
+      "id": "IS",
+      "txt": "Iceland"
+    },
+    {
+      "id": "IN",
+      "txt": "India"
+    },
+    {
+      "id": "ID",
+      "txt": "Indonesia"
+    },
+    {
+      "id": "IR",
+      "txt": "Iran"
+    },
+    {
+      "id": "IQ",
+      "txt": "Iraq"
+    },
+    {
+      "id": "IE",
+      "txt": "Ireland"
+    },
+    {
+      "id": "IM",
+      "txt": "Isle of Man"
+    },
+    {
+      "id": "IL",
+      "txt": "Israel"
+    },
+    {
+      "id": "IT",
+      "txt": "Italy"
+    },
+    {
+      "id": "JM",
+      "txt": "Jamaica"
+    },
+    {
+      "id": "JP",
+      "txt": "Japan"
+    },
+    {
+      "id": "JE",
+      "txt": "Jersey"
+    },
+    {
+      "id": "JO",
+      "txt": "Jordan"
+    },
+    {
+      "id": "KZ",
+      "txt": "Kazakhstan"
+    },
+    {
+      "id": "KE",
+      "txt": "Kenya"
+    },
+    {
+      "id": "KI",
+      "txt": "Kiribati"
+    },
+    {
+      "id": "KW",
+      "txt": "Kuwait"
+    },
+    {
+      "id": "KG",
+      "txt": "Kyrgyzstan"
+    },
+    {
+      "id": "LA",
+      "txt": "Laos"
+    },
+    {
+      "id": "LV",
+      "txt": "Latvia"
+    },
+    {
+      "id": "LB",
+      "txt": "Lebanon"
+    },
+    {
+      "id": "LS",
+      "txt": "Lesotho"
+    },
+    {
+      "id": "LR",
+      "txt": "Liberia"
+    },
+    {
+      "id": "LY",
+      "txt": "Libya"
+    },
+    {
+      "id": "LI",
+      "txt": "Liechtenstein"
+    },
+    {
+      "id": "LT",
+      "txt": "Lithuania"
+    },
+    {
+      "id": "LU",
+      "txt": "Luxembourg"
+    },
+    {
+      "id": "MO",
+      "txt": "Macao"
+    },
+    {
+      "id": "MG",
+      "txt": "Madagascar"
+    },
+    {
+      "id": "MW",
+      "txt": "Malawi"
+    },
+    {
+      "id": "MY",
+      "txt": "Malaysia"
+    },
+    {
+      "id": "MV",
+      "txt": "Maldives"
+    },
+    {
+      "id": "ML",
+      "txt": "Mali"
+    },
+    {
+      "id": "MT",
+      "txt": "Malta"
+    },
+    {
+      "id": "MH",
+      "txt": "Marshall Islands"
+    },
+    {
+      "id": "MQ",
+      "txt": "Martinique"
+    },
+    {
+      "id": "MR",
+      "txt": "Mauritania"
+    },
+    {
+      "id": "MU",
+      "txt": "Mauritius"
+    },
+    {
+      "id": "YT",
+      "txt": "Mayotte"
+    },
+    {
+      "id": "MX",
+      "txt": "Mexico"
+    },
+    {
+      "id": "FM",
+      "txt": "Micronesia"
+    },
+    {
+      "id": "MD",
+      "txt": "Moldova"
+    },
+    {
+      "id": "MC",
+      "txt": "Monaco"
+    },
+    {
+      "id": "MN",
+      "txt": "Mongolia"
+    },
+    {
+      "id": "ME",
+      "txt": "Montenegro"
+    },
+    {
+      "id": "MS",
+      "txt": "Montserrat"
+    },
+    {
+      "id": "MA",
+      "txt": "Morocco"
+    },
+    {
+      "id": "MZ",
+      "txt": "Mozambique"
+    },
+    {
+      "id": "MM",
+      "txt": "Myanmar"
+    },
+    {
+      "id": "NA",
+      "txt": "Namibia"
+    },
+    {
+      "id": "NR",
+      "txt": "Nauru"
+    },
+    {
+      "id": "NP",
+      "txt": "Nepal"
+    },
+    {
+      "id": "NL",
+      "txt": "Netherlands"
+    },
+    {
+      "id": "NC",
+      "txt": "New Caledonia"
+    },
+    {
+      "id": "NZ",
+      "txt": "New Zealand"
+    },
+    {
+      "id": "NI",
+      "txt": "Nicaragua"
+    },
+    {
+      "id": "NE",
+      "txt": "Niger"
+    },
+    {
+      "id": "NG",
+      "txt": "Nigeria"
+    },
+    {
+      "id": "NU",
+      "txt": "Niue"
+    },
+    {
+      "id": "NF",
+      "txt": "Norfolk Island"
+    },
+    {
+      "id": "KP",
+      "txt": "North Korea"
+    },
+    {
+      "id": "MK",
+      "txt": "North Macedonia"
+    },
+    {
+      "id": "MP",
+      "txt": "Northern Mariana Islands"
+    },
+    {
+      "id": "NO",
+      "txt": "Norway"
+    },
+    {
+      "id": "OM",
+      "txt": "Oman"
+    },
+    {
+      "id": "PK",
+      "txt": "Pakistan"
+    },
+    {
+      "id": "PW",
+      "txt": "Palau"
+    },
+    {
+      "id": "PS",
+      "txt": "Palestine, State of"
+    },
+    {
+      "id": "PA",
+      "txt": "Panama"
+    },
+    {
+      "id": "PG",
+      "txt": "Papua New Guinea"
+    },
+    {
+      "id": "PY",
+      "txt": "Paraguay"
+    },
+    {
+      "id": "PE",
+      "txt": "Peru"
+    },
+    {
+      "id": "PH",
+      "txt": "Philippines"
+    },
+    {
+      "id": "PN",
+      "txt": "Pitcairn"
+    },
+    {
+      "id": "PL",
+      "txt": "Poland"
+    },
+    {
+      "id": "PT",
+      "txt": "Portugal"
+    },
+    {
+      "id": "PR",
+      "txt": "Puerto Rico"
+    },
+    {
+      "id": "QA",
+      "txt": "Qatar"
+    },
+    {
+      "id": "RE",
+      "txt": "Réunion"
+    },
+    {
+      "id": "RO",
+      "txt": "Romania"
+    },
+    {
+      "id": "RU",
+      "txt": "Russian Federation"
+    },
+    {
+      "id": "RW",
+      "txt": "Rwanda"
+    },
+    {
+      "id": "BL",
+      "txt": "Saint Barthélemy"
+    },
+    {
+      "id": "SH",
+      "txt": "Saint Helena, Ascension and Tristan da Cunha"
+    },
+    {
+      "id": "KN",
+      "txt": "Saint Kitts and Nevis"
+    },
+    {
+      "id": "LC",
+      "txt": "Saint Lucia"
+    },
+    {
+      "id": "MF",
+      "txt": "Saint Martin (French part)"
+    },
+    {
+      "id": "PM",
+      "txt": "Saint Pierre and Miquelon"
+    },
+    {
+      "id": "VC",
+      "txt": "Saint Vincent and the Grenadines"
+    },
+    {
+      "id": "WS",
+      "txt": "Samoa"
+    },
+    {
+      "id": "SM",
+      "txt": "San Marino"
+    },
+    {
+      "id": "ST",
+      "txt": "Sao Tome and Principe"
+    },
+    {
+      "id": "SA",
+      "txt": "Saudi Arabia"
+    },
+    {
+      "id": "SN",
+      "txt": "Senegal"
+    },
+    {
+      "id": "RS",
+      "txt": "Serbia"
+    },
+    {
+      "id": "SC",
+      "txt": "Seychelles"
+    },
+    {
+      "id": "SL",
+      "txt": "Sierra Leone"
+    },
+    {
+      "id": "SG",
+      "txt": "Singapore"
+    },
+    {
+      "id": "SX",
+      "txt": "Sint Maarten (Dutch part)"
+    },
+    {
+      "id": "SK",
+      "txt": "Slovakia"
+    },
+    {
+      "id": "SI",
+      "txt": "Slovenia"
+    },
+    {
+      "id": "SB",
+      "txt": "Solomon Islands"
+    },
+    {
+      "id": "SO",
+      "txt": "Somalia"
+    },
+    {
+      "id": "ZA",
+      "txt": "South Africa"
+    },
+    {
+      "id": "GS",
+      "txt": "South Georgia and the South Sandwich Islands"
+    },
+    {
+      "id": "KR",
+      "txt": "South Korea"
+    },
+    {
+      "id": "SS",
+      "txt": "South Sudan"
+    },
+    {
+      "id": "ES",
+      "txt": "Spain"
+    },
+    {
+      "id": "LK",
+      "txt": "Sri Lanka"
+    },
+    {
+      "id": "SD",
+      "txt": "Sudan"
+    },
+    {
+      "id": "SR",
+      "txt": "Suriname"
+    },
+    {
+      "id": "SJ",
+      "txt": "Svalbard and Jan Mayen"
+    },
+    {
+      "id": "SE",
+      "txt": "Sweden"
+    },
+    {
+      "id": "CH",
+      "txt": "Switzerland"
+    },
+    {
+      "id": "SY",
+      "txt": "Syria"
+    },
+    {
+      "id": "TW",
+      "txt": "Taiwan"
+    },
+    {
+      "id": "TJ",
+      "txt": "Tajikistan"
+    },
+    {
+      "id": "TZ",
+      "txt": "Tanzania"
+    },
+    {
+      "id": "TH",
+      "txt": "Thailand"
+    },
+    {
+      "id": "TL",
+      "txt": "Timor-Leste"
+    },
+    {
+      "id": "TG",
+      "txt": "Togo"
+    },
+    {
+      "id": "TK",
+      "txt": "Tokelau"
+    },
+    {
+      "id": "TO",
+      "txt": "Tonga"
+    },
+    {
+      "id": "TT",
+      "txt": "Trinidad and Tobago"
+    },
+    {
+      "id": "TN",
+      "txt": "Tunisia"
+    },
+    {
+      "id": "TR",
+      "txt": "Türkiye"
+    },
+    {
+      "id": "TM",
+      "txt": "Turkmenistan"
+    },
+    {
+      "id": "TC",
+      "txt": "Turks and Caicos Islands"
+    },
+    {
+      "id": "TV",
+      "txt": "Tuvalu"
+    },
+    {
+      "id": "UG",
+      "txt": "Uganda"
+    },
+    {
+      "id": "UA",
+      "txt": "Ukraine"
+    },
+    {
+      "id": "AE",
+      "txt": "United Arab Emirates"
+    },
+    {
+      "id": "GB",
+      "txt": "United Kingdom"
+    },
+    {
+      "id": "US",
+      "txt": "United States"
+    },
+    {
+      "id": "UM",
+      "txt": "United States Minor Outlying Islands"
+    },
+    {
+      "id": "UY",
+      "txt": "Uruguay"
+    },
+    {
+      "id": "UZ",
+      "txt": "Uzbekistan"
+    },
+    {
+      "id": "VU",
+      "txt": "Vanuatu"
+    },
+    {
+      "id": "VE",
+      "txt": "Venezuela"
+    },
+    {
+      "id": "VN",
+      "txt": "Vietnam"
+    },
+    {
+      "id": "VG",
+      "txt": "Virgin Islands, British"
+    },
+    {
+      "id": "VI",
+      "txt": "Virgin Islands, U.S."
+    },
+    {
+      "id": "WF",
+      "txt": "Wallis and Futuna"
+    },
+    {
+      "id": "EH",
+      "txt": "Western Sahara"
+    },
+    {
+      "id": "YE",
+      "txt": "Yemen"
+    },
+    {
+      "id": "ZM",
+      "txt": "Zambia"
+    },
+    {
+      "id": "ZW",
+      "txt": "Zimbabwe"
+    }
+  ]
+}

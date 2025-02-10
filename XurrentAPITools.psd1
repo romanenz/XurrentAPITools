@@ -18,7 +18,7 @@
 	RootModule			   = 'XurrentAPITools.psm1'
 	
 	# Version number of this module.
-	ModuleVersion		   = '0.1.0.0'
+	ModuleVersion		   = '0.1.1.0'
 	
 	# ID used to uniquely identify this module
 	GUID				   = 'a4960da8-44ab-464e-ac5c-a092deefe971'
@@ -145,7 +145,7 @@
 	ModuleList			   = @()
 	
 	# List of all files packaged with this module
-	FileList			   = @()
+	FileList			   = @('Internationalization/en.json')
 	
 	# Private data to pass to the module specified in ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
 	PrivateData		       = @{
@@ -154,13 +154,13 @@
 		PSData = @{
 			
 			# Tags applied to this module. These help with module discovery in online galleries.
-			# Tags = @()
+			Tags = @('xurrent','api')
 			
 			# A URL to the license for this module.
-			# LicenseUri = ''
+			LicenseUri = 'https://raw.githubusercontent.com/romanenz/XurrentAPITools/refs/heads/main/LICENSE'
 			
 			# A URL to the main website for this project.
-			# ProjectUri = ''
+			ProjectUri = 'https://github.com/romanenz/XurrentAPITools'
 			
 			# A URL to an icon representing this module.
 			# IconUri = ''
