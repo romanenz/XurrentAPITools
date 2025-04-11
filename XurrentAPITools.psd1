@@ -126,7 +126,8 @@
 		'Sync-XurrentWorkflowTemplateAutomationRules',
 		'Sync-XurrentWorkflowTemplates',
 		'Update-XurrentInternationalization',
-		'Update-XurrentRecord'
+		'Update-XurrentRecord',
+		'Set-XurrentSyncDefaults'
 	)
 	
 	# Cmdlets to export from this module

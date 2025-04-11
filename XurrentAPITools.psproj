@@ -64,6 +64,7 @@
     <File Build="2" Shared="True" ReferenceFunction="Invoke-Resolve-XurrentRelation_ps1" ExportFunctions="False">Functions_v5\Resolve-XurrentRelation.ps1</File>
     <File Build="2" Shared="True" ReferenceFunction="Invoke-Copy-XurrentCustomFields_ps1" ExportFunctions="False">Functions_v5\Copy-XurrentCustomFields.ps1</File>
     <File Build="2">Internationalization\en.json</File>
+    <File Build="2" Shared="True" ReferenceFunction="Invoke-Set-XurrentSyncDefaults_ps1" ExportFunctions="False">Functions_v5\Set-XurrentSyncDefaults.ps1</File>
   </Files>
   <StartupScript>Test-Module.ps1</StartupScript>
 </Project>

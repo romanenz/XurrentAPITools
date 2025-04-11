@@ -32,7 +32,7 @@
 		if ($null -ne $DeletedRules)
 		{
 			Write-Warning -Message "disalbe automation_rules $($DeletedRules.id) in $($DestinationEnvironment)"
-			update-XurrentRecord -Environment $DestinationEnvironment -Type automation_rules -ID $DeletedRules.id -Body @{ disabled = 1 }
+			$null = update-XurrentRecord -Environment $DestinationEnvironment -Type automation_rules -ID $DeletedRules.id -Body @{ disabled = 1 }
 			
 		}
 	}

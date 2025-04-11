@@ -67,11 +67,11 @@ function Set-XurrentSource
 	Write-Verbose -Message "update source of $($ID) to $($guid)"
 	try
 	{
-		Update-XurrentRecord -Environment $Environment -Type $Type -ID $ID -Body @{ source = 'XurrentAPITools'; sourceID = $guid.ToString() }
+		$null = Update-XurrentRecord -Environment $Environment -Type $Type -ID $ID -Body @{ source = 'XurrentAPITools'; sourceID = $guid.ToString() }
 		if ($PSCmdlet.ParameterSetName -eq 'dest')
 		{
 			Write-Verbose -Message "update sourceid of $($DestinationID) in $($DestinationEnvironment)"
-			Update-XurrentRecord -Environment $DestinationEnvironment -Type $Type -ID $DestinationID -Body @{ source = 'XurrentAPITools'; sourceID = $guid.ToString() }
+			$null = Update-XurrentRecord -Environment $DestinationEnvironment -Type $Type -ID $DestinationID -Body @{ source = 'XurrentAPITools'; sourceID = $guid.ToString() }
 		}
 	}
 	catch

@@ -1,4 +1,5 @@
-﻿function Export-XurrentData
+﻿
+function Export-XurrentData
 {
 	param (
 		[Parameter(Mandatory = $true)]
