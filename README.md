@@ -3,7 +3,7 @@
 ## Install
 Install in PowerShell or downlaod from the newes release.
 ```powershell
-Install-Module -Name XurentAPITools -SkipPublisherCheck
+Install-Module -Name XurrentAPITools -SkipPublisherCheck
 ```
 
 
