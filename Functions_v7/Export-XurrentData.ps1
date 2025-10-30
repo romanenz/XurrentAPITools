@@ -26,7 +26,7 @@ function Export-XurrentData
 	}
 	if (Test-Path -Path $FilePath)
 	{
-		$FileCreationTime = ((Get-Date) - (Get-ChildItem -Path $FilePath).CreationTime).Minutes
+		$FileCreationTime = ((Get-Date) - (Get-ChildItem -Path $FilePath).CreationTime).TotalMinutes
 		Write-Verbose -Message "last export $($FileCreationTime) minutes ago, cache set to $($Cache)"
 	}
 	if ($FileCreationTime -gt $Cache -or $null -eq $FileCreationTime)

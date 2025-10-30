@@ -19,21 +19,24 @@
 		{
 			Write-Verbose -Message "Sync task_template_automation_rules $($Data.Name -join ',')"
 			Sync-XurrentObject -Type task_template_automation_rules -SourceEnvironment $SourceEnvironment -DestinationEnvironment $DestinationEnvironment -ID $Data.id
-			$Relations = Resolve-XurrentRelation -Type task_templates -SourceEnvironment $SourceEnvironment -DestinationEnvironment $DestinationEnvironment -ID $Data.id
 		}
 		else
 		{
 			Write-Verbose -Message "no task_template_automation_rules exists"
 		}
-				
+		
 		$exportpathDest = Export-XurrentData -Environment $DestinationEnvironment -Type task_template_automation_rules
-		$DestData = Import-Csv -Path $exportpathDest -Encoding UTF8 | Where-Object { $_.'Task Template' -in $Relations.IDdestination } | Sort-Object Trigger
+		$DestData = Import-Csv -Path $exportpathDest -Encoding UTF8 | Where-Object { $_.'Task Template' -in $Tasks } | Sort-Object Trigger
 		$DeletedRules = $DestData | Where-Object { "$($_.'Source ID');$($_.Source)" -notin (($Data | Select-Object @{ l = "tmp"; e = { "$($_.'Source ID');$($_.Source)" } }).tmp) }
 		if ($null -ne $DeletedRules)
 		{
 			Write-Warning -Message "disalbe automation_rules $($DeletedRules.id) in $($DestinationEnvironment)"
-			$null = update-XurrentRecord -Environment $DestinationEnvironment -Type automation_rules -ID $DeletedRules.id -Body @{ disabled = 1 }
-		}		
+			foreach ($DeletedRule in $DeletedRules)
+			{
+				$null = update-XurrentRecord -Environment $DestinationEnvironment -Type automation_rules -ID $DeletedRule.id -Body @{ disabled = 1 }
+				
+			}
+		}
 	}
 	catch
 	{

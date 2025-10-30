@@ -127,7 +127,8 @@
 		'Sync-XurrentWorkflowTemplates',
 		'Update-XurrentInternationalization',
 		'Update-XurrentRecord',
-		'Set-XurrentSyncDefaults'
+		'Set-XurrentSyncDefaults',
+		'Resolve-XurrentCustomFieldsRelation'
 	)
 	
 	# Cmdlets to export from this module

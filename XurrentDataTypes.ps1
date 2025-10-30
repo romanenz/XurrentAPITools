@@ -75,5 +75,6 @@
 	'workflow_template_automation_rules',
 	'workflows',
 	'product_backlogs',
-	'request_template_automation_rules'
+	'request_template_automation_rules',
+	'generic_request_automation_rules'
 )
