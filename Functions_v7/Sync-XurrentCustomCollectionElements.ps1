@@ -6,10 +6,22 @@ function Sync-XurrentCustomCollectionElements
 		[Parameter(Mandatory = $true, ParameterSetName = 'id')]
 		[Parameter(Mandatory = $true, ParameterSetName = 'collection')]
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
+		[ArgumentCompleter({
+				param ($cmd,
+					$param,
+					$wordToComplete)
+				$script:XurrentAuth.keys -like "$wordToComplete*"
+			})]
 		[string]$SourceEnvironment,
 		[Parameter(Mandatory = $true, ParameterSetName = 'id')]
 		[Parameter(Mandatory = $true, ParameterSetName = 'collection')]
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
+		[ArgumentCompleter({
+				param ($cmd,
+					$param,
+					$wordToComplete)
+				$script:XurrentAuth.keys -like "$wordToComplete*"
+			})]
 		[string]$DestinationEnvironment,
 		[Parameter(Mandatory = $true, ParameterSetName = 'id')]
 		[int[]]$ID,

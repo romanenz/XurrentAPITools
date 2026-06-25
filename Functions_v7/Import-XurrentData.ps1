@@ -4,10 +4,15 @@
 	param (
 		[Parameter(Mandatory = $true)]
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
+		[ArgumentCompleter({
+				param ($cmd,
+					$param,
+					$wordToComplete)
+				$script:XurrentAuth.keys -like "$wordToComplete*"
+			})]
 		[string]$Environment,
-		[Parameter(Mandatory)]
-		[ValidateScript({ $_ -in $script:XurrentDataTypes })]
-		[String]$Type,
+		[Parameter(Mandatory = $true)]
+		[XurrentDataTypes]$Type,
 		[Parameter(Mandatory = $true)]
 		[System.Array]$InputObject,
 		[ValidateScript({ (Get-Item $_) -is [System.IO.DirectoryInfo] })]

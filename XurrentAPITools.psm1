@@ -10,7 +10,8 @@
 #>
 
 [version]$Script:MinimalV7Version = "7.2.0"
-
+. "$($PSScriptRoot)\XurrentDataTypes.ps1"
+$script:XurrentDataTypes = [XurrentDataTypes]::GetValues([XurrentDataTypes])
 foreach ($Item in (Get-ChildItem -Path "$($PSScriptRoot)\Functions_v5"))
 {
 	Write-Verbose -Message "import $([System.IO.Path]::GetFileNameWithoutExtension($Item.Name))"
@@ -36,8 +37,6 @@ $script:XurrentAuth = @{ }
 
 $script:InternationalizationPath = "$($PSScriptRoot)\Internationalization"
 $script:InternationalizationLocal = Get-ChildItem -Path $script:InternationalizationPath
-
-. "$($PSScriptRoot)\XurrentDataTypes.ps1"
 
 $script:XurrentIDRelations = @{
 	request_templates = @{

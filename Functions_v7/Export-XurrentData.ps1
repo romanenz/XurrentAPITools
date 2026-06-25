@@ -4,10 +4,15 @@ function Export-XurrentData
 	param (
 		[Parameter(Mandatory = $true)]
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
+		[ArgumentCompleter({
+				param ($cmd,
+					$param,
+					$wordToComplete)
+				$script:XurrentAuth.keys -like "$wordToComplete*"
+			})]
 		[string]$Environment,
 		[Parameter(Mandatory = $true)]
-		[ValidateScript({ $_ -in $script:XurrentDataTypes })]
-		[String[]]$Type,
+		[XurrentDataTypes[]]$Type,
 		[ValidateScript({ (Get-Item $_) -is [System.IO.DirectoryInfo] })]
 		[IO.FileInfo]$Path = $env:TEMP,
 		[int]$Cache = $script:ExportCache,
@@ -26,7 +31,7 @@ function Export-XurrentData
 	}
 	if (Test-Path -Path $FilePath)
 	{
-		$FileCreationTime = ((Get-Date) - (Get-ChildItem -Path $FilePath).CreationTime).Minutes
+		$FileCreationTime = ((Get-Date) - (Get-ChildItem -Path $FilePath).CreationTime).TotalMinutes
 		Write-Verbose -Message "last export $($FileCreationTime) minutes ago, cache set to $($Cache)"
 	}
 	if ($FileCreationTime -gt $Cache -or $null -eq $FileCreationTime)

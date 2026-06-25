@@ -4,9 +4,21 @@
 	param (
 		[Parameter(Mandatory = $true)]
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
+		[ArgumentCompleter({
+				param ($cmd,
+					$param,
+					$wordToComplete)
+				$script:XurrentAuth.keys -like "$wordToComplete*"
+			})]
 		[string]$SourceEnvironment,
 		[Parameter(Mandatory = $true)]
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
+		[ArgumentCompleter({
+				param ($cmd,
+					$param,
+					$wordToComplete)
+				$script:XurrentAuth.keys -like "$wordToComplete*"
+			})]
 		[string]$DestinationEnvironment,
 		[Parameter(Mandatory = $true)]
 		[int[]]$ID
@@ -27,8 +39,11 @@
 			Write-Verbose -Message "Dependency services: $($Items.service.id -join ",")"
 			Sync-XurrentServices -SourceEnvironment $SourceEnvironment -DestinationEnvironment $DestinationEnvironment -ID $Items.service.id
 			
-			Write-Verbose -Message "Dependency waiting_for_customer_follow_up: $($Items.waiting_for_customer_follow_up.id -join ",")"
-			Sync-XurrentWaitingForCustomerFollowUps -SourceEnvironment $SourceEnvironment -DestinationEnvironment $DestinationEnvironment -ID $Items.waiting_for_customer_follow_up.id
+			if ($Items.waiting_for_customer_follow_up.id)
+			{
+				Write-Verbose -Message "Dependency waiting_for_customer_follow_up: $($Items.waiting_for_customer_follow_up.id -join ",")"
+				Sync-XurrentWaitingForCustomerFollowUps -SourceEnvironment $SourceEnvironment -DestinationEnvironment $DestinationEnvironment -ID $Items.waiting_for_customer_follow_up.id				
+			}
 		}
 		# sync objects
 		Sync-XurrentObject -Type service_offerings -SourceEnvironment $SourceEnvironment -DestinationEnvironment $DestinationEnvironment -ID $Items.id

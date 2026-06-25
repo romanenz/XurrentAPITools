@@ -4,9 +4,21 @@
 	param (
 		[Parameter(Mandatory = $true)]
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
+		[ArgumentCompleter({
+				param ($cmd,
+					$param,
+					$wordToComplete)
+				$script:XurrentAuth.keys -like "$wordToComplete*"
+			})]
 		[string]$SourceEnvironment,
 		[Parameter(Mandatory = $true)]
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
+		[ArgumentCompleter({
+				param ($cmd,
+					$param,
+					$wordToComplete)
+				$script:XurrentAuth.keys -like "$wordToComplete*"
+			})]
 		[string]$DestinationEnvironment,
 		[Parameter(Mandatory = $true)]
 		[string[]]$WorkflowTemplates
@@ -32,8 +44,10 @@
 		if ($null -ne $DeletedRules)
 		{
 			Write-Warning -Message "disalbe automation_rules $($DeletedRules.id) in $($DestinationEnvironment)"
-			$null = update-XurrentRecord -Environment $DestinationEnvironment -Type automation_rules -ID $DeletedRules.id -Body @{ disabled = 1 }
-			
+			foreach ($DeletedRule in $DeletedRules)
+			{
+				$null = update-XurrentRecord -Environment $DestinationEnvironment -Type automation_rules -ID $DeletedRule.id -Body @{ disabled = 1 }				
+			}			
 		}
 	}
 	catch

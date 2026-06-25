@@ -11,8 +11,7 @@
 		[Parameter(Mandatory = $true, ParameterSetName = 'body')]
 		[Parameter(Mandatory = $true, ParameterSetName = 'trash')]
 		[Parameter(Mandatory = $true, ParameterSetName = 'archive')]
-		[ValidateScript({ $_ -in $script:XurrentDataTypes })]
-		[string]$Type,
+		[XurrentDataTypes]$Type,
 		[Parameter(Mandatory = $true, ParameterSetName = 'body')]
 		[Parameter(Mandatory = $true, ParameterSetName = 'trash')]
 		[Parameter(Mandatory = $true, ParameterSetName = 'archive')]

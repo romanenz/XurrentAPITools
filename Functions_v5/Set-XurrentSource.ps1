@@ -51,8 +51,7 @@ function Set-XurrentSource
 		[string]$Environment,
 		[Parameter(Mandatory = $true, ParameterSetName = 'source')]
 		[Parameter(Mandatory = $true, ParameterSetName = 'dest')]
-		[ValidateScript({ $_ -in $script:XurrentDataTypes })]
-		[string]$Type,
+		[XurrentDataTypes]$Type,
 		[Parameter(Mandatory = $true, ParameterSetName = 'source')]
 		[Parameter(Mandatory = $true, ParameterSetName = 'dest')]
 		[int]$ID,

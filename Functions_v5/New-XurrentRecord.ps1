@@ -6,8 +6,7 @@
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
 		[string]$Environment,
 		[Parameter(Mandatory = $true)]
-		[ValidateScript({ $_ -in $script:XurrentDataTypes })]
-		[string]$Type,
+		[XurrentDataTypes]$Type,
 		[Parameter(Mandatory = $true)]
 		[Hashtable]$Body,
 		[Parameter(Mandatory = $false)]

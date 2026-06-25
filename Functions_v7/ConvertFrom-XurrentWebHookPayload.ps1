@@ -34,7 +34,7 @@
 			Write-Error 'payload is not a jwt' -ErrorAction Stop
 		}
 		
-		$PayloadObj = [System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String(($payloadEncoded).Replace('_', '/').Replace('-', '+'))) | ConvertFrom-Json
+		$PayloadObj = [System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String(($payloadEncoded).Replace('_', '/').Replace('-', '+'))) | ConvertFrom-Json -DateKind string
 		
 		$PayloadObj.exp = (Get-Date 01.01.1970).AddSeconds($PayloadObj.exp)
 		$PayloadObj.nbf = (Get-Date 01.01.1970).AddSeconds($PayloadObj.nbf)

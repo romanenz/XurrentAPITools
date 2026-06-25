@@ -10,8 +10,7 @@
 		[Parameter(Mandatory = $true, ParameterSetName = 'id')]
 		[Parameter(Mandatory = $true, ParameterSetName = 'param')]
 		[Parameter(Mandatory = $true, ParameterSetName = 'export')]
-		[ValidateScript({ $_ -in $script:XurrentDataTypes })]
-		[string]$Type,
+		[XurrentDataTypes]$Type,
 		[Parameter(Mandatory = $false, ParameterSetName = 'id')]
 		[string]$SubType,
 		[Parameter(Mandatory = $false, ParameterSetName = 'id')]

@@ -4,8 +4,7 @@
 	param (
 		[Parameter(Mandatory = $true, ParameterSetName = 'id')]
 		[Parameter(Mandatory = $true, ParameterSetName = 'all')]
-		[ValidateScript({ $_ -in $script:XurrentDataTypes })]
-		[string]$Type,
+		[XurrentDataTypes]$Type,
 		[Parameter(Mandatory = $true, ParameterSetName = 'id')]
 		[Parameter(Mandatory = $true, ParameterSetName = 'all')]
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
@@ -18,8 +17,9 @@
 		[int[]]$ID,
 		[Parameter(Mandatory = $true, ParameterSetName = 'all')]
 		[ValidateScript({ $PSVersionTable.PSVersion -ge $Script:MinimalV7Version })]
-		[switch]$All
-		
+		[switch]$All,
+		[Parameter(Mandatory = $false, ParameterSetName = 'all')]
+		[switch]$MatchMissingByName
 	)
 	try
 	{
@@ -43,11 +43,20 @@
 		{
 			$null = $RelationData.add([PSCustomObject]@{
 					IDsource	  = $Item.id
-					IDdestination = ($DestinationData | Where-Object { $_.source -eq $Item.source -and $_.sourceID -eq $Item.sourceID }).id
+					IDdestination = if (-not ([string]::IsNullOrEmpty($Item.sourceID))) { ($DestinationData | Where-Object { $_.source -eq $Item.source -and $_.sourceID -eq $Item.sourceID }).id }else { $null }
 					SoruceID	  = $Item.sourceID
 					source	      = $Item.source
 					name		  = $Item.name
 				})
+		}
+		if ($MatchMissingByName)
+		{
+			foreach ($Item in ($RelationData | Where-Object { $_.IDdestination -eq $null }))
+			{
+				$Item.IDdestination = ($DestinationData | Where-Object {
+						$_.name -eq $Item.name
+					}).id
+			}
 		}
 		return $RelationData
 	}

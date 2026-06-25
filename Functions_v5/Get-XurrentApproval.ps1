@@ -6,7 +6,7 @@
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
 		[string]$Environment,
 		[Parameter(Mandatory = $true)]
-		[ValidateSet('task_templates','task')]
+		[ValidateSet('task_templates','tasks')]
 		[string]$Type,
 		[Parameter(Mandatory = $true)]
 		[int]$ID

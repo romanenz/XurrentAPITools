@@ -30,10 +30,10 @@
 	CompanyName		       = ''
 	
 	# Copyright statement for this module
-	Copyright			   = '(c) 2024. All rights reserved.'
+	Copyright			   = '(c) 2025. All rights reserved.'
 	
 	# Description of the functionality provided by this module
-	Description		       = 'Module description'
+	Description		       = 'Tools for Xurrent REST API'
 	
 	# Supported PSEditions
 	# CompatiblePSEditions = @('Core', 'Desktop')
@@ -127,7 +127,8 @@
 		'Sync-XurrentWorkflowTemplates',
 		'Update-XurrentInternationalization',
 		'Update-XurrentRecord',
-		'Set-XurrentSyncDefaults'
+		'Set-XurrentSyncDefaults',
+		'Resolve-XurrentCustomFieldsRelation'
 	)
 	
 	# Cmdlets to export from this module
@@ -146,7 +147,7 @@
 	ModuleList			   = @()
 	
 	# List of all files packaged with this module
-	FileList			   = @('Internationalization/en.json')
+	FileList			   = @('Internationalization/en.json', 'LICENSE')
 	
 	# Private data to pass to the module specified in ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
 	PrivateData		       = @{

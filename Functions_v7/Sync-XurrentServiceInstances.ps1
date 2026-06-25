@@ -4,9 +4,21 @@
 	param (
 		[Parameter(Mandatory = $true)]
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
+		[ArgumentCompleter({
+				param ($cmd,
+					$param,
+					$wordToComplete)
+				$script:XurrentAuth.keys -like "$wordToComplete*"
+			})]
 		[string]$SourceEnvironment,
 		[Parameter(Mandatory = $true)]
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]
+		[ArgumentCompleter({
+				param ($cmd,
+					$param,
+					$wordToComplete)
+				$script:XurrentAuth.keys -like "$wordToComplete*"
+			})]
 		[string]$DestinationEnvironment,
 		[Parameter(Mandatory = $true)]
 		[int[]]$ID
@@ -24,9 +36,11 @@
 			
 			Write-Verbose -Message "Dependency services: $($items.service.id -join ",")"
 			Sync-XurrentServices -SourceEnvironment $SourceEnvironment -DestinationEnvironment $DestinationEnvironment -ID $items.service.id
-			
-			Write-Verbose -Message "Dependency maintenance_window: $($items.maintenance_window.id -join ",")"
-			Sync-XurrentCalendars -SourceEnvironment $SourceEnvironment -DestinationEnvironment $DestinationEnvironment -ID $items.maintenance_window.id
+			if ($items.maintenance_window.id)
+			{
+				Write-Verbose -Message "Dependency maintenance_window: $($items.maintenance_window.id -join ",")"
+				Sync-XurrentCalendars -SourceEnvironment $SourceEnvironment -DestinationEnvironment $DestinationEnvironment -ID $items.maintenance_window.id
+			}
 		}
 		# sync objects
 		Sync-XurrentObject -Type service_instances -SourceEnvironment $SourceEnvironment -DestinationEnvironment $DestinationEnvironment -ID $Items.id
