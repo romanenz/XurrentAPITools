@@ -63,6 +63,25 @@ $script:XurrentIDRelations = @{
 
 function Get-XurrentAPITools
 {
+<#
+.SYNOPSIS
+    Returns the current module configuration values.
+
+.DESCRIPTION
+    Returns an overview object with all currently active settings of the XurrentAPITools module:
+    ExportCache, SyncDependency, SyncSetSource, ImportNoUpload, SyncExcludeFields and the
+    configured default environments.
+
+.OUTPUTS
+    PSCustomObject with the properties:
+    ExportCache, SyncDependency, SyncSetSource, ImportNoUpload, SyncExcludeFields,
+    DefaultEnvironment, DefaultSourceEnvironment, DefaultDestinationEnvironment.
+
+.EXAMPLE
+    Get-XurrentAPITools
+
+    Shows all current module settings.
+#>
 	[CmdletBinding()]
 	param (
 	)
@@ -80,6 +99,61 @@ function Get-XurrentAPITools
 
 function Set-XurrentAPITools
 {
+<#
+.SYNOPSIS
+    Configures module settings for XurrentAPITools.
+
+.DESCRIPTION
+    Allows customising all module-wide default values. Each parameter is optional;
+    values not specified remain unchanged. With -Reset, all settings are restored to
+    their defaults.
+
+.PARAMETER ExportCache
+    Cache duration in minutes for export files. Default after reset: 20.
+
+.PARAMETER SyncDependency
+    Specifies whether dependent objects are automatically synchronised by sync functions.
+    Default after reset: $true.
+
+.PARAMETER SyncSetSource
+    Specifies whether missing source/sourceID anchors are set automatically.
+    Default after reset: $true.
+
+.PARAMETER ImportNoUpload
+    When $true, import files are only created but not uploaded.
+    Default after reset: $false.
+
+.PARAMETER SyncExcludeFields
+    List of fields to be excluded from all sync operations.
+    Default after reset: $null.
+
+.PARAMETER DefaultEnvironment
+    Sets a global default for the -Environment parameter of all *-Xurrent* commands.
+
+.PARAMETER DefaultSourceEnvironment
+    Sets a global default for the -SourceEnvironment parameter of all *-Xurrent* commands.
+
+.PARAMETER DefaultDestinationEnvironment
+    Sets a global default for the -DestinationEnvironment parameter of all *-Xurrent* commands.
+
+.PARAMETER Reset
+    Resets all settings to their default values.
+
+.EXAMPLE
+    Set-XurrentAPITools -ExportCache 60 -SyncDependency $false
+
+    Sets the export cache to 60 minutes and disables automatic dependency synchronisation.
+
+.EXAMPLE
+    Set-XurrentAPITools -Reset
+
+    Resets all settings to their default values.
+
+.EXAMPLE
+    Set-XurrentAPITools -DefaultEnvironment 'wdc_Production_Global'
+
+    Sets the default environment so that -Environment can be omitted from all commands.
+#>
 	[CmdletBinding()]
 	param (
 		[int]$ExportCache,

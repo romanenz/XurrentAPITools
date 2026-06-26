@@ -1,5 +1,26 @@
 ﻿function Sync-XurrentServiceInstances
 {
+<#
+.SYNOPSIS
+    Synchronises service instances (including dependencies) between two Xurrent environments.
+
+.DESCRIPTION
+    Synchronises service instances. When SyncDependency is enabled, also automatically
+    synchronises teams (first_line_team, support_team), services and optional maintenance
+    windows (calendars).
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the service instances to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentServiceInstances -SourceEnvironment $qa -DestinationEnvironment $prod -ID 500
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

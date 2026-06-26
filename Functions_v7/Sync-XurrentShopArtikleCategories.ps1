@@ -1,5 +1,21 @@
 ﻿function Sync-XurrentShopArtikleCategories
 {
+<#
+.SYNOPSIS
+    Synchronises shop article categories between two Xurrent environments.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the shop article categories to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentShopArtikleCategories -SourceEnvironment $qa -DestinationEnvironment $prod -ID 3, 4
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

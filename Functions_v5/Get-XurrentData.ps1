@@ -1,5 +1,77 @@
 ﻿function Get-XurrentData
 {
+<#
+.SYNOPSIS
+    Retrieves records from the Xurrent REST API.
+
+.DESCRIPTION
+    Universal retrieval function for all Xurrent data types. Supports three modes:
+
+    - param (default): List query with optional filter parameters. Supports
+      automatic paging across all pages.
+    - id: Retrieves one or more records by their ID. With -Full, the complete
+      detail data is loaded (including custom fields).
+    - export: Data is loaded via the asynchronous Xurrent export mechanism
+      (CSV file). Requires PowerShell 7.2+.
+
+.PARAMETER Environment
+    The Xurrent connection name. Mandatory in all parameter sets.
+
+.PARAMETER Type
+    The data type to retrieve (XurrentDataTypes enum, e.g. 'requests', 'tasks'). Mandatory.
+
+.PARAMETER ID
+    One or more IDs for targeted retrieval. Mandatory in parameter set 'id'.
+
+.PARAMETER SubType
+    Sub-resource of an object (e.g. 'notes', 'approvals'). Optional in parameter set 'id'.
+
+.PARAMETER Parameter
+    URL query parameters as a string (e.g. 'status=assigned&fields=id,subject').
+    Optional in parameter sets 'id' and 'param'.
+
+.PARAMETER Full
+    Loads the complete detail data for each found record via a separate API call.
+    Optional in parameter sets 'id' and 'param'.
+
+.PARAMETER ConvertCustomFields
+    Automatically converts custom fields into a PSCustomObject (via ConvertFrom-XurrentCustomFields).
+    Only effective when -Full is set. Default: $true.
+
+.PARAMETER Export
+    Uses the asynchronous CSV export mechanism. Requires PowerShell 7.2+.
+    Mandatory in parameter set 'export'.
+
+.PARAMETER ConvertCustomFieldJson
+    In export mode: automatically converts the JSON string in the 'Custom Fields' column.
+    Default: $true.
+
+.OUTPUTS
+    Array of PSCustomObjects or a single PSCustomObject.
+
+.EXAMPLE
+    Get-XurrentData -Environment $env -Type requests -Parameter 'status=assigned'
+
+    All assigned requests (with automatic paging).
+
+.EXAMPLE
+    Get-XurrentData -Environment $env -Type requests -ID 123456, 789012 -Full
+
+    Full records for two requests including custom fields.
+
+.EXAMPLE
+    Get-XurrentData -Environment $env -Type tasks -ID 55 -SubType notes
+
+    All notes of task 55.
+
+.EXAMPLE
+    Get-XurrentData -Environment $env -Type people -Export
+
+    All people via CSV export (faster for large datasets).
+
+.NOTES
+    Alias: Get-4meData
+#>
 	[CmdletBinding(DefaultParameterSetName = 'param')]
 	param (
 		[Parameter(Mandatory = $true, ParameterSetName = 'id')]

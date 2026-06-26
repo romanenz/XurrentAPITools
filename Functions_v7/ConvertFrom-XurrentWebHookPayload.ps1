@@ -1,5 +1,44 @@
 ﻿function ConvertFrom-XurrentWebHookPayload
-{
+{	
+<#
+.SYNOPSIS
+    Decodes and optionally verifies a Xurrent webhook payload (JWT).
+
+.DESCRIPTION
+    Processes the JSON payload of an incoming Xurrent webhook. Decodes the JWT token
+    (header, payload, signature), converts Unix timestamps to DateTime objects and
+    determines the Xurrent environment from the issuer URL.
+
+    Optionally the JWT signature can be verified using a public RSA key (RS256).
+    The function returns a structured object containing all relevant webhook information.
+
+.PARAMETER PayloadString
+    The raw webhook payload as a JSON string. Mandatory in parameter set 'string'.
+
+.PARAMETER PayloadPath
+    Path to a file containing the webhook payload. Mandatory in parameter set 'path'.
+
+.PARAMETER CertPublicKey
+    Optional Base64-encoded public RSA key for signature verification.
+
+.OUTPUTS
+    PSCustomObject with the properties: Header, Payload, Signature, Environment, Region, Account.
+
+.EXAMPLE
+    $result = ConvertFrom-XurrentWebHookPayload -PayloadString $rawJson
+
+    Decodes a webhook payload without signature verification.
+
+.EXAMPLE
+    $result = ConvertFrom-XurrentWebHookPayload -PayloadPath 'C:\webhooks\payload.json' `
+        -CertPublicKey $pubKeyBase64
+
+    Loads the payload from a file and verifies the signature.
+
+.NOTES
+    Requires PowerShell 7.2+.
+    The properties Payload.exp, Payload.nbf and Payload.iat are returned as DateTime.
+#>
 	[CmdletBinding(DefaultParameterSetName = 'string')]
 	param (
 		[Parameter(Mandatory = $true, ParameterSetName = 'string', Position = 0)]

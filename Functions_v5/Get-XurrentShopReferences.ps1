@@ -1,5 +1,41 @@
 ﻿function Get-XurrentShopReferences
 {
+<#
+.SYNOPSIS
+    Resolves all linked objects of a shop order (tasks, workflows, requests,
+    shop order lines, fulfillment tasks).
+
+.DESCRIPTION
+    Traverses the reference network of a shop order process starting from a known
+    object type and its ID. Returns an object containing the IDs of all related
+    objects: tasks, fulfillment workflow, fulfillment request, order workflow,
+    order request, shop order lines and fulfillment tasks.
+
+    Useful for resolving all associated requests and workflows from a task ID.
+
+.PARAMETER Environment
+    The Xurrent connection name. Mandatory.
+
+.PARAMETER ID
+    The ID of the known starting object. Mandatory.
+
+.PARAMETER Type
+    The type of the starting object. Valid values:
+    tasks, fulfillmentRequest, fulfillmentWorkflow, orderWorkflow, orderRequest,
+    shopOrderLines, fulfillmentTask. Mandatory.
+
+.OUTPUTS
+    PSCustomObject with the properties: tasks, fulfillmentWorkflow, fulfillmentRequest,
+    orderWorkflow, orderRequest, shopOrderLines, fulfillmentTask.
+
+.EXAMPLE
+    Get-XurrentShopReferences -Environment $env -Type tasks -ID 55001
+
+    Resolves all linked shop objects starting from task 55001.
+
+.NOTES
+    Alias: Get-4meShopReferences
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

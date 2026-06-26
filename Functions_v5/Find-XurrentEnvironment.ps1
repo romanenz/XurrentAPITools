@@ -1,5 +1,40 @@
 ﻿function Find-XurrentEnvironment
 {
+<#
+.SYNOPSIS
+    Resolves environment metadata (Environment, Region, API URL) from a URL or
+    an Environment/Region combination.
+
+.DESCRIPTION
+    Returns the matching entry from the internal instance table. Used internally by
+    ConvertFrom-XurrentWebHookPayload to determine environment metadata from a
+    webhook issuer URL.
+
+    Supports two modes:
+    - url: Finds the environment via wildcard URL matching.
+    - env: Finds the environment by Environment and Region.
+
+.PARAMETER AccountURL
+    A URL of a Xurrent account (e.g. 'https://wdc.4me.com').
+    Mandatory in parameter set 'url'.
+
+.PARAMETER Environment
+    Environment name (e.g. 'Production', 'QualityAssurance').
+    Mandatory in parameter set 'env'.
+
+.PARAMETER Region
+    Region name (e.g. 'Global', 'Switzerland').
+    Mandatory in parameter set 'env'.
+
+.OUTPUTS
+    PSCustomObject with the properties Instance, Environment and Region.
+
+.EXAMPLE
+    Find-XurrentEnvironment -AccountURL 'https://wdc.4me.com'
+
+.EXAMPLE
+    Find-XurrentEnvironment -Environment 'Production' -Region 'Switzerland'
+#>
 	[CmdletBinding(DefaultParameterSetName = 'url')]
 	param (
 		[Parameter(Mandatory = $true, ParameterSetName = 'url')]

@@ -1,6 +1,22 @@
 ﻿
 function Sync-XurrentCustomViews
 {
+<#
+.SYNOPSIS
+    Synchronises custom views between two Xurrent environments.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the custom views to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentCustomViews -SourceEnvironment $qa -DestinationEnvironment $prod -ID 30
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

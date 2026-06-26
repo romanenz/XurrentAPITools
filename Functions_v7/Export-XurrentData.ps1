@@ -1,6 +1,57 @@
 ﻿
 function Export-XurrentData
 {
+<#
+.SYNOPSIS
+    Exports Xurrent data as a CSV file via the asynchronous export mechanism of the API.
+
+.DESCRIPTION
+    Starts an asynchronous data export via the Xurrent API endpoint /export and downloads
+    the generated file. For a single type a CSV file is returned; for multiple types a
+    ZIP file is returned which is automatically extracted.
+
+    Caching: If an export file already exists that is newer than the configured cache
+    value (default: 20 minutes, configurable via Set-XurrentAPITools -ExportCache),
+    the existing file is returned without starting a new export.
+
+.PARAMETER Environment
+    The Xurrent connection name. Mandatory. Supports tab completion.
+
+.PARAMETER Type
+    One or more data types (XurrentDataTypes[]) for the export. Mandatory.
+
+.PARAMETER Path
+    Target directory for the export file. Default: $env:TEMP. Must be an existing directory.
+
+.PARAMETER Cache
+    Cache duration in minutes. Default: $script:ExportCache (configurable via Set-XurrentAPITools).
+
+.PARAMETER from
+    Optional timestamp: exports only objects modified since this point in time.
+
+.OUTPUTS
+    System.String – File path to the exported CSV file (or array of FileInfo objects for ZIP).
+
+.EXAMPLE
+    $path = Export-XurrentData -Environment $env -Type people
+
+    Exports all people as CSV.
+
+.EXAMPLE
+    $files = Export-XurrentData -Environment $env -Type requests, tasks
+
+    Exports requests and tasks as ZIP (automatically extracted).
+
+.EXAMPLE
+    Export-XurrentData -Environment $env -Type services -from (Get-Date).AddDays(-1)
+
+    Exports only services modified in the last 24 hours.
+
+.NOTES
+    Alias: Export-4meData
+    Requires PowerShell 7.2+.
+    The export process polls every 10 seconds until completion.
+#>
 	param (
 		[Parameter(Mandatory = $true)]
 		[ValidateScript({ $null -ne $script:XurrentAuth.$_ })]

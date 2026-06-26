@@ -1,5 +1,31 @@
 ﻿function Sync-XurrentTeams
 {
+<#
+.SYNOPSIS
+    Synchronises teams between two Xurrent environments.
+
+.DESCRIPTION
+    Synchronises teams. Without -IncludePeople, person-related fields
+    (Coordinator, Manager, Configuration Manager, Members) are excluded by default.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the teams to synchronise. Mandatory.
+
+.PARAMETER IncludePeople
+    When set, person-related fields are also synchronised.
+
+.EXAMPLE
+    Sync-XurrentTeams -SourceEnvironment $qa -DestinationEnvironment $prod -ID 60, 61
+
+.EXAMPLE
+    Sync-XurrentTeams -SourceEnvironment $qa -DestinationEnvironment $prod -ID 60 -IncludePeople
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

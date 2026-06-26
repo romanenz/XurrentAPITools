@@ -1,6 +1,26 @@
 ﻿
 function Sync-XurrentCustomCollections
 {
+<#
+.SYNOPSIS
+    Synchronises custom collections (including their elements) between two Xurrent environments.
+
+.DESCRIPTION
+    First synchronises the collection objects, then – if $script:SyncDependency = $true –
+    automatically synchronises all associated custom collection elements as well.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the custom collections to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentCustomCollections -SourceEnvironment $qa -DestinationEnvironment $prod -ID 5, 6
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

@@ -1,5 +1,21 @@
 ﻿function Sync-XurrentWaitingForCustomerFollowUps
 {
+<#
+.SYNOPSIS
+    Synchronises waiting-for-customer follow-up configurations between two Xurrent environments.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the objects to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentWaitingForCustomerFollowUps -SourceEnvironment $qa -DestinationEnvironment $prod -ID 25
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

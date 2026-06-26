@@ -1,5 +1,36 @@
 ﻿function Get-XurrentWorkflowTasks
 {
+<#
+.SYNOPSIS
+    Returns the tasks or task templates of a workflow or workflow template.
+
+.DESCRIPTION
+    Retrieves the associated tasks (for type 'workflows') or task templates (for type
+    'workflow_templates') of a specific workflow. Uses Get-XurrentData internally
+    with the corresponding SubType.
+
+.PARAMETER Environment
+    The Xurrent connection name. Mandatory.
+
+.PARAMETER Type
+    'workflows' or 'workflow_templates'. Mandatory.
+
+.PARAMETER ID
+    The ID of the workflow or workflow template. Mandatory.
+
+.OUTPUTS
+    Array of task or task template objects.
+
+.EXAMPLE
+    Get-XurrentWorkflowTasks -Environment $env -Type workflow_templates -ID 300
+
+    Returns all task templates of workflow template 300.
+
+.EXAMPLE
+    Get-XurrentWorkflowTasks -Environment $env -Type workflows -ID 88000
+
+    Returns all tasks of workflow 88000.
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

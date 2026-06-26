@@ -1,5 +1,27 @@
 ﻿function Sync-XurrentTaskTemplateAutomationRules
 {
+<#
+.SYNOPSIS
+    Synchronises automation rules of task templates between two Xurrent environments.
+
+.DESCRIPTION
+    Synchronises automation rules and disables rules in the destination environment that
+    no longer exist in the source environment (based on source/sourceID comparison).
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER Tasks
+    Names (subject) of the task templates whose automation rules should be synchronised.
+    Mandatory.
+
+.EXAMPLE
+    Sync-XurrentTaskTemplateAutomationRules -SourceEnvironment $qa -DestinationEnvironment $prod `
+        -Tasks 'Deploy service', 'Rollback'
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

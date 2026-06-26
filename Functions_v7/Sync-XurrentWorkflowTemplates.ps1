@@ -1,5 +1,35 @@
 ﻿function Sync-XurrentWorkflowTemplates
 {
+<#
+.SYNOPSIS
+    Synchronises workflow templates (including dependencies) between two Xurrent environments.
+
+.DESCRIPTION
+    Synchronises workflow templates. When SyncDependency is enabled, also automatically
+    synchronises UI extensions, task templates (including their dependencies),
+    workflow template automation rules and linked request templates.
+
+    Processing is done per workflow template (loop) to handle errors per template in isolation.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the workflow templates to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentWorkflowTemplates -SourceEnvironment $qa -DestinationEnvironment $prod -ID 300
+
+    Synchronises workflow template 300 including all dependencies.
+
+.EXAMPLE
+    # Default sync QA -> Production after Set-XurrentSyncDefaults
+    Set-XurrentSyncDefaults -Account 'wdc' -QaToProd
+    Sync-XurrentWorkflowTemplates -ID 300, 301
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

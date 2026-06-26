@@ -1,5 +1,25 @@
 ﻿function Sync-XurrentFirstLineSupportAgreements
 {
+<#
+.SYNOPSIS
+    Synchronises first line support agreements (FLSAs) between two Xurrent environments.
+
+.DESCRIPTION
+    Synchronises FLSAs and, when SyncDependency is enabled, automatically also synchronises
+    dependent calendars (support_hours) and teams (service_desk_team).
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the FLSAs to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentFirstLineSupportAgreements -SourceEnvironment $qa -DestinationEnvironment $prod -ID 7
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

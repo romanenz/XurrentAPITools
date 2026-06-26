@@ -1,5 +1,22 @@
 ﻿function Sync-XurrentTaskTemplateApprovals
 {
+<#
+.SYNOPSIS
+    Synchronises approvals of task templates between two Xurrent environments.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER Tasks
+    Names (subject) of the task templates whose approvals should be synchronised. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentTaskTemplateApprovals -SourceEnvironment $qa -DestinationEnvironment $prod `
+        -Tasks 'Approve change', 'Final review'
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

@@ -1,5 +1,51 @@
 ﻿function Import-XurrentData
 {
+<#
+.SYNOPSIS
+    Imports data into Xurrent via the asynchronous import mechanism of the API.
+
+.DESCRIPTION
+    Converts a PowerShell object array into a CSV file and uploads it to the Xurrent
+    API endpoint /import. Waits asynchronously for the import to complete and outputs
+    error details if the import fails.
+
+    With -NoUpload, the CSV file is only created and returned without uploading.
+
+.PARAMETER Environment
+    The Xurrent connection name. Mandatory. Supports tab completion.
+
+.PARAMETER Type
+    The target data type (XurrentDataTypes enum). Mandatory.
+
+.PARAMETER InputObject
+    The array of objects to be imported. Mandatory.
+
+.PARAMETER Path
+    Directory for the temporary CSV file. Default: $env:TEMP.
+
+.PARAMETER NoUpload
+    When set, the CSV file is created but not uploaded. Useful for debugging.
+    Default: $script:ImportNoUpload (configurable via Set-XurrentAPITools).
+
+.OUTPUTS
+    Nothing (on successful import) or String (file path when -NoUpload is set).
+
+.EXAMPLE
+    Import-XurrentData -Environment $env -Type people -InputObject $peopleArray
+
+    Imports an array of people objects into Xurrent.
+
+.EXAMPLE
+    Import-XurrentData -Environment $env -Type services -InputObject $data -NoUpload
+
+    Creates only the CSV file without uploading it.
+
+.NOTES
+    Alias: Import-4meData
+    Requires PowerShell 7.2+.
+    The import polls every 10 seconds until completion.
+    Import results (successes/errors) are written via Write-Information.
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

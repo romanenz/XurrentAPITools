@@ -1,5 +1,34 @@
 ﻿function Import-XurrentConnection
 {
+<#
+.SYNOPSIS
+    Loads and restores Xurrent connections from an encrypted file.
+
+.DESCRIPTION
+    Reads a connection file previously saved with Export-XurrentConnection, decrypts it
+    using Windows DPAPI and the entered password, and calls Connect-Xurrent for each
+    stored connection.
+
+.PARAMETER FilePath
+    Optional path to the connection file. Default: %appdata%\XurrentAPITools\connection.
+
+.PARAMETER SkipValidation
+    When set, the API connection check is skipped during restoration.
+
+.EXAMPLE
+    Import-XurrentConnection
+
+    Loads connections from the default location. Password is prompted interactively.
+
+.EXAMPLE
+    Import-XurrentConnection -FilePath 'D:\backup\xurrent_conn' -SkipValidation
+
+    Loads connections from a custom path without a connection test.
+
+.NOTES
+    Requires PowerShell 7.2+ and Windows (DPAPI).
+    The file must have been created previously with Export-XurrentConnection.
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $false, Position = 0)]

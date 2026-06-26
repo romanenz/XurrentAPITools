@@ -1,5 +1,46 @@
 ﻿function Sync-XurrentObject
 {
+<#
+.SYNOPSIS
+    Synchronises objects of a specific type from one Xurrent environment to another.
+
+.DESCRIPTION
+    The core function of the synchronisation process. Performs the following steps:
+    1. Exports data from the source environment.
+    2. Validates and sets missing source/sourceID anchors (if SetSource = $true).
+    3. Adjusts referenced IDs (e.g. workflow template reference in automation rules).
+    4. Imports the adjusted data into the destination environment via Import-XurrentData.
+
+    Fields can be excluded from synchronisation via -ExcludeFields.
+    The ID of the source record is always excluded, as Xurrent determines the destination ID
+    via source/sourceID during import.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER Type
+    The data type (XurrentDataTypes enum). Mandatory.
+
+.PARAMETER ID
+    IDs of the source objects to synchronise. Mandatory.
+
+.PARAMETER ExcludeFields
+    Optional list of CSV column names to exclude during import.
+
+.PARAMETER SetSource
+    Automatically sets source/sourceID for objects where it is missing.
+    Default: $script:SyncSetSource (configurable via Set-XurrentAPITools).
+
+.EXAMPLE
+    Sync-XurrentObject -Type services -SourceEnvironment $qa -DestinationEnvironment $prod -ID 101, 102
+
+.EXAMPLE
+    Sync-XurrentObject -Type teams -SourceEnvironment $qa -DestinationEnvironment $prod `
+        -ID 50 -ExcludeFields 'Manager', 'Coordinator'
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

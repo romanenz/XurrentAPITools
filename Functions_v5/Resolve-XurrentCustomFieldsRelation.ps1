@@ -1,5 +1,49 @@
 ﻿function Resolve-XurrentCustomFieldsRelation
 {
+<#
+.SYNOPSIS
+    Updates custom field values that reference object IDs for a destination environment.
+
+.DESCRIPTION
+    When synchronising objects between environments, custom fields often contain IDs
+    that are only valid in the source environment. This function resolves such references:
+    it reads the custom field values of the source objects, determines the corresponding
+    IDs in the destination environment via Resolve-XurrentRelation, and updates the
+    destination objects accordingly.
+
+    Optionally a mapping table can be provided for static ID assignments.
+
+.PARAMETER Type
+    The data type of the objects to process (XurrentDataTypes enum). Mandatory.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the source objects whose custom fields need to be updated. Mandatory.
+
+.PARAMETER CustomField
+    Array of custom field IDs (field names) that contain referenced IDs. Mandatory.
+
+.PARAMETER CustomFieldType
+    Array of types that the custom fields reference (order matches -CustomField).
+    Must have the same number of entries as -CustomField. Mandatory.
+
+.PARAMETER MappingTable
+    Optional PSCustomObject with manual ID mappings when the type is 'MappingTable'.
+
+.EXAMPLE
+    Resolve-XurrentCustomFieldsRelation `
+        -Type requests `
+        -SourceEnvironment $src `
+        -DestinationEnvironment $dest `
+        -ID 1001, 1002 `
+        -CustomField 'cf_related_service' `
+        -CustomFieldType 'services'
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

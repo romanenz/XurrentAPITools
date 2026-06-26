@@ -1,5 +1,21 @@
 ﻿function Sync-XurrentSLANotificationSchemes
 {
+<#
+.SYNOPSIS
+    Synchronises SLA notification schemes between two Xurrent environments.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the SLA notification schemes to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentSLANotificationSchemes -SourceEnvironment $qa -DestinationEnvironment $prod -ID 20
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

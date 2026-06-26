@@ -1,5 +1,21 @@
 ﻿function Sync-XurrentUIExtensions
 {
+<#
+.SYNOPSIS
+    Synchronises UI extensions between two Xurrent environments.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the UI extensions to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentUIExtensions -SourceEnvironment $qa -DestinationEnvironment $prod -ID 900, 901
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

@@ -1,5 +1,25 @@
 ﻿function Sync-XurrentRequestTemplates
 {
+<#
+.SYNOPSIS
+    Synchronises request templates (including dependencies) between two Xurrent environments.
+
+.DESCRIPTION
+    Synchronises request templates and, when SyncDependency is enabled, also synchronises
+    dependent UI extensions and the associated automation rules.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the request templates to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentRequestTemplates -SourceEnvironment $qa -DestinationEnvironment $prod -ID 800, 801
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

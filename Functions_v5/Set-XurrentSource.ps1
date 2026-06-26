@@ -1,48 +1,47 @@
-﻿<#
+﻿function Set-XurrentSource
+{
+<#
 .SYNOPSIS
-Updates the source information for a specified record in the Xurrent system.
+    Sets the 'source' and 'sourceID' fields of one or two Xurrent records.
 
 .DESCRIPTION
-The `Set-XurrentSource` function updates the `source` and `sourceID` for a specified record in the Xurrent system. The function works with two modes: updating a single record or updating two records if a destination is also provided.
+    Generates a new GUID and sets the 'source' field (='XurrentAPITools') and
+    'sourceID' field (=GUID) on an existing record. Optional mode: simultaneously
+    update a destination object in another environment with the same GUID.
+
+    Used internally by Sync-XurrentObject to set missing source anchors.
 
 .PARAMETER Environment
-Specifies the environment (such as "prod", "dev", etc.) in which the Xurrent record resides. The value must match a valid environment that exists within the global `$script:XurrentAuth` object.
+    The Xurrent connection name of the source object. Mandatory.
 
 .PARAMETER Type
-Indicates the type of data to be updated. This value is validated against the `$script:XurrentDataTypes` array to ensure it's a valid type.
+    The data type (XurrentDataTypes enum). Mandatory.
 
 .PARAMETER ID
-The identifier of the record to update. This is required for both the source and destination modes.
+    The ID of the object to update. Mandatory.
 
 .PARAMETER DestinationID
-When in the 'dest' parameter set, this specifies the ID of the destination record to also update with the same source information.
+    The ID of the destination object (different environment).
+    Mandatory in parameter set 'dest'.
 
 .PARAMETER DestinationEnvironment
-Specifies the environment of the destination record when in 'dest' mode. This is validated against the global `$script:XurrentAuth` object to ensure it's a valid environment.
-
-.EXAMPLES
-# Example 1: Update the source of a record in the 'dev' environment.
-Set-XurrentSource -Environment 'dev' -Type 'user' -ID 1234
-
-# Example 2: Update the source of a record and another record in a different environment.
-Set-XurrentSource -Environment 'prod' -Type 'transaction' -ID 5678 -DestinationID 91011 -DestinationEnvironment 'staging'
-
-.NOTES
-This function generates a new GUID for each invocation and assigns it as the `sourceID` in the updated record. The source is always set to `'XurrentAPITools'`.
-
-.PARAMETERSETNAMES
-- source: Updates a single record based on the provided ID.
-- dest: Updates two records, one in the original environment and one in the destination environment.
-
-.RETURNVALUE
-Returns a custom object containing the new `source` and `sourceID` after successful execution.
+    The connection name of the destination environment.
+    Mandatory in parameter set 'dest'.
 
 .OUTPUTS
-PSCustomObject: Returns an object with the updated `source` and `sourceID` values.
+    PSCustomObject with the properties 'source' and 'SourceID'.
 
+.EXAMPLE
+    Set-XurrentSource -Environment $env -Type requests -ID 12345
+
+    Sets source and sourceID for request 12345.
+
+.EXAMPLE
+    Set-XurrentSource -Environment $qa -Type services -ID 100 `
+        -DestinationID 200 -DestinationEnvironment $prod
+
+    Sets the same GUID for service 100 in QA and service 200 in Production.
 #>
-function Set-XurrentSource
-{
 	[CmdletBinding(DefaultParameterSetName = 'source')]
 	param (
 		[Parameter(Mandatory = $true, ParameterSetName = 'source')]

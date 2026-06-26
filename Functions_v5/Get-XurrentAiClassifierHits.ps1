@@ -1,5 +1,53 @@
 ﻿function Get-XurrentAiClassifierHits
 {
+<#
+.SYNOPSIS
+    Retrieves requests and analyses which ones had their category, impact or
+    service instance changed by the Xurrent AI classifier.
+
+.DESCRIPTION
+    Reads requests from a Xurrent environment (by creation date or from a given ID)
+    and evaluates their AI classification notes. For each request where the AI classifier
+    left a note, the function compares whether the suggested category, impact or service
+    instance differs from the actual assignment.
+
+    The result is a list of objects containing original and AI-suggested values, as well
+    as boolean flags indicating whether the classifier made a change.
+
+.PARAMETER Environment
+    The Xurrent connection name. Mandatory.
+
+.PARAMETER CreatedFrom
+    Lower date boundary for the request creation timestamp.
+    Mandatory in parameter set 'date'.
+
+.PARAMETER CreatedTo
+    Upper date boundary (optional). If not specified, defaults to now.
+    Optional in parameter set 'date'.
+
+.PARAMETER ID
+    Minimum request ID for the query (all requests with ID greater than this value).
+    Mandatory in parameter set 'id'.
+
+.OUTPUTS
+    System.Collections.ArrayList – List of objects with the following properties:
+    Id, Subject, CategoryChanged, ImpactChanged, Service_InstanceChanged,
+    CategoryByAI, Category, ImpactByAI, Impact, Service_InstanceByAI, Service_Instance.
+
+.EXAMPLE
+    Get-XurrentAiClassifierHits -Environment $env -CreatedFrom (Get-Date).AddDays(-7)
+
+    Analyses all relevant requests from the last 7 days.
+
+.EXAMPLE
+    Get-XurrentAiClassifierHits -Environment $env -ID 100000
+
+    Analyses all requests with an ID greater than 100000.
+
+.NOTES
+    Only requests with categories other than 'order' and 'fulfillment' are considered.
+    Requires internationalization files to be configured in the module directory.
+#>
 	[CmdletBinding(DefaultParameterSetName = 'date')]
 	param (
 		[Parameter(Mandatory = $true, ParameterSetName = 'date')]

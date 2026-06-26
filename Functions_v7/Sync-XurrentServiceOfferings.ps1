@@ -1,5 +1,26 @@
 ﻿function Sync-XurrentServiceOfferings
 {
+<#
+.SYNOPSIS
+    Synchronises service offerings (including dependencies) between two Xurrent environments.
+
+.DESCRIPTION
+    Synchronises service offerings. When SyncDependency is enabled, also automatically
+    synchronises calendars (service_hours, support_hours_*), services and optionally
+    WaitingForCustomerFollowUps.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the service offerings to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentServiceOfferings -SourceEnvironment $qa -DestinationEnvironment $prod -ID 600, 601
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

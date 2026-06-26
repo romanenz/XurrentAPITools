@@ -1,5 +1,21 @@
 ﻿function Sync-XurrentSLACoverageGroups
 {
+<#
+.SYNOPSIS
+    Synchronises SLA coverage groups between two Xurrent environments.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the SLA coverage groups to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentSLACoverageGroups -SourceEnvironment $qa -DestinationEnvironment $prod -ID 15
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

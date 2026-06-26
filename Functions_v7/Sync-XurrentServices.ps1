@@ -1,5 +1,25 @@
 ﻿function Sync-XurrentServices
 {
+<#
+.SYNOPSIS
+    Synchronises services (including dependencies) between two Xurrent environments.
+
+.DESCRIPTION
+    Synchronises services. When SyncDependency is enabled, also automatically synchronises
+    teams (first_line_team, support_team).
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the services to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentServices -SourceEnvironment $qa -DestinationEnvironment $prod -ID 400, 401
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

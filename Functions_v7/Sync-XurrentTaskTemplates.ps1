@@ -1,5 +1,26 @@
 ﻿function Sync-XurrentTaskTemplates
 {
+<#
+.SYNOPSIS
+    Synchronises task templates (including dependencies) between two Xurrent environments.
+
+.DESCRIPTION
+    Synchronises task templates. When SyncDependency is enabled, also automatically
+    synchronises UI extensions, request templates, approvals (for approval tasks) and
+    automation rules.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the task templates to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentTaskTemplates -SourceEnvironment $qa -DestinationEnvironment $prod -ID 1100, 1101
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

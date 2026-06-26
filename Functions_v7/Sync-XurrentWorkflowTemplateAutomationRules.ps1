@@ -1,5 +1,26 @@
 ﻿function Sync-XurrentWorkflowTemplateAutomationRules
 {
+<#
+.SYNOPSIS
+    Synchronises automation rules of workflow templates between two Xurrent environments.
+
+.DESCRIPTION
+    Synchronises automation rules and disables rules in the destination environment that
+    no longer exist in the source environment (based on source/sourceID comparison).
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER WorkflowTemplates
+    IDs of the workflow templates whose automation rules should be synchronised. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentWorkflowTemplateAutomationRules -SourceEnvironment $qa -DestinationEnvironment $prod `
+        -WorkflowTemplates 300, 301
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

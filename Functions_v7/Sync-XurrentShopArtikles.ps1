@@ -1,5 +1,25 @@
 ﻿function Sync-XurrentShopArtikles
 {
+<#
+.SYNOPSIS
+    Synchronises shop articles (including UI extensions) between two Xurrent environments.
+
+.DESCRIPTION
+    Synchronises shop articles. When SyncDependency is enabled, also automatically
+    synchronises associated UI extensions.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the shop articles to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentShopArtikles -SourceEnvironment $qa -DestinationEnvironment $prod -ID 700, 701
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

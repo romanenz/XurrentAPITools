@@ -1,5 +1,21 @@
 ﻿function Sync-XurrentProjectCategories
 {
+<#
+.SYNOPSIS
+    Synchronises project categories between two Xurrent environments.
+
+.PARAMETER SourceEnvironment
+    The source connection name. Mandatory.
+
+.PARAMETER DestinationEnvironment
+    The destination connection name. Mandatory.
+
+.PARAMETER ID
+    IDs of the project categories to synchronise. Mandatory.
+
+.EXAMPLE
+    Sync-XurrentProjectCategories -SourceEnvironment $qa -DestinationEnvironment $prod -ID 1, 2, 3
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $true)]

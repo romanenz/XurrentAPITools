@@ -1,5 +1,39 @@
 ﻿function Export-XurrentConnection
 {
+<#
+.SYNOPSIS
+    Saves the active Xurrent connections in encrypted form to the file system.
+
+.DESCRIPTION
+    Exports all active connections from $script:XurrentAuth to an encrypted file.
+    Encryption is performed using Windows DPAPI (ProtectedData) in the CurrentUser scope
+    with an additional password as entropy. The file can subsequently be loaded with
+    Import-XurrentConnection.
+
+    Default storage location: %appdata%\XurrentAPITools\connection
+    The directory is created automatically if it does not already exist.
+
+.PARAMETER FilePath
+    Optional custom file path. Default: %appdata%\XurrentAPITools\connection.
+
+.PARAMETER Force
+    Overwrites an existing file. Without this switch, an error is thrown if the
+    file already exists.
+
+.EXAMPLE
+    Export-XurrentConnection
+
+    Saves all active connections to the default location. Password is prompted interactively.
+
+.EXAMPLE
+    Export-XurrentConnection -FilePath 'D:\backup\xurrent_conn' -Force
+
+    Saves to a custom path and overwrites an existing file.
+
+.NOTES
+    Requires PowerShell 7.2+ (DPAPI support).
+    Only works on Windows (CurrentUser DPAPI scope).
+#>
 	[CmdletBinding()]
 	param (
 		[Parameter(Mandatory = $false, Position = 0)]
